@@ -1007,6 +1007,10 @@ const PillarC = () => {
 
   const handleSendRecording = async () => {
     if (!recordedAudioBlob) return;
+    // Auto-fetch themes on first interaction if not loaded yet
+    if (pulseThemes.length === 0 && !themesFetching) {
+      pillarBAPI.getThemes().then(r => setPulseThemes(r?.data?.themes || [])).catch(() => {});
+    }
     try {
       setIsSendingVoice(true);
       const audioBase64 = await blobToBase64(recordedAudioBlob);
@@ -1065,6 +1069,11 @@ const PillarC = () => {
     const userMsg = inputText;
     setMessages(prev => [...prev, { isUser: true, text: userMsg }]);
     setInputText('');
+
+    // Auto-fetch themes on first interaction if not loaded yet
+    if (pulseThemes.length === 0 && !themesFetching) {
+      pillarBAPI.getThemes().then(r => setPulseThemes(r?.data?.themes || [])).catch(() => {});
+    }
 
     try {
       const res = await pillarCAPI.sendMessage(userMsg);
