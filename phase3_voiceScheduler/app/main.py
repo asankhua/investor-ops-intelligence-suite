@@ -79,6 +79,18 @@ class RejectRequest(BaseModel):
 async def health() -> Dict[str, Any]:
     return {"status": "healthy", "phase": 3, "pillar": "C"}
 
+@app.get("/debug")
+async def debug_phase3() -> Dict[str, Any]:
+    import os
+    return {
+        "mcp_server_url": os.getenv("MCP_SERVER_URL", ""),
+        "mcp_email_server_url": os.getenv("MCP_EMAIL_SERVER_URL", ""),
+        "advisor_email_set": bool(os.getenv("ADVISOR_EMAIL", "")),
+        "google_tracking_doc_set": bool(os.getenv("GOOGLE_TRACKING_DOC_ID", "")),
+        "google_meet_url": os.getenv("GOOGLE_MEET_URL", ""),
+        "phase2_base_url": os.getenv("PHASE2_BASE_URL", ""),
+    }
+
 
 @app.post("/api/v1/pillar-c/voice/record/start")
 async def start_recording(req: Optional[StartRecordingRequest] = None) -> Dict[str, Any]:

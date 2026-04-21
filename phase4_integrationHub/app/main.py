@@ -451,6 +451,11 @@ async def eval_integration():
 async def debug_phase1():
     code, payload = client.get("phase1", "/debug")
     return JSONResponse(status_code=code, content=payload)
+
+@app.get("/api/v1/debug/phase3")
+async def debug_phase3():
+    code, payload = client.get("phase3", "/debug")
+    return JSONResponse(status_code=code, content=payload)
 async def eval_results():
     return {
         "results": [
