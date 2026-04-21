@@ -105,11 +105,11 @@ def _ensure_rag_pipeline() -> Optional[SelfRAGPipeline]:
 
 @app.on_event("startup")
 async def startup_event():
-    """Strict startup: Phase 1 is unhealthy unless full RAG stack initializes."""
+    """Graceful startup: log RAG init failure but don't crash the server."""
     pipeline = _ensure_rag_pipeline()
     if pipeline is None:
-        raise RuntimeError(
-            f"RAG pipeline initialization failed. Check Pinecone/OpenRouter/BGE setup. Error: {rag_init_error}"
+        logger.warning(
+            f"RAG pipeline not initialized — running in degraded mode. Error: {rag_init_error}"
         )
 
 # Health check endpoint
