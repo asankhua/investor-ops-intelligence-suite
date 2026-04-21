@@ -767,7 +767,6 @@ const PillarC = () => {
       setThemesFetching(false);
     }
   };
-
   // ── HITL state ──────────────────────────────────────────────────────────────
   const [hitlTab, setHitlTab] = useState('pending');
   const [selectedAction, setSelectedAction] = useState('');
@@ -889,8 +888,8 @@ const PillarC = () => {
   }, []);
 
   useEffect(() => {
-    // Auto-load themes and greeting on mount
-    handleRefreshThemes();
+    // Static greeting on mount — themes load only when Refresh Themes is clicked
+    setMessages([{ isUser: false, text: 'Hello! I am your RM scheduling assistant. Click "Refresh Themes" to load the latest Weekly Pulse themes and start scheduling.' }]);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -1137,7 +1136,7 @@ const PillarC = () => {
           {themesFetching ? (
             <span style={{ fontSize: 13, color: '#5DADE2' }}>Fetching latest themes...</span>
           ) : pulseThemes.length === 0 ? (
-            <span style={{ fontSize: 13, color: '#5DADE2' }}>Loading themes...</span>
+            <span style={{ fontSize: 13, color: '#5DADE2' }}>Click Refresh Themes to load</span>
           ) : (
             pulseThemes.map((t, i) => (
               <ThemeChip key={i}>
