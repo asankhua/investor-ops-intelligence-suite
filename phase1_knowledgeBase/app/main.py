@@ -122,7 +122,6 @@ async def health_check():
         "rag_ready": rag_pipeline is not None,
         "rag_init_error": rag_init_error,
     }
-
 # Main RAG query endpoint
 @app.post("/api/v1/query", response_model=QueryResponse)
 async def query_rag(request: QueryRequest):
