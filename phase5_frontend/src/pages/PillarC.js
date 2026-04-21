@@ -889,23 +889,9 @@ const PillarC = () => {
   }, []);
 
   useEffect(() => {
-    const bootstrapGreeting = async () => {
-      try {
-        const res = await pillarCAPI.sendMessage('hello');
-        const responseText = res?.data?.response_text;
-        const ctx = res?.data?.theme_context;
-        if (responseText) {
-          setMessages([{ isUser: false, text: responseText }]);
-        }
-        setThemeContext({
-          topTheme: ctx?.top_theme || null,
-          confidence: ctx?.confidence ?? null,
-        });
-      } catch (_) {
-        // keep default greeting if backend is unavailable
-      }
-    };
-    bootstrapGreeting();
+    // Auto-load themes and greeting on mount
+    handleRefreshThemes();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleRecord = async () => {
@@ -1151,7 +1137,7 @@ const PillarC = () => {
           {themesFetching ? (
             <span style={{ fontSize: 13, color: '#5DADE2' }}>Fetching latest themes...</span>
           ) : pulseThemes.length === 0 ? (
-            <span style={{ fontSize: 13, color: '#5DADE2' }}>Click Refresh Themes to load</span>
+            <span style={{ fontSize: 13, color: '#5DADE2' }}>Loading themes...</span>
           ) : (
             pulseThemes.map((t, i) => (
               <ThemeChip key={i}>
