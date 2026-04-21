@@ -21,10 +21,10 @@ RUN pip install --no-cache-dir \
     -r /tmp/req4.txt
 
 # Build React frontend
-COPY phase5_frontend/package*.json ./phase5_frontend/
-RUN cd phase5_frontend && npm ci --silent
+COPY phase5_frontend/package.json ./phase5_frontend/package.json
+RUN npm install --prefix phase5_frontend --silent
 COPY phase5_frontend/ ./phase5_frontend/
-RUN cd phase5_frontend && REACT_APP_API_GATEWAY_URL=/api npm run build
+RUN REACT_APP_API_GATEWAY_URL="" npm run build --prefix phase5_frontend
 
 # Copy all source
 COPY . .
