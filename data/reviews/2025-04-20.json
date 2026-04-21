@@ -1,0 +1,402 @@
+[
+  {
+    "reviewId": "20840a14-58dc-4b03-9e3a-b44246afe65f",
+    "rating": 4,
+    "text": "\ud83d\udc4d",
+    "date": "2026-04-19T11:49:34",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1"
+  },
+  {
+    "reviewId": "0c364c7a-d793-4def-9d17-f3fe84a75c4e",
+    "rating": 2,
+    "text": "I thought you would give me cashback like 200 rs for transaction above 1000 rs but you didn't give me any of the rewards, so it is better to uninstall you.",
+    "date": "2026-04-18T22:05:48",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1"
+  },
+  {
+    "reviewId": "51a7acb6-2169-4e46-bd06-3719422be281",
+    "rating": 5,
+    "text": "Nice",
+    "date": "2026-04-18T21:55:43",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1"
+  },
+  {
+    "reviewId": "0fc6b7fb-3628-4c91-83e9-d89d324b2056",
+    "rating": 3,
+    "text": "The USD conversion via ICICI Bank is misleading. The exchange rate shown in the INDMoney app is not the rate actually applied\u2014there\u2019s a difference of about \u20b90.30 per dollar, with the bank charging a higher rate. When I contacted ICICI Bank, they stated that since this is a third-party transaction, they cannot address the discrepancy. On the other hand, INDMoney\u2019s support team was unable to provide a clear explanation for the difference in exchange rates.",
+    "date": "2026-04-18T17:50:46",
+    "userName": "[REDACTED]",
+    "appVersion": null
+  },
+  {
+    "reviewId": "0d1032a7-a3e0-4cf0-a945-bc346f819894",
+    "rating": 5,
+    "text": "super App",
+    "date": "2026-04-18T16:20:17",
+    "userName": "[REDACTED]",
+    "appVersion": "7.1.3"
+  },
+  {
+    "reviewId": "7b4a94f7-a2be-4e79-be03-6d983ab0053e",
+    "rating": 5,
+    "text": "Manoj Kumar app very nice app",
+    "date": "2026-04-18T11:13:11",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "819d4d54-dd89-4e34-a4d1-eefb531a26ba",
+    "rating": 4,
+    "text": "Excellent functionality and integration. However, the following key functionality is missing in the portfolio section: It does not show YTD gain and CAGR of stocks purchased from other brokers. INDMoney has information about amount and current price from the depository so letting users manually add purchase date and buy price would enable this feature.",
+    "date": "2026-04-18T09:59:01",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "48e2f503-7f3a-4152-8e3b-f2cee78a7d11",
+    "rating": 5,
+    "text": "nice app",
+    "date": "2026-04-17T23:26:53",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.7"
+  },
+  {
+    "reviewId": "9864ce45-a627-4c33-8c05-34e11b66f18b",
+    "rating": 1,
+    "text": "hate this app only give 4 bank (affiliate) to add money.due to this I dealy buying and loos the opportunity to by tesla.",
+    "date": "2026-04-17T22:22:16",
+    "userName": "[REDACTED]",
+    "appVersion": null
+  },
+  {
+    "reviewId": "1e99e6e5-535d-4e85-85cc-65d8ee13d735",
+    "rating": 4,
+    "text": "good \ud83d\udc4d",
+    "date": "2026-04-17T22:13:12",
+    "userName": "[REDACTED]",
+    "appVersion": "9.2.7"
+  },
+  {
+    "reviewId": "9d4b8537-ad81-4aca-9822-7d38780d5fc4",
+    "rating": 1,
+    "text": "Why the app is promoting Insta cash who don't want to kindly disable it and hide it you are highlighting it rather than stock broker apps looks like loan platform.",
+    "date": "2026-04-17T20:24:32",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1"
+  },
+  {
+    "reviewId": "42c5a518-122b-4ae0-8f6c-313cdf6a4e43",
+    "rating": 5,
+    "text": "very nice to handle",
+    "date": "2026-04-17T18:27:33",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "694019db-cb67-4293-ac27-0821543cc029",
+    "rating": 5,
+    "text": "nice app",
+    "date": "2026-04-17T17:21:06",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "401feb33-8d3b-44ec-b31f-2d5c96dfd1d0",
+    "rating": 5,
+    "text": "excellent",
+    "date": "2026-04-17T15:49:20",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.2"
+  },
+  {
+    "reviewId": "57a2a5b8-07a5-4f34-9179-b34506a1248c",
+    "rating": 5,
+    "text": "good app",
+    "date": "2026-04-17T13:12:10",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1"
+  },
+  {
+    "reviewId": "53766d73-97c7-4516-93d8-72edc8114a5b",
+    "rating": 1,
+    "text": "Unreasonably high MTF charges compared to competitors. INDmoney charges 0.1% uncapped brokerage on MTF trades. On a \u20b97.7L trade, I was charged around \u20b9775 for a single order. plus 1k of additional charges (approx)Meanwhile, platforms like Zerodha cap brokerage at around \u20b920 per order while offering similar or better margin benefits. If any one are planning to use MTF, think twice. This pricing model can quietly eat into your capital. these guys are looting like anything",
+    "date": "2026-04-17T12:34:45",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "7090f45b-e3a8-4c1b-9b81-317ac4a7ceda",
+    "rating": 5,
+    "text": "excellent",
+    "date": "2026-04-17T11:32:43",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.7"
+  },
+  {
+    "reviewId": "b11005ab-8d2a-41d5-98f8-0777c5646122",
+    "rating": 5,
+    "text": "excellent app",
+    "date": "2026-04-17T10:51:11",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1"
+  },
+  {
+    "reviewId": "7f59365e-6282-4c91-af27-6ec459362231",
+    "rating": 5,
+    "text": "very good \ud83d\udc4d\ud83d\udc4d",
+    "date": "2026-04-17T09:10:41",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.7"
+  },
+  {
+    "reviewId": "a6a869c5-806f-4d8e-a7a4-6e70cb8dc194",
+    "rating": 1,
+    "text": "netflix is down 9.6% today. your app shows 0.02% up!",
+    "date": "2026-04-17T07:46:09",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1"
+  },
+  {
+    "reviewId": "ccef3273-adf8-44f3-8e08-f1328d8ed083",
+    "rating": 5,
+    "text": "Smooth Work \ud83d\udc4d",
+    "date": "2026-04-17T06:26:19",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "49319d11-ce16-4880-8f35-b950edfa4aa4",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-04-16T22:21:42",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1"
+  },
+  {
+    "reviewId": "b04dcc3a-c511-4581-a551-d716bab5fad0",
+    "rating": 5,
+    "text": "Best Investment Platform \ud83d\ude4f",
+    "date": "2026-04-16T20:57:55",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "e2230e9b-35cc-4c2e-b2e1-0e2eceec1d96",
+    "rating": 5,
+    "text": "okkkk",
+    "date": "2026-04-16T19:44:20",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.2"
+  },
+  {
+    "reviewId": "c15cb07f-7ed1-4da4-ad22-9f5e5f499f97",
+    "rating": 5,
+    "text": "Nice",
+    "date": "2026-04-16T19:26:22",
+    "userName": "[REDACTED]",
+    "appVersion": null
+  },
+  {
+    "reviewId": "43374091-2fe5-49c7-be1d-805ab366b42b",
+    "rating": 4,
+    "text": "excellent and great app, very good and easy to learn and use",
+    "date": "2026-04-16T16:34:25",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "8a2af631-6dfa-43ac-bc96-d71e7353960f",
+    "rating": 5,
+    "text": "I have sent INDmoney a feature request to improve a certain US stocks UX.. they implemented that in just 1 week! I think I can trust this app. I am a Mobile developer myself, I keep USB debugging ON because I need it for my work, but INDmoney being a payment app doesnt unnecessarily force logout me for disabling USBdebugging, they simply stop me when making UPI payments.. this is such a clever and impressive attention to detail! Seems like this app is built by devs who care about their users UX!",
+    "date": "2026-04-16T15:08:19",
+    "userName": "[REDACTED]",
+    "appVersion": null
+  },
+  {
+    "reviewId": "c107662d-2e09-4ab5-ab0e-babb6e7dda0d",
+    "rating": 5,
+    "text": "good app",
+    "date": "2026-04-16T14:44:03",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "8ae32787-f665-43de-8736-39513f969d1f",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-04-16T14:40:39",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.2"
+  },
+  {
+    "reviewId": "520ac75e-26d4-4d9d-9361-dbce6dfce792",
+    "rating": 5,
+    "text": "hi i am using this app since 2023, every updates are having good features, but when the last updated not good. when I open one stock, full white screen, i shock because it's looking like a toys tool",
+    "date": "2026-04-16T14:40:38",
+    "userName": "[REDACTED]",
+    "appVersion": "5.1.7"
+  },
+  {
+    "reviewId": "61579e4c-6424-4db0-98ca-da0a956c34a7",
+    "rating": 4,
+    "text": "quick and fast",
+    "date": "2026-04-16T11:08:11",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.7"
+  },
+  {
+    "reviewId": "8ebc650b-b728-422d-8ee1-11eb528e0a75",
+    "rating": 5,
+    "text": "nice",
+    "date": "2026-04-16T10:44:35",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.7"
+  },
+  {
+    "reviewId": "5b3411c9-a89b-4102-9147-f8178e244ff6",
+    "rating": 4,
+    "text": "good",
+    "date": "2026-04-16T09:44:57",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1"
+  },
+  {
+    "reviewId": "ab0197a0-3d65-4301-8499-ec5ec910c34a",
+    "rating": 5,
+    "text": "nice",
+    "date": "2026-04-16T00:03:54",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.7"
+  },
+  {
+    "reviewId": "2f653f90-fec2-4562-8ce9-11c31c638f46",
+    "rating": 5,
+    "text": "good response",
+    "date": "2026-04-15T23:38:51",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "4f19daa1-61e8-491a-83ee-45e62a258ec9",
+    "rating": 5,
+    "text": "Amezing app I like it's",
+    "date": "2026-04-15T22:34:26",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "768371e7-5062-46e5-aa46-625ff0d848ab",
+    "rating": 1,
+    "text": "I sealed that stock four days ago. That balance hasn't been added to my account yet. My account balance is showing very low. My money has disappeared from Violet.",
+    "date": "2026-04-15T22:10:43",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "43e963fa-6322-4097-87f4-7a77194cd062",
+    "rating": 5,
+    "text": "opportunity to acquire beyond imagination",
+    "date": "2026-04-15T22:10:06",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "2566430a-3bed-4d3c-8389-5dea783f8f73",
+    "rating": 4,
+    "text": "good",
+    "date": "2026-04-15T22:04:41",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.7"
+  },
+  {
+    "reviewId": "d1f5d584-23ab-45f8-b618-00f53fbf024b",
+    "rating": 1,
+    "text": "I tried many time to change our phone number but still not done by indimoney.Very unuseful.",
+    "date": "2026-04-15T20:46:57",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "0b901b3a-c393-4bf6-87f3-239fd68a6b77",
+    "rating": 5,
+    "text": "great app for investing",
+    "date": "2026-04-15T20:32:20",
+    "userName": "[REDACTED]",
+    "appVersion": null
+  },
+  {
+    "reviewId": "acaf753e-b10f-41d9-b3db-e96d7aa468b4",
+    "rating": 5,
+    "text": "the best app",
+    "date": "2026-04-15T19:38:48",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.7"
+  },
+  {
+    "reviewId": "23cc72ae-e512-4733-ae61-fe15d00dd876",
+    "rating": 4,
+    "text": "good",
+    "date": "2026-04-15T18:21:59",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "0be119c9-89a5-4ec8-8f27-9886beff9adf",
+    "rating": 5,
+    "text": "It is user friendly App",
+    "date": "2026-04-15T18:15:16",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.2"
+  },
+  {
+    "reviewId": "81221ce7-ab98-43d2-a85a-f90753ed2fa3",
+    "rating": 4,
+    "text": "line chart was not good this updated version to compare previous one",
+    "date": "2026-04-15T17:27:23",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "e43b9424-d39a-495c-a716-e2f62695dc09",
+    "rating": 1,
+    "text": "My experience with this app so very bad because not direct call customer care number support \u274c add customer care service earlier as soon as possible \ud83d\ude4f",
+    "date": "2026-04-15T16:42:46",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "390e3846-0d04-49c8-8348-b2fda45bf988",
+    "rating": 5,
+    "text": "recently update added tradingview with Flash mode. now this app is awesome. please add comodity trading with this app..",
+    "date": "2026-04-15T16:07:00",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.9"
+  },
+  {
+    "reviewId": "30a7a398-014b-4692-8fa4-168202e28753",
+    "rating": 5,
+    "text": "very good\ud83d\udc4d",
+    "date": "2026-04-15T15:51:02",
+    "userName": "[REDACTED]",
+    "appVersion": "9.1.9"
+  },
+  {
+    "reviewId": "118f6191-7063-4154-ab20-e9257683033f",
+    "rating": 1,
+    "text": "App working very poor",
+    "date": "2026-04-15T14:18:30",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.7"
+  },
+  {
+    "reviewId": "b94545ac-662b-405c-90ff-2c54c4414039",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-04-15T13:37:14",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.7"
+  }
+]

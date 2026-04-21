@@ -1,0 +1,471 @@
+{
+  "generated_at": "2026-04-20T10:49:33.146610Z",
+  "source": "data/ragData",
+  "total_chunks": 32,
+  "chunks": [
+    {
+      "id": "chunk_0",
+      "text": "Fund: HDFC Banking & Financial Services Fund. NAV: ₹19.52 (as on 20 Apr 2026). Benchmark: Nifty Financial Services TR INR. AUM: ₹4,513 Cr. Risk: Very High Risk.",
+      "scheme_id": "hdfc-banking-financial-services-fund-direct-growth-1006661",
+      "scheme_name": "HDFC Banking & Financial Services Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-banking-financial-services-fund-direct-growth-1006661",
+      "chunk_type": "overview",
+      "tags": [
+        "overview",
+        "nav",
+        "benchmark",
+        "aum",
+        "risk"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.144262Z"
+    },
+    {
+      "id": "chunk_1",
+      "text": "Fund: HDFC Banking & Financial Services Fund. Returns since inception: 15.49%/per year Since Inception. 1Y return: 18.2%. 3Y return: 16.5%. 5Y return: 14.8%.",
+      "scheme_id": "hdfc-banking-financial-services-fund-direct-growth-1006661",
+      "scheme_name": "HDFC Banking & Financial Services Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-banking-financial-services-fund-direct-growth-1006661",
+      "chunk_type": "returns",
+      "tags": [
+        "returns",
+        "performance"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.144262Z"
+    },
+    {
+      "id": "chunk_2",
+      "text": "Fund: HDFC Banking & Financial Services Fund. Expense ratio: 0.8%. Exit load: 1.0%. Lock-in: No Lock-in. Minimum lumpsum: ₹100. Minimum SIP: ₹100.",
+      "scheme_id": "hdfc-banking-financial-services-fund-direct-growth-1006661",
+      "scheme_name": "HDFC Banking & Financial Services Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-banking-financial-services-fund-direct-growth-1006661",
+      "chunk_type": "fees",
+      "tags": [
+        "fees",
+        "expense-ratio",
+        "exit-load",
+        "lock-in",
+        "min-investment"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.144262Z"
+    },
+    {
+      "id": "chunk_3",
+      "text": "Fund: HDFC Banking & Financial Services Fund. Freshness note: Live simulated data as of 2026-04-20. For actual NAV, visit source_url. Simulation note: NAV values are simulated based on historical data. Not actual market prices.",
+      "scheme_id": "hdfc-banking-financial-services-fund-direct-growth-1006661",
+      "scheme_name": "HDFC Banking & Financial Services Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-banking-financial-services-fund-direct-growth-1006661",
+      "chunk_type": "notes",
+      "tags": [
+        "notes",
+        "freshness"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.144262Z"
+    },
+    {
+      "id": "chunk_4",
+      "text": "Fund: HDFC Defence Fund. NAV: ₹24.94 (as on 20 Apr 2026). Benchmark: Nifty India Defence TR INR. AUM: ₹7,663 Cr. Risk: Very High Risk.",
+      "scheme_id": "hdfc-defence-fund-direct-growth-1043873",
+      "scheme_name": "HDFC Defence Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-defence-fund-direct-growth-1043873",
+      "chunk_type": "overview",
+      "tags": [
+        "overview",
+        "nav",
+        "benchmark",
+        "aum",
+        "risk"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.144741Z"
+    },
+    {
+      "id": "chunk_5",
+      "text": "Fund: HDFC Defence Fund. Returns since inception: 40.45%/per year Since Inception. 1Y return: 42.5%. 3Y return: 35.9%. 5Y return: 37.5%.",
+      "scheme_id": "hdfc-defence-fund-direct-growth-1043873",
+      "scheme_name": "HDFC Defence Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-defence-fund-direct-growth-1043873",
+      "chunk_type": "returns",
+      "tags": [
+        "returns",
+        "performance"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.144741Z"
+    },
+    {
+      "id": "chunk_6",
+      "text": "Fund: HDFC Defence Fund. Expense ratio: 0.82%. Exit load: 1.0%. Lock-in: No Lock-in. Minimum lumpsum: None. Minimum SIP: None.",
+      "scheme_id": "hdfc-defence-fund-direct-growth-1043873",
+      "scheme_name": "HDFC Defence Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-defence-fund-direct-growth-1043873",
+      "chunk_type": "fees",
+      "tags": [
+        "fees",
+        "expense-ratio",
+        "exit-load",
+        "lock-in",
+        "min-investment"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.144741Z"
+    },
+    {
+      "id": "chunk_7",
+      "text": "Fund: HDFC Defence Fund. Freshness note: Live simulated data as of 2026-04-20. For actual NAV, visit source_url. Simulation note: NAV values are simulated based on historical data. Not actual market prices.",
+      "scheme_id": "hdfc-defence-fund-direct-growth-1043873",
+      "scheme_name": "HDFC Defence Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-defence-fund-direct-growth-1043873",
+      "chunk_type": "notes",
+      "tags": [
+        "notes",
+        "freshness"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.144741Z"
+    },
+    {
+      "id": "chunk_8",
+      "text": "Fund: HDFC Flexi Cap Fund. NAV: ₹2281.13 (as on 20 Apr 2026). Benchmark: Nifty 500 TR INR. AUM: ₹97,800 Cr. Risk: Very High Risk.",
+      "scheme_id": "hdfc-flexi-cap-fund-direct-plan-growth-option-3184",
+      "scheme_name": "HDFC Flexi Cap Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-flexi-cap-fund-direct-plan-growth-option-3184",
+      "chunk_type": "overview",
+      "tags": [
+        "overview",
+        "nav",
+        "benchmark",
+        "aum",
+        "risk"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.146610Z"
+    },
+    {
+      "id": "chunk_9",
+      "text": "Fund: HDFC Flexi Cap Fund. Returns since inception: 16.69%/per year Since Inception. 1Y return: 19.8%. 3Y return: 17.5%. 5Y return: 16.2%.",
+      "scheme_id": "hdfc-flexi-cap-fund-direct-plan-growth-option-3184",
+      "scheme_name": "HDFC Flexi Cap Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-flexi-cap-fund-direct-plan-growth-option-3184",
+      "chunk_type": "returns",
+      "tags": [
+        "returns",
+        "performance"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.146610Z"
+    },
+    {
+      "id": "chunk_10",
+      "text": "Fund: HDFC Flexi Cap Fund. Expense ratio: 0.67%. Exit load: 1.0%. Lock-in: No Lock-in. Minimum lumpsum: ₹100. Minimum SIP: ₹100.",
+      "scheme_id": "hdfc-flexi-cap-fund-direct-plan-growth-option-3184",
+      "scheme_name": "HDFC Flexi Cap Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-flexi-cap-fund-direct-plan-growth-option-3184",
+      "chunk_type": "fees",
+      "tags": [
+        "fees",
+        "expense-ratio",
+        "exit-load",
+        "lock-in",
+        "min-investment"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.146610Z"
+    },
+    {
+      "id": "chunk_11",
+      "text": "Fund: HDFC Flexi Cap Fund. Freshness note: Live simulated data as of 2026-04-20. For actual NAV, visit source_url. Simulation note: NAV values are simulated based on historical data. Not actual market prices.",
+      "scheme_id": "hdfc-flexi-cap-fund-direct-plan-growth-option-3184",
+      "scheme_name": "HDFC Flexi Cap Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-flexi-cap-fund-direct-plan-growth-option-3184",
+      "chunk_type": "notes",
+      "tags": [
+        "notes",
+        "freshness"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.146610Z"
+    },
+    {
+      "id": "chunk_12",
+      "text": "Fund: HDFC Focused Fund. NAV: ₹282.65 (as on 20 Apr 2026). Benchmark: Nifty 500 TR INR. AUM: ₹26,906 Cr. Risk: Very High Risk.",
+      "scheme_id": "hdfc-focused-fund-direct-plan-growth-option-2795",
+      "scheme_name": "HDFC Focused Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-focused-fund-direct-plan-growth-option-2795",
+      "chunk_type": "overview",
+      "tags": [
+        "overview",
+        "nav",
+        "benchmark",
+        "aum",
+        "risk"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.143556Z"
+    },
+    {
+      "id": "chunk_13",
+      "text": "Fund: HDFC Focused Fund. Returns since inception: 15.6%/per year Since Inception. 1Y return: 17.2%. 3Y return: 15.8%. 5Y return: 14.5%.",
+      "scheme_id": "hdfc-focused-fund-direct-plan-growth-option-2795",
+      "scheme_name": "HDFC Focused Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-focused-fund-direct-plan-growth-option-2795",
+      "chunk_type": "returns",
+      "tags": [
+        "returns",
+        "performance"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.143556Z"
+    },
+    {
+      "id": "chunk_14",
+      "text": "Fund: HDFC Focused Fund. Expense ratio: 0.63%. Exit load: 1.0%. Lock-in: No Lock-in. Minimum lumpsum: ₹100. Minimum SIP: ₹100.",
+      "scheme_id": "hdfc-focused-fund-direct-plan-growth-option-2795",
+      "scheme_name": "HDFC Focused Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-focused-fund-direct-plan-growth-option-2795",
+      "chunk_type": "fees",
+      "tags": [
+        "fees",
+        "expense-ratio",
+        "exit-load",
+        "lock-in",
+        "min-investment"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.143556Z"
+    },
+    {
+      "id": "chunk_15",
+      "text": "Fund: HDFC Focused Fund. Freshness note: Live simulated data as of 2026-04-20. For actual NAV, visit source_url. Simulation note: NAV values are simulated based on historical data. Not actual market prices.",
+      "scheme_id": "hdfc-focused-fund-direct-plan-growth-option-2795",
+      "scheme_name": "HDFC Focused Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-focused-fund-direct-plan-growth-option-2795",
+      "chunk_type": "notes",
+      "tags": [
+        "notes",
+        "freshness"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.143556Z"
+    },
+    {
+      "id": "chunk_16",
+      "text": "Fund: HDFC Mid Cap Fund. NAV: ₹232.69 (as on 20 Apr 2026). Benchmark: Nifty Midcap 150 TR INR. AUM: ₹92,851 Cr. Risk: Very High Risk.",
+      "scheme_id": "hdfc-mid-cap-fund-direct-plan-growth-option-3097",
+      "scheme_name": "HDFC Mid Cap Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-mid-cap-fund-direct-plan-growth-option-3097",
+      "chunk_type": "overview",
+      "tags": [
+        "overview",
+        "nav",
+        "benchmark",
+        "aum",
+        "risk"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.142188Z"
+    },
+    {
+      "id": "chunk_17",
+      "text": "Fund: HDFC Mid Cap Fund. Returns since inception: 20.72%/per year Since Inception. 1Y return: 23.5%. 3Y return: 21.2%. 5Y return: 19.8%.",
+      "scheme_id": "hdfc-mid-cap-fund-direct-plan-growth-option-3097",
+      "scheme_name": "HDFC Mid Cap Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-mid-cap-fund-direct-plan-growth-option-3097",
+      "chunk_type": "returns",
+      "tags": [
+        "returns",
+        "performance"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.142188Z"
+    },
+    {
+      "id": "chunk_18",
+      "text": "Fund: HDFC Mid Cap Fund. Expense ratio: 0.74%. Exit load: 1.0%. Lock-in: No Lock-in. Minimum lumpsum: ₹100. Minimum SIP: ₹100.",
+      "scheme_id": "hdfc-mid-cap-fund-direct-plan-growth-option-3097",
+      "scheme_name": "HDFC Mid Cap Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-mid-cap-fund-direct-plan-growth-option-3097",
+      "chunk_type": "fees",
+      "tags": [
+        "fees",
+        "expense-ratio",
+        "exit-load",
+        "lock-in",
+        "min-investment"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.142188Z"
+    },
+    {
+      "id": "chunk_19",
+      "text": "Fund: HDFC Mid Cap Fund. Freshness note: Live simulated data as of 2026-04-20. For actual NAV, visit source_url. Simulation note: NAV values are simulated based on historical data. Not actual market prices.",
+      "scheme_id": "hdfc-mid-cap-fund-direct-plan-growth-option-3097",
+      "scheme_name": "HDFC Mid Cap Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-mid-cap-fund-direct-plan-growth-option-3097",
+      "chunk_type": "notes",
+      "tags": [
+        "notes",
+        "freshness"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.142188Z"
+    },
+    {
+      "id": "chunk_20",
+      "text": "Fund: HDFC NIFTY Midcap 150 Index Fund. NAV: ₹18.71 (as on 20 Apr 2026). Benchmark: Nifty Midcap 150 TR INR. AUM: ₹488 Cr. Risk: Very High Risk.",
+      "scheme_id": "hdfc-nifty-midcap-150-index-fund-direct-growth-1043788",
+      "scheme_name": "HDFC NIFTY Midcap 150 Index Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-nifty-midcap-150-index-fund-direct-growth-1043788",
+      "chunk_type": "overview",
+      "tags": [
+        "overview",
+        "nav",
+        "benchmark",
+        "aum",
+        "risk"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.146141Z"
+    },
+    {
+      "id": "chunk_21",
+      "text": "Fund: HDFC NIFTY Midcap 150 Index Fund. Returns since inception: 24.39%/per year Since Inception. 1Y return: 26.3%. 3Y return: 25.2%. 5Y return: 24.1%.",
+      "scheme_id": "hdfc-nifty-midcap-150-index-fund-direct-growth-1043788",
+      "scheme_name": "HDFC NIFTY Midcap 150 Index Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-nifty-midcap-150-index-fund-direct-growth-1043788",
+      "chunk_type": "returns",
+      "tags": [
+        "returns",
+        "performance"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.146141Z"
+    },
+    {
+      "id": "chunk_22",
+      "text": "Fund: HDFC NIFTY Midcap 150 Index Fund. Expense ratio: 0.3%. Exit load: 0%. Lock-in: No Lock-in. Minimum lumpsum: ₹100. Minimum SIP: ₹100.",
+      "scheme_id": "hdfc-nifty-midcap-150-index-fund-direct-growth-1043788",
+      "scheme_name": "HDFC NIFTY Midcap 150 Index Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-nifty-midcap-150-index-fund-direct-growth-1043788",
+      "chunk_type": "fees",
+      "tags": [
+        "fees",
+        "expense-ratio",
+        "exit-load",
+        "lock-in",
+        "min-investment"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.146141Z"
+    },
+    {
+      "id": "chunk_23",
+      "text": "Fund: HDFC NIFTY Midcap 150 Index Fund. Freshness note: Live simulated data as of 2026-04-20. For actual NAV, visit source_url. Simulation note: NAV values are simulated based on historical data. Not actual market prices.",
+      "scheme_id": "hdfc-nifty-midcap-150-index-fund-direct-growth-1043788",
+      "scheme_name": "HDFC NIFTY Midcap 150 Index Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-nifty-midcap-150-index-fund-direct-growth-1043788",
+      "chunk_type": "notes",
+      "tags": [
+        "notes",
+        "freshness"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.146141Z"
+    },
+    {
+      "id": "chunk_24",
+      "text": "Fund: HDFC Nifty Private Bank ETF Fund. NAV: ₹27.77 (as on 20 Apr 2026). Benchmark: Nifty Private Bank TR INR. AUM: ₹345 Cr. Risk: Very High Risk.",
+      "scheme_id": "hdfc-nifty-private-bank-etf-1042349",
+      "scheme_name": "HDFC Nifty Private Bank ETF Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-nifty-private-bank-etf-1042349",
+      "chunk_type": "overview",
+      "tags": [
+        "overview",
+        "nav",
+        "benchmark",
+        "aum",
+        "risk"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.145629Z"
+    },
+    {
+      "id": "chunk_25",
+      "text": "Fund: HDFC Nifty Private Bank ETF Fund. Returns since inception: 178.63%/per year Since Inception. 1Y return: 21.8%. 3Y return: 22.4%. 5Y return: 20.5%.",
+      "scheme_id": "hdfc-nifty-private-bank-etf-1042349",
+      "scheme_name": "HDFC Nifty Private Bank ETF Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-nifty-private-bank-etf-1042349",
+      "chunk_type": "returns",
+      "tags": [
+        "returns",
+        "performance"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.145629Z"
+    },
+    {
+      "id": "chunk_26",
+      "text": "Fund: HDFC Nifty Private Bank ETF Fund. Expense ratio: 0.15%. Exit load: 0%. Lock-in: No Lock-in. Minimum lumpsum: None. Minimum SIP: None.",
+      "scheme_id": "hdfc-nifty-private-bank-etf-1042349",
+      "scheme_name": "HDFC Nifty Private Bank ETF Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-nifty-private-bank-etf-1042349",
+      "chunk_type": "fees",
+      "tags": [
+        "fees",
+        "expense-ratio",
+        "exit-load",
+        "lock-in",
+        "min-investment"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.145629Z"
+    },
+    {
+      "id": "chunk_27",
+      "text": "Fund: HDFC Nifty Private Bank ETF Fund. Freshness note: Live simulated data as of 2026-04-20. For actual NAV, visit source_url. Simulation note: NAV values are simulated based on historical data. Not actual market prices.",
+      "scheme_id": "hdfc-nifty-private-bank-etf-1042349",
+      "scheme_name": "HDFC Nifty Private Bank ETF Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-nifty-private-bank-etf-1042349",
+      "chunk_type": "notes",
+      "tags": [
+        "notes",
+        "freshness"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.145629Z"
+    },
+    {
+      "id": "chunk_28",
+      "text": "Fund: HDFC Small Cap Fund. NAV: ₹161.41 (as on 20 Apr 2026). Benchmark: BSE 250 SmallCap TR INR. AUM: ₹36,606 Cr. Risk: Very High Risk.",
+      "scheme_id": "hdfc-small-cap-fund-direct-growth-option-3580",
+      "scheme_name": "HDFC Small Cap Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-small-cap-fund-direct-growth-option-3580",
+      "chunk_type": "overview",
+      "tags": [
+        "overview",
+        "nav",
+        "benchmark",
+        "aum",
+        "risk"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.145085Z"
+    },
+    {
+      "id": "chunk_29",
+      "text": "Fund: HDFC Small Cap Fund. Returns since inception: 18.78%/per year Since Inception. 1Y return: 21.5%. 3Y return: 19.2%. 5Y return: 17.9%.",
+      "scheme_id": "hdfc-small-cap-fund-direct-growth-option-3580",
+      "scheme_name": "HDFC Small Cap Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-small-cap-fund-direct-growth-option-3580",
+      "chunk_type": "returns",
+      "tags": [
+        "returns",
+        "performance"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.145085Z"
+    },
+    {
+      "id": "chunk_30",
+      "text": "Fund: HDFC Small Cap Fund. Expense ratio: 0.67%. Exit load: 1.0%. Lock-in: No Lock-in. Minimum lumpsum: ₹100. Minimum SIP: ₹100.",
+      "scheme_id": "hdfc-small-cap-fund-direct-growth-option-3580",
+      "scheme_name": "HDFC Small Cap Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-small-cap-fund-direct-growth-option-3580",
+      "chunk_type": "fees",
+      "tags": [
+        "fees",
+        "expense-ratio",
+        "exit-load",
+        "lock-in",
+        "min-investment"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.145085Z"
+    },
+    {
+      "id": "chunk_31",
+      "text": "Fund: HDFC Small Cap Fund. Freshness note: Live simulated data as of 2026-04-20. For actual NAV, visit source_url. Simulation note: NAV values are simulated based on historical data. Not actual market prices.",
+      "scheme_id": "hdfc-small-cap-fund-direct-growth-option-3580",
+      "scheme_name": "HDFC Small Cap Fund",
+      "source_url": "https://www.indmoney.com/mutual-funds/hdfc-small-cap-fund-direct-growth-option-3580",
+      "chunk_type": "notes",
+      "tags": [
+        "notes",
+        "freshness"
+      ],
+      "scraped_at": "2026-04-20T10:49:33.145085Z"
+    }
+  ]
+}

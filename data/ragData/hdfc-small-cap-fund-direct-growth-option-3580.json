@@ -1,0 +1,26 @@
+{
+  "scheme_id": "hdfc-small-cap-fund-direct-growth-option-3580",
+  "name": "HDFC Small Cap Fund",
+  "source_url": "https://www.indmoney.com/mutual-funds/hdfc-small-cap-fund-direct-growth-option-3580",
+  "overview": {
+    "nav": "\u20b9161.41 (as on 20 Apr 2026)",
+    "returns_since_inception": "18.78%/per year Since Inception",
+    "returns_1y": "21.5%",
+    "returns_3y": "19.2%",
+    "returns_5y": "17.9%",
+    "expense_ratio": "0.67%",
+    "benchmark": "BSE 250 SmallCap TR INR",
+    "aum": "\u20b936,606 Cr",
+    "inception_date": "1 January, 2013",
+    "min_lumpsum": "\u20b9100",
+    "min_sip": "\u20b9100",
+    "exit_load": "1.0%",
+    "lock_in": "No Lock-in",
+    "turnover": "11.71%",
+    "risk": "Very High Risk"
+  },
+  "last_scraped_at": "2026-04-20T10:49:33.145085Z",
+  "data_freshness_note": "Live simulated data as of 2026-04-20. For actual NAV, visit source_url.",
+  "data_source": "simulated-latest-for-testing",
+  "simulation_note": "NAV values are simulated based on historical data. Not actual market prices."
+}

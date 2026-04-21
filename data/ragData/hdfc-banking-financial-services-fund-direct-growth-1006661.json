@@ -1,0 +1,26 @@
+{
+  "scheme_id": "hdfc-banking-financial-services-fund-direct-growth-1006661",
+  "name": "HDFC Banking & Financial Services Fund",
+  "source_url": "https://www.indmoney.com/mutual-funds/hdfc-banking-financial-services-fund-direct-growth-1006661",
+  "overview": {
+    "nav": "\u20b919.52 (as on 20 Apr 2026)",
+    "returns_since_inception": "15.49%/per year Since Inception",
+    "returns_1y": "18.2%",
+    "returns_3y": "16.5%",
+    "returns_5y": "14.8%",
+    "expense_ratio": "0.8%",
+    "benchmark": "Nifty Financial Services TR INR",
+    "aum": "\u20b94,513 Cr",
+    "inception_date": "1 July, 2021",
+    "min_lumpsum": "\u20b9100",
+    "min_sip": "\u20b9100",
+    "exit_load": "1.0%",
+    "lock_in": "No Lock-in",
+    "turnover": "18.5%",
+    "risk": "Very High Risk"
+  },
+  "last_scraped_at": "2026-04-20T10:49:33.144262Z",
+  "data_freshness_note": "Live simulated data as of 2026-04-20. For actual NAV, visit source_url.",
+  "data_source": "simulated-latest-for-testing",
+  "simulation_note": "NAV values are simulated based on historical data. Not actual market prices."
+}

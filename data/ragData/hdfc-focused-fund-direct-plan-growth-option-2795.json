@@ -1,0 +1,26 @@
+{
+  "scheme_id": "hdfc-focused-fund-direct-plan-growth-option-2795",
+  "name": "HDFC Focused Fund",
+  "source_url": "https://www.indmoney.com/mutual-funds/hdfc-focused-fund-direct-plan-growth-option-2795",
+  "overview": {
+    "nav": "\u20b9282.65 (as on 20 Apr 2026)",
+    "returns_since_inception": "15.6%/per year Since Inception",
+    "returns_1y": "17.2%",
+    "returns_3y": "15.8%",
+    "returns_5y": "14.5%",
+    "expense_ratio": "0.63%",
+    "benchmark": "Nifty 500 TR INR",
+    "aum": "\u20b926,906 Cr",
+    "inception_date": "1 January, 2013",
+    "min_lumpsum": "\u20b9100",
+    "min_sip": "\u20b9100",
+    "exit_load": "1.0%",
+    "lock_in": "No Lock-in",
+    "turnover": "32.16%",
+    "risk": "Very High Risk"
+  },
+  "last_scraped_at": "2026-04-20T10:49:33.143556Z",
+  "data_freshness_note": "Live simulated data as of 2026-04-20. For actual NAV, visit source_url.",
+  "data_source": "simulated-latest-for-testing",
+  "simulation_note": "NAV values are simulated based on historical data. Not actual market prices."
+}

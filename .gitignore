@@ -1,0 +1,30 @@
+# Environment & secrets
+.env
+config/token.json
+config/*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pycache/
+*.egg-info/
+.venv/
+venv/
+*.venv
+
+# Node
+node_modules/
+phase5_frontend/build/
+
+# Data & state
+data/state.json
+phase3_voiceScheduler/data/
+phase4_integrationHub/data/shared_state.json
+
+# macOS
+.DS_Store
+
+# IDE
+.cursor/
+.vscode/

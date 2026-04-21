@@ -1,0 +1,26 @@
+{
+  "scheme_id": "hdfc-defence-fund-direct-growth-1043873",
+  "name": "HDFC Defence Fund",
+  "source_url": "https://www.indmoney.com/mutual-funds/hdfc-defence-fund-direct-growth-1043873",
+  "overview": {
+    "nav": "\u20b924.94 (as on 20 Apr 2026)",
+    "returns_since_inception": "40.45%/per year Since Inception",
+    "returns_1y": "42.5%",
+    "returns_3y": "35.9%",
+    "returns_5y": "37.5%",
+    "expense_ratio": "0.82%",
+    "benchmark": "Nifty India Defence TR INR",
+    "aum": "\u20b97,663 Cr",
+    "inception_date": "2 June, 2023",
+    "min_lumpsum": null,
+    "min_sip": null,
+    "exit_load": "1.0%",
+    "lock_in": "No Lock-in",
+    "turnover": "10.29%",
+    "risk": "Very High Risk"
+  },
+  "last_scraped_at": "2026-04-20T10:49:33.144741Z",
+  "data_freshness_note": "Live simulated data as of 2026-04-20. For actual NAV, visit source_url.",
+  "data_source": "simulated-latest-for-testing",
+  "simulation_note": "NAV values are simulated based on historical data. Not actual market prices."
+}
