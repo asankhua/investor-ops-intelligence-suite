@@ -122,6 +122,18 @@ async def health_check():
         "rag_ready": rag_pipeline is not None,
         "rag_init_error": rag_init_error,
     }
+
+@app.get("/debug")
+async def debug():
+    import os
+    return {
+        "pinecone_key_set": bool(os.getenv("PINECONE_API_KEY")),
+        "openrouter_key_set": bool(os.getenv("OPENROUTER_API_KEY")),
+        "embedding_model": os.getenv("EMBEDDING_MODEL"),
+        "pinecone_index": os.getenv("PINECONE_INDEX_NAME"),
+        "rag_ready": rag_pipeline is not None,
+        "rag_init_error": rag_init_error,
+    }
 # Main RAG query endpoint
 @app.post("/api/v1/query", response_model=QueryResponse)
 async def query_rag(request: QueryRequest):
