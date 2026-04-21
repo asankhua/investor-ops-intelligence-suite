@@ -24,7 +24,8 @@ RUN pip install --no-cache-dir \
 COPY phase5_frontend/package.json ./phase5_frontend/package.json
 RUN npm install --prefix phase5_frontend --silent
 COPY phase5_frontend/ ./phase5_frontend/
-RUN REACT_APP_API_GATEWAY_URL="" npm run build --prefix phase5_frontend
+# Build with empty gateway URL so nginx proxy handles routing
+RUN REACT_APP_API_GATEWAY_URL="" REACT_APP_API_VERSION="v1" npm run build --prefix phase5_frontend
 
 # Copy all source
 COPY . .
