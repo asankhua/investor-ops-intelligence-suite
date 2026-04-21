@@ -447,7 +447,10 @@ async def eval_integration():
     return {"eval": "integration", "passed": passed, "details": {"phase1": p1, "phase2": p2, "phase3": p3, "state_sync": sync}}
 
 
-@app.get("/api/v1/evals/results")
+@app.get("/api/v1/debug/phase1")
+async def debug_phase1():
+    code, payload = client.get("phase1", "/debug")
+    return JSONResponse(status_code=code, content=payload)
 async def eval_results():
     return {
         "results": [
