@@ -2,7 +2,7 @@ import React from 'react';
 import { useQuery } from 'react-query';
 import styled from 'styled-components';
 import { BookOpen, BarChart3, Mic, Settings, Activity, Database, TrendingUp, AlertCircle } from 'lucide-react';
-import { dashboardAPI } from '../services/api';
+import { dashboardAPI, pillarBAPI } from '../services/api';
 
 const Container = styled.div`
   max-width: 1400px;
@@ -285,6 +285,12 @@ const Dashboard = () => {
     { refetchInterval: 15000 }
   );
 
+  const { data: pulseData } = useQuery(
+    'dashboardPulse',
+    async () => (await pillarBAPI.getWeeklyPulse()).data,
+    { refetchInterval: 60000 }
+  );
+
   if (statsLoading || pillarsLoading || performanceLoading || activitiesLoading) {
     return (
       <Container>
@@ -366,8 +372,8 @@ const Dashboard = () => {
               <PillarStatLabel>Status</PillarStatLabel>
             </PillarStat>
             <PillarStat>
-              <PillarStatValue style={{ color: '#27AE60' }}>:8101</PillarStatValue>
-              <PillarStatLabel>Port</PillarStatLabel>
+              <PillarStatValue style={{ color: '#27AE60' }}>{pillars?.find((p) => p.pillar === 'A')?.name || 'RAG'}</PillarStatValue>
+              <PillarStatLabel>Engine</PillarStatLabel>
             </PillarStat>
           </PillarStats>
         </PillarCard>
@@ -390,8 +396,10 @@ const Dashboard = () => {
               <PillarStatLabel>Status</PillarStatLabel>
             </PillarStat>
             <PillarStat>
-              <PillarStatValue style={{ color: '#27AE60' }}>:8102</PillarStatValue>
-              <PillarStatLabel>Port</PillarStatLabel>
+              <PillarStatValue style={{ color: pulseData?.sentiment_score < 0 ? '#E74C3C' : '#27AE60' }}>
+                {pulseData?.sentiment_score !== undefined ? pulseData.sentiment_score.toFixed(2) : 'N/A'}
+              </PillarStatValue>
+              <PillarStatLabel>Sentiment</PillarStatLabel>
             </PillarStat>
           </PillarStats>
         </PillarCard>
@@ -414,8 +422,10 @@ const Dashboard = () => {
               <PillarStatLabel>Status</PillarStatLabel>
             </PillarStat>
             <PillarStat>
-              <PillarStatValue style={{ color: '#27AE60' }}>:8103</PillarStatValue>
-              <PillarStatLabel>Port</PillarStatLabel>
+              <PillarStatValue style={{ color: stats?.pending_approvals > 0 ? '#E67E22' : '#27AE60' }}>
+                {stats?.pending_approvals ?? 0}
+              </PillarStatValue>
+              <PillarStatLabel>Pending</PillarStatLabel>
             </PillarStat>
           </PillarStats>
         </PillarCard>
