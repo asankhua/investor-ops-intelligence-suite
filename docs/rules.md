@@ -6,17 +6,57 @@ This document defines the safety, compliance, and guardrail rules for the Invest
 
 ## PII Handling
 
+### PII Request Blocking
+
+The system **blocks queries that request personal information** (e.g., "Can you give me the CEO's email?", "What is the manager's phone number?").
+
+**Blocked Request Types:**
+| Request Type | Example Query | Action |
+|--------------|---------------|--------|
+| **Email requests** | "Give me the CEO's email" | Block + refusal message |
+| **Phone requests** | "What is the contact number?" | Block + refusal message |
+| **Address requests** | "Where does the manager live?" | Block + refusal message |
+| **ID requests** | "What is the PAN of..." | Block + refusal message |
+| **Account requests** | "Give me the account number" | Block + refusal message |
+
+**Implementation:**
+```python
+class PIIMasker:
+    PII_REQUEST_PATTERNS = [
+        r"\b(?:give|send|share|tell|what is|provide|get|find).*\bemail\b",
+        r"\b(?:give|send|share|tell|what is|provide|get|find).*\b(?:phone|mobile)\b",
+        # ... more patterns
+    ]
+    
+    def detect_pii_request(self, text: str) -> Tuple[bool, str]:
+        """Detect if user is asking for PII."""
+        for pattern in self.PII_REQUEST_PATTERNS:
+            if pattern.search(text):
+                return True, "Request for personal information detected"
+        return False, None
+    
+    def get_pii_refusal_message(self) -> str:
+        return """I cannot provide personal information such as email addresses, 
+        phone numbers, or other private details. 
+        
+        I can help you with fund facts, fee structures, exit loads, and general 
+        mutual fund information. Last updated from sources: [REDACTED]"""
+```
+
 ### Detection Flow
 
 ```
-Input → PII Detector → [REDACTED] Replacement → LLM → Output Filter
-         │                                    │
-         ▼                                    ▼
-   Regex Patterns:                      Output Validation:
-   • Email: \S+@\S+\.\S+               • Re-check for leaked PII
-   • Phone: \d{10,12}                  • Log detection events
-   • Name: NER tagging                 • Alert if bypass detected
-   • Aadhar/PAN: Custom patterns       • Mask in logs
+Input → PII Request Detector → Block if requesting PII
+         │
+         ▼ (if not requesting PII)
+         PII Masker → [REDACTED] Replacement → LLM → Output Filter
+              │                                    │
+              ▼                                    ▼
+        Regex Patterns:                      Output Validation:
+        • Email: \S+@\S+\.\S+               • Re-check for leaked PII
+        • Phone: \d{10,12}                  • Log detection events
+        • Name: NER tagging                 • Alert if bypass detected
+        • Aadhar/PAN: Custom patterns       • Mask in logs
 ```
 
 ### PII Patterns
@@ -69,11 +109,44 @@ class PIIMasker:
 | Guardrail | Implementation | Trigger | Action |
 |-----------|----------------|---------|--------|
 | **Investment Advice Block** | Keyword filter + LLM judge | "best fund", "guaranteed returns", "should I invest", "will give X%" | Refuse + explain limitation |
+| **PII Request Block** | Regex pattern matching | "give me email", "phone number of", "contact details" | Block + refusal message |
 | **PII Redaction** | Regex + NER | Any detected PII pattern | Mask before LLM, verify after |
 | **Source Citation Enforcer** | Output parser | All Pillar A responses | Ensure [Source: M1/M2] present |
 | **6-Bullet Constraint** | Prompt + post-processor | All Pillar A responses | Truncate or request regeneration |
 | **Tone Compliance** | Sentiment classifier | Voice agent greetings | Ensure professional, helpful tone |
 | **Adversarial Prompt Detection** | Pattern matching + LLM | "ignore previous", "disregard rules", "DAN mode" | Block + log attempt |
+
+### PII Request Blocker
+
+```python
+PII_REQUEST_PATTERNS = [
+    r"\b(?:give|send|share|tell|what is|provide|get|find|look up|search for).*\bemail\b",
+    r"\b(?:ceo|manager|director|contact|person).*\bemail\b",
+    r"\bemail\b.*\b(?:of|for|ceo|manager|contact)\b",
+    r"\b(?:give|send|share|tell|what is|provide|get|find|look up|search for).*\b(?:phone|mobile|contact number)\b",
+    r"\b(?:phone|mobile|contact number).*\b(?:of|for)\b",
+    r"\b(?:home address|residence|where does.*live|personal address)\b",
+    r"\b(?:full name|real name|personal details|contact info)\b",
+    r"\b(?:pan|aadhaar|account number|account id|client id)\b.*\b(?:of|for)\b",
+    r"\b(?:what is|give|send|share|provide).*(?:pan|aadhaar|account number)\b",
+]
+
+def check_pii_request(text: str) -> Tuple[bool, str]:
+    """Check if query requests PII."""
+    for pattern in PII_REQUEST_PATTERNS:
+        if re.search(pattern, text, re.IGNORECASE):
+            return True, "PII request detected"
+    return False, None
+
+def get_refusal_message() -> str:
+    return """
+    I cannot provide personal information such as email addresses, phone numbers, 
+    or other private details. I can help you with fund facts, fee structures, exit loads, 
+    and general mutual fund information.
+    
+    Last updated from sources: [REDACTED]
+    """
+```
 
 ### Investment Advice Blocker
 
@@ -261,7 +334,9 @@ else:
 
 ### No PII Rule
 
-**Requirement:** Mask all sensitive data. Use [REDACTED] for any simulated user names.
+**Requirement:** 
+1. **Mask all sensitive data** - Use [REDACTED] for any PII in input/output
+2. **Block PII requests** - Refuse queries asking for email, phone, address, IDs, account numbers
 
 **PII Patterns to Redact:**
 | Data Type | Example Input | Masked Output |
@@ -273,14 +348,27 @@ else:
 | PAN | `ABCDE1234F` | `[REDACTED_PAN]` |
 | Account | `123456789012` | `[REDACTED_ACCT]` |
 
+**PII Requests to Block:**
+| Request Type | Example Query | Response |
+|--------------|---------------|----------|
+| Email request | "Give me the CEO's email" | Refusal message |
+| Phone request | "What is the contact number?" | Refusal message |
+| ID request | "What is the PAN of..." | Refusal message |
+
 **Implementation:**
 ```python
 class PIIRule:
     def enforce(self, text: str) -> str:
-        """Enforce PII masking."""
+        """Enforce PII masking and block PII requests."""
+        # Step 1: Check if user is requesting PII
+        is_pii_request, reason = PIIMasker().detect_pii_request(text)
+        if is_pii_request:
+            return PIIMasker().get_pii_refusal_message(reason)
+        
+        # Step 2: Mask any PII in the query
         masked, detected = PIIMasker().mask(text)
         
-        # Post-validation
+        # Step 3: Post-validation
         if not PIIMasker().check_output(masked):
             raise PIIViolation("PII detected in output")
         
@@ -333,6 +421,7 @@ class StatePersistenceRule:
 |------|-------------|----------------|
 | **No Performance Claims** | Cannot state "X% returns" | Block + redirect to factual info |
 | **No Fund Recommendations** | Cannot say "buy fund Y" | Block + suggest consulting advisor |
+| **PII Protection** | Block requests for email, phone, PAN, Aadhaar | Detect + refusal message |
 | **Fee Transparency** | Must cite exact fee structures | Source from M2 only |
 | **Risk Disclosure** | Must mention risks when discussing investments | Auto-append risk disclaimer |
 | **Advisor Referral** | Must suggest human advisor for complex queries | Include in refusal messages |
@@ -360,6 +449,7 @@ def append_disclaimer(response: str, context: str) -> str:
 # Safety Settings
 GUARDRAILS_ENABLED=true
 PII_MASKING_MODE=strict  # strict|permissive|disabled
+PII_REQUEST_BLOCK=true   # Block queries asking for email, phone, personal info
 ADVERSARIAL_DETECTION=true
 INVESTMENT_ADVICE_BLOCK=true
 LOG_SAFETY_EVENTS=true
@@ -372,7 +462,7 @@ BOOKING_CODE_VISIBILITY_REQUIRED=true
 
 # Refusal Message Customization
 REFUSAL_INVESTMENT_ADVICE="I cannot provide investment advice. Please consult a registered advisor."
-REFUSAL_PII_REQUEST="I cannot share personal information."
+REFUSAL_PII_REQUEST="I cannot provide personal information such as email addresses, phone numbers, or other private details."
 ```
 
 ## Project Structure

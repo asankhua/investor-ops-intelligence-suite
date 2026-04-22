@@ -139,6 +139,7 @@ async def debug():
 async def query_rag(request: QueryRequest):
     """
     Self-RAG query endpoint with 6-bullet response format and source citations.
+    Blocks queries that request PII (email, phone, personal details).
     """
     try:
         pipeline = _ensure_rag_pipeline()
@@ -149,6 +150,23 @@ async def query_rag(request: QueryRequest):
                     "RAG pipeline is not initialized. Please verify Pinecone and embedding setup, "
                     "then restart Phase 1 backend."
                 ),
+            )
+
+        # Check if user is requesting PII (asking for email, phone, etc.)
+        is_pii_request, pii_reason = pii_masker.detect_pii_request(request.query)
+        if is_pii_request:
+            logger.warning(f"PII request blocked: {pii_reason}")
+            refusal_msg = pii_masker.get_pii_refusal_message(pii_reason)
+            return QueryResponse(
+                query=request.query,
+                bullets=[{"text": refusal_msg, "sources": []}],
+                citations=[],
+                self_rag={
+                    "query_expansion": "N/A - PII request blocked",
+                    "sufficiency_check": "BLOCKED - Cannot provide personal information",
+                    "retrieved_chunks": 0
+                },
+                sources_used=[],
             )
 
         # Mask PII in query
