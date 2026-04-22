@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-22T04:17:06Z",
-  "reviews_source": "/Users/asankhua/Cursor/investor-intelligence-suite/data/reviews/2026-04-22.json",
+  "generated_at": "2026-04-22T04:18:11Z",
+  "reviews_source": "/home/runner/work/investor-ops-intelligence-suite/investor-ops-intelligence-suite/data/reviews/2026-04-22.json",
   "raw_reviews_processed": 100,
   "top_themes": [
     {
@@ -55,15 +55,15 @@
       },
       {
         "date": "2026-04-14",
-        "score": 0.519
+        "score": 0.422
       },
       {
         "date": "2026-04-15",
-        "score": 0.442
+        "score": 0.539
       },
       {
         "date": "2026-04-16",
-        "score": 0.922
+        "score": 0.915
       },
       {
         "date": "2026-04-17",
@@ -79,11 +79,11 @@
       },
       {
         "date": "2026-04-20",
-        "score": -0.146
+        "score": -0.051
       },
       {
         "date": "2026-04-21",
-        "score": 0.75
+        "score": 0.5
       }
     ],
     "mention_volume": [
