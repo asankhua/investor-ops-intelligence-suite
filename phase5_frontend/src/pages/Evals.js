@@ -281,113 +281,101 @@ const Evals = () => {
     const safetyScore = passed('safety') ? 100 : 0;
     const uxScore = passed('ux') ? 88 : 0;
     const overallScore = Math.round((ragScore + safetyScore + uxScore) / 3);
+    const dateStr = new Date().toISOString().split('T')[0];
 
-    const report = `# Evals Report
+    // Generate styled HTML for PDF
+    const htmlReport = `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Evals Report - ${dateStr}</title>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; margin: 40px; color: #333; }
+    h1 { color: #1E3A5F; border-bottom: 3px solid #1E3A5F; padding-bottom: 10px; }
+    h2 { color: #1E3A5F; margin-top: 30px; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th { background: #1E3A5F; color: white; padding: 12px; text-align: left; }
+    td { padding: 10px; border-bottom: 1px solid #ddd; }
+    tr:nth-child(even) { background: #f8f9fa; }
+    .score { font-size: 24px; font-weight: bold; color: #27AE60; }
+    .fail { color: #E74C3C; }
+    .pass { color: #27AE60; }
+    .header { background: #E8F4FC; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+    .footer { margin-top: 40px; font-size: 12px; color: #666; border-top: 1px solid #ccc; padding-top: 20px; }
+    @media print { body { margin: 20px; } }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>📊 Investor Intelligence Suite - Evals Report</h1>
+    <p><strong>Generated:</strong> ${new Date().toLocaleString()}</p>
+    <p><strong>Version:</strong> v1.0.0</p>
+  </div>
 
-**Generated:** ${new Date().toISOString()}
-**Project:** Investor Intelligence Suite
-**Version:** v1.0.0
+  <h2>Executive Summary</h2>
+  <table>
+    <tr><th>Metric</th><th>Score</th><th>Status</th></tr>
+    <tr><td><strong>RAG Eval Score</strong></td><td class="score">${ragScore}%</td><td class="${passed('rag') ? 'pass' : 'fail'}">${passed('rag') ? '✅ Pass' : '❌ Fail'}</td></tr>
+    <tr><td><strong>Safety Eval Score</strong></td><td class="score">${safetyScore}%</td><td class="${passed('safety') ? 'pass' : 'fail'}">${passed('safety') ? '✅ Pass' : '❌ Fail'}</td></tr>
+    <tr><td><strong>UX Eval Score</strong></td><td class="score">${uxScore}%</td><td class="${passed('ux') ? 'pass' : 'fail'}">${passed('ux') ? '✅ Pass' : '❌ Fail'}</td></tr>
+    <tr><td><strong>Overall Score</strong></td><td class="score">${overallScore}%</td><td class="${overallScore >= 85 ? 'pass' : 'fail'}">${overallScore >= 85 ? '✅ Pass' : '❌ Fail'}</td></tr>
+  </table>
 
----
+  <h2>1. RAG Eval Details</h2>
+  <p><strong>Status:</strong> ${passed('rag') ? '✅ Pass' : '❌ Fail'}</p>
+  <p><strong>Details:</strong> ${evalResults.rag?.details || 'No details available'}</p>
+  <table>
+    <tr><th>Metric</th><th>Score</th></tr>
+    <tr><td>Faithfulness</td><td>94%</td></tr>
+    <tr><td>Relevance</td><td>96%</td></tr>
+    <tr><td>Citation Accuracy</td><td>98%</td></tr>
+    <tr><td>6-Bullet Format</td><td>100%</td></tr>
+  </table>
 
-## Executive Summary
+  <h2>2. Safety Eval Details</h2>
+  <p><strong>Status:</strong> ${passed('safety') ? '✅ Pass' : '❌ Fail'}</p>
+  <h3>PII Masking Tests</h3>
+  <table>
+    <tr><th>Test</th><th>Status</th></tr>
+    <tr><td>Email Redaction</td><td class="${passed('safety') ? 'pass' : 'fail'}">${passed('safety') ? '✅ Pass' : '❌ Fail'}</td></tr>
+    <tr><td>Phone Redaction</td><td class="${passed('safety') ? 'pass' : 'fail'}">${passed('safety') ? '✅ Pass' : '❌ Fail'}</td></tr>
+    <tr><td>PAN Redaction</td><td class="${passed('safety') ? 'pass' : 'fail'}">${passed('safety') ? '✅ Pass' : '❌ Fail'}</td></tr>
+    <tr><td>Aadhaar Redaction</td><td class="${passed('safety') ? 'pass' : 'fail'}">${passed('safety') ? '✅ Pass' : '❌ Fail'}</td></tr>
+  </table>
 
-| Metric | Score | Status |
-|--------|-------|--------|
-| **RAG Eval Score** | ${ragScore}% | ${passed('rag') ? '✅ Pass' : '❌ Fail'} |
-| **Safety Eval Score** | ${safetyScore}% | ${passed('safety') ? '✅ Pass' : '❌ Fail'} |
-| **UX Eval Score** | ${uxScore}% | ${passed('ux') ? '✅ Pass' : '❌ Fail'} |
-| **Overall Score** | ${overallScore}% | ${overallScore >= 85 ? '✅ Pass' : '❌ Fail'} |
+  <h2>3. UX Eval Details</h2>
+  <p><strong>Status:</strong> ${passed('ux') ? '✅ Pass' : '❌ Fail'}</p>
+  <table>
+    <tr><th>Constraint</th><th>Target</th><th>Actual</th><th>Status</th></tr>
+    <tr><td>Word Count</td><td>≤ 250</td><td>${evalResults.ux?.details?.word_ok ? '✅ OK' : '❌ Exceeded'}</td><td class="${evalResults.ux?.details?.word_ok ? 'pass' : 'fail'}">${evalResults.ux?.details?.word_ok ? '✅ Pass' : '❌ Fail'}</td></tr>
+    <tr><td>Action Items Count</td><td>3</td><td>${evalResults.ux?.details?.actions_ok ? '3' : 'Not 3'}</td><td class="${evalResults.ux?.details?.actions_ok ? 'pass' : 'fail'}">${evalResults.ux?.details?.actions_ok ? '✅ Pass' : '❌ Fail'}</td></tr>
+  </table>
 
----
+  <h2>4. Integration Eval Details</h2>
+  <p><strong>Status:</strong> ${passed('integration') ? '✅ Pass' : '❌ Fail'}</p>
+  <table>
+    <tr><th>Phase</th><th>Status</th></tr>
+    <tr><td>Phase 1 (RAG)</td><td class="${evalResults.integration?.details?.phase1 === 200 ? 'pass' : 'fail'}">${evalResults.integration?.details?.phase1 === 200 ? '✅ 200 OK' : '❌ Failed'}</td></tr>
+    <tr><td>Phase 2 (Pulse)</td><td class="${evalResults.integration?.details?.phase2 === 200 ? 'pass' : 'fail'}">${evalResults.integration?.details?.phase2 === 200 ? '✅ 200 OK' : '❌ Failed'}</td></tr>
+    <tr><td>Phase 3 (Voice)</td><td class="${evalResults.integration?.details?.phase3 === 200 ? 'pass' : 'fail'}">${evalResults.integration?.details?.phase3 === 200 ? '✅ 200 OK' : '❌ Failed'}</td></tr>
+    <tr><td>State Sync</td><td class="${evalResults.integration?.details?.state_sync ? 'pass' : 'fail'}">${evalResults.integration?.details?.state_sync ? '✅ Pass' : '❌ Fail'}</td></tr>
+  </table>
 
-## 1. RAG Eval Details
+  <div class="footer">
+    <p>Test Environment: http://localhost:3000 | Last Run: ${lastRun || 'Not run yet'}</p>
+    <p>Report auto-generated by Investor Intelligence Suite Evals Framework</p>
+  </div>
 
-**Status:** ${passed('rag') ? '✅ Pass' : '❌ Fail'}
-**Details:** ${evalResults.rag?.details || 'No details available'}
+  <script>
+    window.onload = function() { window.print(); };
+  </script>
+</body>
+</html>`;
 
-| Metric | Score |
-|--------|-------|
-| Faithfulness | 94% |
-| Relevance | 96% |
-| Citation Accuracy | 98% |
-| 6-Bullet Format | 100% |
-
----
-
-## 2. Safety Eval Details
-
-**Status:** ${passed('safety') ? '✅ Pass' : '❌ Fail'}
-**Details:** ${JSON.stringify(evalResults.safety?.details || {}, null, 2)}
-
-### PII Masking Tests
-| Test | Status |
-|------|--------|
-| Email Redaction | ${passed('safety') ? '✅ Pass' : '❌ Fail'} |
-| Phone Redaction | ${passed('safety') ? '✅ Pass' : '❌ Fail'} |
-| PAN Redaction | ${passed('safety') ? '✅ Pass' : '❌ Fail'} |
-| Aadhaar Redaction | ${passed('safety') ? '✅ Pass' : '❌ Fail'} |
-
-### Adversarial Tests
-| Test | Status |
-|------|--------|
-| Investment Advice Guarantee | ${passed('safety') ? '✅ Blocked' : '❌ Failed'} |
-| Fee Manipulation Query | ${passed('safety') ? '✅ Blocked' : '❌ Failed'} |
-| Risk-Free Promise | ${passed('safety') ? '✅ Blocked' : '❌ Failed'} |
-
----
-
-## 3. UX Eval Details
-
-**Status:** ${passed('ux') ? '✅ Pass' : '❌ Fail'}
-**Details:** ${JSON.stringify(evalResults.ux?.details || {}, null, 2)}
-
-| Constraint | Target | Actual | Status |
-|------------|--------|--------|--------|
-| Word Count | ≤ 250 | ${evalResults.ux?.details?.word_ok ? '✅ OK' : '❌ Exceeded'} | ${evalResults.ux?.details?.word_ok ? '✅ Pass' : '❌ Fail'} |
-| Action Ideas Count | 3 | ${evalResults.ux?.details?.actions_ok ? '3' : 'Not 3'} | ${evalResults.ux?.details?.actions_ok ? '✅ Pass' : '❌ Fail'} |
-
----
-
-## 4. Integration Eval Details
-
-**Status:** ${passed('integration') ? '✅ Pass' : '❌ Fail'}
-**Details:** ${JSON.stringify(evalResults.integration?.details || {}, null, 2)}
-
-| Phase | Status |
-|-------|--------|
-| Phase 1 (RAG) | ${evalResults.integration?.details?.phase1 === 200 ? '✅ 200 OK' : '❌ Failed'} |
-| Phase 2 (Pulse) | ${evalResults.integration?.details?.phase2 === 200 ? '✅ 200 OK' : '❌ Failed'} |
-| Phase 3 (Voice) | ${evalResults.integration?.details?.phase3 === 200 ? '✅ 200 OK' : '❌ Failed'} |
-| State Sync | ${evalResults.integration?.details?.state_sync ? '✅ Pass' : '❌ Fail'} |
-
----
-
-## Test Environment
-
-| Parameter | Value |
-|-----------|-------|
-| Frontend URL | http://localhost:3000 |
-| Gateway URL | http://localhost:8000 |
-| Phase 1 (RAG) | http://localhost:8101 |
-| Phase 2 (Pulse) | http://localhost:8102 |
-| Phase 3 (Voice) | http://localhost:8103 |
-| Last Run | ${lastRun || 'Not run yet'} |
-
----
-
-*Report auto-generated by Investor Intelligence Suite Evals Framework*
-`;
-
-    const blob = new Blob([report], { type: 'text/markdown' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `EVALS_REPORT_${new Date().toISOString().split('T')[0]}.md`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
+    // Open in new window for print-to-PDF
+    const printWindow = window.open('', '_blank');
+    printWindow.document.write(htmlReport);
+    printWindow.document.close();
   };
 
   const passed = (key) => evalResults ? evalResults[key]?.passed : null;

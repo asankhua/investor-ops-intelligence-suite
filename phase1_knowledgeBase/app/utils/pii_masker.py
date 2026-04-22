@@ -135,53 +135,45 @@ class PIIMasker:
     
     def detect_pii_request(self, text: str) -> Tuple[bool, Optional[str]]:
         """
-        Detect if the query is requesting PII (asking for SOMEONE'S personal info).
+        Detect and block ALL queries about sensitive personal identifiers.
         
-        This blocks queries like:
-        - "What is the PAN of the CEO?"
-        - "Give me the email of the manager"
-        - "What is his phone number?"
-        
-        This does NOT block general informational queries like:
-        - "What is PAN?" (asking what PAN means)
-        - "Tell me about Aadhaar" (asking about the ID system)
-        - "Explain email requirements" (general info)
+        This blocks:
+        1. PII requests (asking for someone's personal info):
+           - "What is the PAN of the CEO?"
+           - "Give me the email of the manager"
+        2. ALL general queries about sensitive IDs:
+           - "What is PAN?" (blocked - not relevant to mutual funds)
+           - "Tell me about Aadhaar" (blocked - not relevant to mutual funds)
         
         Args:
             text: Input query text
             
         Returns:
-            Tuple of (is_pii_request, reason)
-            - is_pii_request: True if user is asking for PII
-            - reason: Description of what PII was requested, or None
+            Tuple of (is_blocked, reason)
+            - is_blocked: True if query should be blocked
+            - reason: Description of why blocked, or None
         """
         if not text:
             return False, None
         
         text_lower = text.lower()
         
-        # Check against PII request patterns (these look for request + PII + possession)
+        # BLOCK ALL queries about sensitive government IDs (PAN, Aadhaar)
+        # These are not relevant to mutual fund information
+        blocked_id_keywords = ["pan", "aadhaar", "aadhar", "uid"]
+        for keyword in blocked_id_keywords:
+            # Match as whole word only (avoid matching "pan" inside "span")
+            pattern = r'\b' + keyword + r'\b'
+            if re.search(pattern, text_lower):
+                logger.warning(f"Blocked query containing restricted ID term: {keyword}")
+                return True, f"Queries about {keyword.upper()} are not supported. I can help with mutual fund information only."
+        
+        # Check against PII request patterns (email, phone, account numbers of specific people)
         for pattern in self.pii_request_patterns:
             if pattern.search(text):
                 matched = pattern.search(text).group(0)
                 logger.warning(f"PII request detected: {matched}")
                 return True, f"Request for personal information detected: '{matched}'"
-        
-        # Additional check: request for "number" combined with possession indicators
-        possession_indicators = [" of ", " for ", "his ", "her ", "their "]
-        has_possession = any(ind in text_lower for ind in possession_indicators)
-        
-        # If asking for someone's specific info (indicated by possession words)
-        if has_possession:
-            personal_id_keywords = ["pan", "aadhaar", "aadhar", "uid", "account number", "client id"]
-            request_verbs = ["what is", "give", "send", "share", "tell", "provide", "get", "find", "need"]
-            
-            has_id_keyword = any(kw in text_lower for kw in personal_id_keywords)
-            has_request_verb = any(verb in text_lower for verb in request_verbs)
-            
-            if has_id_keyword and has_request_verb:
-                logger.warning(f"PII request detected: Personal ID with possession indicator")
-                return True, "Request for personal identification information"
         
         return False, None
     
