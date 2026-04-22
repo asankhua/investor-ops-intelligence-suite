@@ -16,16 +16,22 @@ class ReviewLoader:
     def __init__(self, repo_root: Path):
         self.reviews_dir = repo_root / "data" / "reviews"
         self.reviews_dir.mkdir(parents=True, exist_ok=True)
+        self.playstore_review_urls = self._resolve_review_urls()
         self.playstore_app_ids = self._resolve_app_ids()
         self.review_count = int(os.getenv("PLAYSTORE_REVIEW_COUNT", "100"))
         self.lang = os.getenv("PLAYSTORE_LANG", "en")
         self.country = os.getenv("PLAYSTORE_COUNTRY", "in")
 
-    def _resolve_app_ids(self) -> List[str]:
+    def _resolve_review_urls(self) -> List[str]:
         review_urls = os.getenv("PLAYSTORE_REVIEW_URLS", "").strip()
-        if review_urls:
+        if not review_urls:
+            return []
+        return [item.strip() for item in review_urls.split(",") if item.strip()]
+
+    def _resolve_app_ids(self) -> List[str]:
+        if self.playstore_review_urls:
             ids: List[str] = []
-            for url in [item.strip() for item in review_urls.split(",") if item.strip()]:
+            for url in self.playstore_review_urls:
                 app_id = _extract_app_id_from_url(url)
                 if app_id:
                     ids.append(app_id)
@@ -34,6 +40,15 @@ class ReviewLoader:
 
         app_ids = os.getenv("PLAYSTORE_APP_IDS", "in.indwealth")
         return [app_id.strip() for app_id in app_ids.split(",") if app_id.strip()]
+
+    def source_config(self) -> Dict[str, Any]:
+        return {
+            "review_urls": list(self.playstore_review_urls),
+            "app_ids": list(self.playstore_app_ids),
+            "review_count": self.review_count,
+            "lang": self.lang,
+            "country": self.country,
+        }
 
     def latest_reviews_file(self) -> Optional[Path]:
         files = sorted(self.reviews_dir.glob("*.json"))

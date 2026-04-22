@@ -19,7 +19,7 @@ from .services.gateway_client import GatewayClient
 from .services.shared_state import SharedStateStore
 
 
-load_dotenv(Path(__file__).resolve().parents[3] / ".env")
+load_dotenv(Path(__file__).resolve().parents[2] / ".env")
 
 app = FastAPI(
     title="Investor Intelligence Suite - Phase 4",
@@ -225,6 +225,12 @@ async def pillar_b_keywords():
 @app.post("/api/v1/pillar-b/refresh")
 async def pillar_b_refresh():
     code, payload = client.post("phase2", "/api/v1/pillar-b/refresh", json_body={})
+    return JSONResponse(status_code=code, content=payload)
+
+
+@app.get("/api/v1/pillar-b/scheduler/status")
+async def pillar_b_scheduler_status():
+    code, payload = client.get("phase2", "/api/v1/pillar-b/scheduler/status")
     return JSONResponse(status_code=code, content=payload)
 
 

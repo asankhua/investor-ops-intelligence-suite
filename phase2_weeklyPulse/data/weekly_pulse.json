@@ -1,49 +1,49 @@
 {
-  "generated_at": "2026-04-21T13:56:34Z",
-  "reviews_source": "/Users/asankhua/Cursor/investor-intelligence-suite/data/reviews/2026-04-21.json",
+  "generated_at": "2026-04-22T03:41:13Z",
+  "reviews_source": "/Users/asankhua/Cursor/investor-intelligence-suite/data/reviews/2026-04-22.json",
   "raw_reviews_processed": 100,
   "top_themes": [
     {
       "theme": "Feature Requests",
-      "confidence": 0.8,
-      "mention_count": 19,
-      "sentiment_score": -0.186
+      "confidence": 0.79,
+      "mention_count": 18,
+      "sentiment_score": -0.141
     },
     {
       "theme": "Support & Service",
       "confidence": 0.71,
-      "mention_count": 9,
-      "sentiment_score": -0.406
+      "mention_count": 10,
+      "sentiment_score": -0.465
     },
     {
-      "theme": "Performance & Stability",
+      "theme": "Fee Transparency",
       "confidence": 0.67,
       "mention_count": 6,
-      "sentiment_score": -0.078
+      "sentiment_score": -0.475
     }
   ],
-  "sentiment_score": -0.223,
+  "sentiment_score": -0.36,
   "action_ideas": [
     "Review top requested UX features and schedule at least one quick-win release.",
     "Strengthen support workflow with faster first-response SLA and clearer escalation.",
-    "Ship performance hotfixes and monitor crash/latency regressions daily."
+    "Publish a fee transparency panel for brokerage/MTF/charges before order confirm."
   ],
-  "word_count": 59,
-  "summary": "This week\u2019s customer pulse highlights Feature Requests (19 mentions), Support & Service (9 mentions), Performance & Stability (6 mentions). Overall sentiment score is -0.223. Recommended actions: 1) Review top requested UX features and schedule at least one quick-win release. 2) Strengthen support workflow with faster first-response SLA and clearer escalation. 3) Ship performance hotfixes and monitor crash/latency regressions daily.",
+  "word_count": 60,
+  "summary": "This week\u2019s customer pulse highlights Feature Requests (18 mentions), Support & Service (10 mentions), Fee Transparency (6 mentions). Overall sentiment score is -0.36. Recommended actions: 1) Review top requested UX features and schedule at least one quick-win release. 2) Strengthen support workflow with faster first-response SLA and clearer escalation. 3) Publish a fee transparency panel for brokerage/MTF/charges before order confirm.",
   "analytics": {
     "theme_distribution": [
       {
         "theme": "Feature Requests",
-        "count": 19,
-        "percentage": 55.88
+        "count": 18,
+        "percentage": 52.94
       },
       {
         "theme": "Support & Service",
-        "count": 9,
-        "percentage": 26.47
+        "count": 10,
+        "percentage": 29.41
       },
       {
-        "theme": "Performance & Stability",
+        "theme": "Fee Transparency",
         "count": 6,
         "percentage": 17.65
       }
@@ -51,7 +51,7 @@
     "sentiment_trends": [
       {
         "date": "2026-04-13",
-        "score": 0.162
+        "score": 0.405
       },
       {
         "date": "2026-04-14",
@@ -79,20 +79,24 @@
       },
       {
         "date": "2026-04-20",
-        "score": -0.21
+        "score": -0.146
+      },
+      {
+        "date": "2026-04-21",
+        "score": 0.75
       }
     ],
     "mention_volume": [
       {
         "theme": "Feature Requests",
-        "count": 19
+        "count": 18
       },
       {
         "theme": "Support & Service",
-        "count": 9
+        "count": 10
       },
       {
-        "theme": "Performance & Stability",
+        "theme": "Fee Transparency",
         "count": 6
       }
     ],
@@ -103,15 +107,15 @@
       },
       {
         "word": "very",
-        "frequency": 17
+        "frequency": 18
       },
       {
         "word": "nice",
-        "frequency": 15
+        "frequency": 16
       },
       {
         "word": "not",
-        "frequency": 12
+        "frequency": 13
       },
       {
         "word": "like",
@@ -119,6 +123,10 @@
       },
       {
         "word": "but",
+        "frequency": 10
+      },
+      {
+        "word": "they",
         "frequency": 9
       },
       {
@@ -130,19 +138,15 @@
         "frequency": 9
       },
       {
+        "word": "use",
+        "frequency": 8
+      },
+      {
         "word": "was",
         "frequency": 8
       },
       {
-        "word": "use",
-        "frequency": 7
-      },
-      {
         "word": "when",
-        "frequency": 7
-      },
-      {
-        "word": "they",
         "frequency": 7
       },
       {
@@ -166,127 +170,17 @@
         "frequency": 6
       },
       {
-        "word": "please",
-        "frequency": 6
-      },
-      {
         "word": "best",
         "frequency": 6
       },
       {
         "word": "are",
         "frequency": 6
+      },
+      {
+        "word": "other",
+        "frequency": 6
       }
     ]
-  },
-  "booking_refs": [
-    {
-      "booking_code": "MTG-2026-841",
-      "context": {
-        "status": "ok",
-        "top_themes": [
-          {
-            "theme": "Feature Requests",
-            "confidence": 0.8,
-            "mention_count": 19,
-            "sentiment_score": -0.186
-          },
-          {
-            "theme": "Support & Service",
-            "confidence": 0.71,
-            "mention_count": 9,
-            "sentiment_score": -0.406
-          },
-          {
-            "theme": "Performance & Stability",
-            "confidence": 0.67,
-            "mention_count": 6,
-            "sentiment_score": -0.078
-          }
-        ]
-      },
-      "synced_at": "2026-04-21T14:26:06Z"
-    },
-    {
-      "booking_code": "MTG-2026-553",
-      "context": {
-        "status": "ok",
-        "top_themes": [
-          {
-            "theme": "Feature Requests",
-            "confidence": 0.8,
-            "mention_count": 19,
-            "sentiment_score": -0.186
-          },
-          {
-            "theme": "Support & Service",
-            "confidence": 0.71,
-            "mention_count": 9,
-            "sentiment_score": -0.406
-          },
-          {
-            "theme": "Performance & Stability",
-            "confidence": 0.67,
-            "mention_count": 6,
-            "sentiment_score": -0.078
-          }
-        ]
-      },
-      "synced_at": "2026-04-21T14:32:11Z"
-    },
-    {
-      "booking_code": "MTG-2026-147",
-      "context": {
-        "status": "ok",
-        "top_themes": [
-          {
-            "theme": "Feature Requests",
-            "confidence": 0.8,
-            "mention_count": 19,
-            "sentiment_score": -0.186
-          },
-          {
-            "theme": "Support & Service",
-            "confidence": 0.71,
-            "mention_count": 9,
-            "sentiment_score": -0.406
-          },
-          {
-            "theme": "Performance & Stability",
-            "confidence": 0.67,
-            "mention_count": 6,
-            "sentiment_score": -0.078
-          }
-        ]
-      },
-      "synced_at": "2026-04-21T14:35:27Z"
-    },
-    {
-      "booking_code": "MTG-2026-237",
-      "context": {
-        "status": "ok",
-        "top_themes": [
-          {
-            "theme": "Feature Requests",
-            "confidence": 0.8,
-            "mention_count": 19,
-            "sentiment_score": -0.186
-          },
-          {
-            "theme": "Support & Service",
-            "confidence": 0.71,
-            "mention_count": 9,
-            "sentiment_score": -0.406
-          },
-          {
-            "theme": "Performance & Stability",
-            "confidence": 0.67,
-            "mention_count": 6,
-            "sentiment_score": -0.078
-          }
-        ]
-      },
-      "synced_at": "2026-04-21T14:39:18Z"
-    }
-  ]
+  }
 }

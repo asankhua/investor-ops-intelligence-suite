@@ -365,6 +365,10 @@ const PillarB = () => {
     'pillarBAnalytics',
     async () => (await pillarBAPI.getAnalytics()).data
   );
+  const { data: schedulerStatus, refetch: refetchScheduler } = useQuery(
+    'pillarBSchedulerStatus',
+    async () => (await pillarBAPI.getSchedulerStatus()).data
+  );
 
   const themeNames = (pulseData?.top_themes || []).map((theme) => theme.theme);
 
@@ -378,7 +382,7 @@ const PillarB = () => {
     setIsRefreshing(true);
     try {
       await pillarBAPI.refreshAnalysis();
-      await Promise.all([refetchPulse(), refetchAnalytics()]);
+      await Promise.all([refetchPulse(), refetchAnalytics(), refetchScheduler()]);
     } finally {
       setIsRefreshing(false);
     }
@@ -478,6 +482,7 @@ const PillarB = () => {
     size: index < 4 ? 'large' : index < 8 ? 'medium' : 'small',
     count: kw.frequency,
   }));
+  const schedulerLastRun = schedulerStatus?.last_run_at ? new Date(schedulerStatus.last_run_at).toLocaleString() : 'Never';
 
   return (
     <Container>
@@ -487,9 +492,13 @@ const PillarB = () => {
           Insight-Driven Pulse
         </Title>
         <HeaderActions>
-            <LastSynced>
+          <LastSynced>
             <Clock size={16} />
-              Last synced: {pulseData?.generated_at ? new Date(pulseData.generated_at).toLocaleString() : 'N/A'}
+            Last synced: {pulseData?.generated_at ? new Date(pulseData.generated_at).toLocaleString() : 'N/A'}
+          </LastSynced>
+          <LastSynced>
+            <Clock size={16} />
+            Last scheduler run: {schedulerLastRun}
           </LastSynced>
           <Button onClick={handleRefresh} disabled={isRefreshing}>
             <RefreshCw size={16} style={{ animation: isRefreshing ? 'spin 1s linear infinite' : 'none' }} />

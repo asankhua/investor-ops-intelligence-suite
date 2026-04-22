@@ -2,8 +2,10 @@
 
 from __future__ import annotations
 
+import asyncio
 from pathlib import Path
 from typing import Any, Dict
+import os
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
@@ -12,7 +14,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from .services.pulse_service import PulseService
 
 
-load_dotenv(Path(__file__).resolve().parents[3] / ".env")
+load_dotenv(Path(__file__).resolve().parents[2] / ".env")
 
 app = FastAPI(
     title="Investor Intelligence Suite - Phase 2",
@@ -30,17 +32,44 @@ app.add_middleware(
 
 repo_root = Path(__file__).resolve().parents[2]
 pulse_service = PulseService(repo_root)
+_scheduler_task: asyncio.Task | None = None
+
+
+async def _weekly_scheduler_loop() -> None:
+    check_seconds = max(300, int(os.getenv("PULSE_SCHEDULER_CHECK_SECONDS", "3600")))
+    while True:
+        try:
+            pulse_service.run_scheduler_if_due()
+        except Exception:
+            # Keep scheduler resilient; failures are reflected in scheduler status.
+            pass
+        await asyncio.sleep(check_seconds)
 
 
 @app.get("/health")
 async def health() -> Dict[str, Any]:
     return {"status": "healthy", "phase": 2, "pillar": "B"}
 
+@app.on_event("startup")
+async def startup_scheduler() -> None:
+    global _scheduler_task
+    pulse_service.run_scheduler_if_due()
+    _scheduler_task = asyncio.create_task(_weekly_scheduler_loop())
+
+
+@app.on_event("shutdown")
+async def shutdown_scheduler() -> None:
+    global _scheduler_task
+    if _scheduler_task:
+        _scheduler_task.cancel()
+        _scheduler_task = None
+
 
 @app.get("/api/v1/pillar-b/weekly-pulse")
 async def weekly_pulse() -> Dict[str, Any]:
     pulse = pulse_service.get_pulse()
     pulse["freshness"] = pulse_service.freshness()
+    pulse["scheduler"] = pulse_service.get_scheduler_status()
     return pulse
 
 
@@ -89,6 +118,11 @@ async def refresh() -> Dict[str, Any]:
         "reviews_processed": pulse.get("raw_reviews_processed", 0),
         "top_theme": (pulse.get("top_themes", [{}])[0].get("theme") if pulse.get("top_themes") else None),
     }
+
+
+@app.get("/api/v1/pillar-b/scheduler/status")
+async def scheduler_status() -> Dict[str, Any]:
+    return pulse_service.get_scheduler_status()
 
 
 # Compatibility aliases from architecture snippets

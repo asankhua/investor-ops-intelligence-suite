@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const API_BASE_URL = process.env.REACT_APP_API_GATEWAY_URL !== undefined 
   ? process.env.REACT_APP_API_GATEWAY_URL 
-  : 'http://localhost:8000';
+  : 'http://localhost:8010';
 const API_VERSION = process.env.REACT_APP_API_VERSION || 'v1';
 
 const api = axios.create({
@@ -55,6 +55,7 @@ export const pillarBAPI = {
   getVolume: () => api.get('/pillar-b/analytics/volume'),
   getKeywords: () => api.get('/pillar-b/analytics/keywords'),
   refreshAnalysis: () => api.post('/pillar-b/refresh'),
+  getSchedulerStatus: () => api.get('/pillar-b/scheduler/status'),
   downloadReviewsCSV: () => api.get('/pillar-b/reviews/download', { responseType: 'blob' }),
 };
 
