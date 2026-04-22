@@ -135,6 +135,18 @@ const RecordingControls = styled.div`
   gap: 12px;
 `;
 
+const RecordingControlsBox = styled.div`
+  background: white;
+  border: 2px solid #E8F4FC;
+  border-radius: 12px;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+  box-shadow: 0 2px 8px rgba(30, 58, 95, 0.06);
+`;
+
 const ControlButton = styled.button`
   display: flex;
   align-items: center;
@@ -724,6 +736,7 @@ const PillarC = () => {
   const [messages, setMessages] = useState([
     { isUser: false, text: 'Hello! I am your RM scheduling assistant. I use Weekly Product Pulse themes to help schedule a call.' }
   ]);
+  const [isLoading, setIsLoading] = useState(false);
   const [bookingStatus, setBookingStatus] = useState('pending');
   const [pipelineStep, setPipelineStep] = useState('idle');
   const [pipelineStatuses, setPipelineStatuses] = useState({});
@@ -1065,10 +1078,11 @@ const PillarC = () => {
   };
 
   const handleSend = async () => {
-    if (!inputText.trim()) return;
+    if (!inputText.trim() || isLoading) return;
     const userMsg = inputText;
     setMessages(prev => [...prev, { isUser: true, text: userMsg }]);
     setInputText('');
+    setIsLoading(true);
 
     // Auto-fetch themes on first interaction if not loaded yet
     if (pulseThemes.length === 0 && !themesFetching) {
@@ -1102,6 +1116,8 @@ const PillarC = () => {
     } catch (e) {
       const errText = e?.response?.data?.detail || 'Failed to send message.';
       setMessages(prev => [...prev, { isUser: false, text: errText }]);
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -1187,38 +1203,40 @@ const PillarC = () => {
 
             <Waveform visible={isRecording} />
 
-            <RecordingControls>
-              <ControlButton variant="play" onClick={handlePlayRecording} disabled={isRecording || (!recordedAudioUrl && !lastRecordingAudioId) || isPlaying}>
-                <Play size={16} /> Play
-              </ControlButton>
-              <ControlButton onClick={handleSendRecording} disabled={isRecording || !recordedAudioBlob || isSendingVoice}>
-                {isSendingVoice ? 'Sending...' : 'Send Recording'}
-              </ControlButton>
-              <ControlButton variant="cancel" onClick={async () => {
-                if (recordingId) {
-                  try { await pillarCAPI.cancelRecording(recordingId); } catch (_) {}
-                }
-                if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
-                  mediaRecorderRef.current.stop();
-                }
-                if (mediaStreamRef.current) {
-                  mediaStreamRef.current.getTracks().forEach((track) => track.stop());
-                  mediaStreamRef.current = null;
-                }
-                if (recordedAudioUrl) {
-                  URL.revokeObjectURL(recordedAudioUrl);
-                  setRecordedAudioUrl(null);
-                }
-                setRecordedAudioBlob(null);
-                setIsRecording(false);
-                setRecordingDuration(0);
-                setRecordingId(null);
-                setLastRecordingAudioId(null);
-                refreshPipeline();
+            <RecordingControlsBox>
+              <RecordingControls>
+                <ControlButton variant="play" onClick={handlePlayRecording} disabled={isRecording || (!recordedAudioUrl && !lastRecordingAudioId) || isPlaying}>
+                  <Play size={16} /> Play
+                </ControlButton>
+                <ControlButton onClick={handleSendRecording} disabled={isRecording || !recordedAudioBlob || isSendingVoice}>
+                  {isSendingVoice ? 'Sending...' : 'Send Recording'}
+                </ControlButton>
+                <ControlButton variant="cancel" onClick={async () => {
+                  if (recordingId) {
+                    try { await pillarCAPI.cancelRecording(recordingId); } catch (_) {}
+                  }
+                  if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
+                    mediaRecorderRef.current.stop();
+                  }
+                  if (mediaStreamRef.current) {
+                    mediaStreamRef.current.getTracks().forEach((track) => track.stop());
+                    mediaStreamRef.current = null;
+                  }
+                  if (recordedAudioUrl) {
+                    URL.revokeObjectURL(recordedAudioUrl);
+                    setRecordedAudioUrl(null);
+                  }
+                  setRecordedAudioBlob(null);
+                  setIsRecording(false);
+                  setRecordingDuration(0);
+                  setRecordingId(null);
+                  setLastRecordingAudioId(null);
+                  refreshPipeline();
               }} disabled={!isRecording && !recordedAudioBlob && !recordingId}>
-                <X size={16} /> Cancel
-              </ControlButton>
-            </RecordingControls>
+                  <X size={16} /> Cancel
+                </ControlButton>
+              </RecordingControls>
+            </RecordingControlsBox>
 
             <AgentVoiceSection>
               <AgentVoiceHeader>
@@ -1256,6 +1274,12 @@ const PillarC = () => {
                     </MessageContent>
                   </Message>
                 ))}
+                {isLoading && (
+                  <Message>
+                    <Avatar><Bot size={18} /></Avatar>
+                    <MessageContent>Thinking...</MessageContent>
+                  </Message>
+                )}
                 <div ref={messagesEndRef} />
               </MessagesArea>
               
@@ -1266,9 +1290,10 @@ const PillarC = () => {
                   value={inputText}
                   onChange={(e) => setInputText(e.target.value)}
                   onKeyPress={(e) => e.key === 'Enter' && handleSend()}
+                  disabled={isLoading}
                 />
-                <SendButton onClick={handleSend} disabled={!inputText.trim()}>
-                  Send
+                <SendButton onClick={handleSend} disabled={isLoading || !inputText.trim()}>
+                  {isLoading ? 'Sending...' : 'Send'}
                 </SendButton>
               </InputArea>
               {themeContext.topTheme && (
