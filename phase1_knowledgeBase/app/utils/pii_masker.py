@@ -9,22 +9,24 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-# Keywords that indicate a user is requesting PII
+# Keywords that indicate a user is requesting PII (asking for SOMEONE'S personal info)
+# These patterns look for: request verb + PII type + possession indicator (of/for/person's)
 PII_REQUEST_PATTERNS = [
-    # Email requests
-    r"\b(?:give|send|share|tell|what is|provide|get|find|look up|search for).*\bemail\b",
-    r"\b(?:ceo|manager|director|contact|person).*\bemail\b",
-    r"\bemail\b.*\b(?:of|for|ceo|manager|contact)\b",
-    # Phone requests
-    r"\b(?:give|send|share|tell|what is|provide|get|find|look up|search for).*\b(?:phone|mobile|contact number)\b",
-    r"\b(?:phone|mobile|contact number).*\b(?:of|for)\b",
-    # Address/Location requests
-    r"\b(?:home address|residence|where does.*live|personal address)\b",
+    # Email requests for specific person
+    r"\b(?:give|send|share|tell|provide|get|find|look up|search for).*\bemail\b.*\b(?:of|for)\b",
+    r"\b(?:ceo|manager|director|contact|person|someone|him|her|their).*\bemail\b",
+    r"\bemail\b.*\b(?:of|for|ceo|manager|director|contact|person)\b",
+    # Phone requests for specific person
+    r"\b(?:give|send|share|tell|provide|get|find|look up|search for).*\b(?:phone|mobile|contact number)\b.*\b(?:of|for)\b",
+    r"\b(?:phone|mobile|contact number).*\b(?:of|for|ceo|manager|director|person)\b",
+    # Address/Location requests for specific person
+    r"\b(?:home address|residence|where does.*live|personal address)\b.*\b(?:of|for)\b",
     # Name requests for specific people
-    r"\b(?:full name|real name|personal details|contact info)\b",
-    # Account/ID requests
-    r"\b(?:pan|aadhaar|account number|account id|client id)\b.*\b(?:of|for)\b",
-    r"\b(?:what is|give|send|share|provide).*(?:pan|aadhaar|account number)\b",
+    r"\b(?:full name|real name|personal details|contact info)\b.*\b(?:of|for)\b",
+    # PAN/Aadhaar/Account requests for specific person - MUST have "of" or "for" or person's name
+    r"\b(?:give|send|share|tell|provide|get|find|look up|search for).*(?:pan|aadhaar|account number|account id|client id).*\b(?:of|for)\b",
+    r"\b(?:pan|aadhaar|account number|account id|client id).*\b(?:of|for|ceo|manager|director|person|someone|him|her)\b",
+    r"\b(?:his|her|their)\b.*\b(?:pan|aadhaar|account number|email|phone|mobile)\b",
 ]
 
 class PIIMasker:
@@ -133,7 +135,17 @@ class PIIMasker:
     
     def detect_pii_request(self, text: str) -> Tuple[bool, Optional[str]]:
         """
-        Detect if the query is requesting PII (asking for someone's personal info).
+        Detect if the query is requesting PII (asking for SOMEONE'S personal info).
+        
+        This blocks queries like:
+        - "What is the PAN of the CEO?"
+        - "Give me the email of the manager"
+        - "What is his phone number?"
+        
+        This does NOT block general informational queries like:
+        - "What is PAN?" (asking what PAN means)
+        - "Tell me about Aadhaar" (asking about the ID system)
+        - "Explain email requirements" (general info)
         
         Args:
             text: Input query text
@@ -148,33 +160,28 @@ class PIIMasker:
         
         text_lower = text.lower()
         
-        # Check against PII request patterns
+        # Check against PII request patterns (these look for request + PII + possession)
         for pattern in self.pii_request_patterns:
             if pattern.search(text):
                 matched = pattern.search(text).group(0)
                 logger.warning(f"PII request detected: {matched}")
                 return True, f"Request for personal information detected: '{matched}'"
         
-        # Additional specific checks
-        pii_keywords = {
-            "email": ["email", "e-mail", "mail id", "email address"],
-            "phone": ["phone", "mobile", "contact number", "cell"],
-            "address": ["address", "home", "residence", "location"],
-            "pan": ["pan", "permanent account number"],
-            "aadhaar": ["aadhaar", "uid", "aadhar"],
-            "account": ["account number", "account id", "client id"],
-        }
+        # Additional check: request for "number" combined with possession indicators
+        possession_indicators = [" of ", " for ", "his ", "her ", "their "]
+        has_possession = any(ind in text_lower for ind in possession_indicators)
         
-        for pii_type, keywords in pii_keywords.items():
-            for keyword in keywords:
-                if keyword in text_lower:
-                    # Check if it's a request pattern
-                    request_indicators = ["give", "send", "share", "tell", "what is", "provide", 
-                                       "get", "find", "look up", "search", "need", "want", "looking for"]
-                    for indicator in request_indicators:
-                        if indicator in text_lower:
-                            logger.warning(f"PII request detected: {pii_type} via keyword '{keyword}'")
-                            return True, f"Request for {pii_type} information"
+        # If asking for someone's specific info (indicated by possession words)
+        if has_possession:
+            personal_id_keywords = ["pan", "aadhaar", "aadhar", "uid", "account number", "client id"]
+            request_verbs = ["what is", "give", "send", "share", "tell", "provide", "get", "find", "need"]
+            
+            has_id_keyword = any(kw in text_lower for kw in personal_id_keywords)
+            has_request_verb = any(verb in text_lower for verb in request_verbs)
+            
+            if has_id_keyword and has_request_verb:
+                logger.warning(f"PII request detected: Personal ID with possession indicator")
+                return True, "Request for personal identification information"
         
         return False, None
     
