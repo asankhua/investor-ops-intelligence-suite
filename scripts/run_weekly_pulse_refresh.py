@@ -12,6 +12,9 @@ from dotenv import load_dotenv
 
 def main() -> int:
     repo_root = Path(__file__).resolve().parents[1]
+    # Ensure project modules are importable regardless of caller working directory.
+    if str(repo_root) not in sys.path:
+        sys.path.insert(0, str(repo_root))
     load_dotenv(repo_root / ".env")
 
     # Default to the URL requested by the user if not set.
