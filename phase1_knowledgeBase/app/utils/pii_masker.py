@@ -160,7 +160,8 @@ class PIIMasker:
         
         # BLOCK ALL queries about sensitive government IDs (PAN, Aadhaar)
         # These are not relevant to mutual fund information
-        blocked_id_keywords = ["pan", "aadhaar", "aadhar", "uid"]
+        # Includes common misspellings: adhaar, adhar, aadhar, etc.
+        blocked_id_keywords = ["pan", "aadhaar", "aadhar", "adhaar", "adhar", "uid", "aadhaar"]
         for keyword in blocked_id_keywords:
             # Match as whole word only (avoid matching "pan" inside "span")
             pattern = r'\b' + keyword + r'\b'
