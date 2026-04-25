@@ -1,61 +1,57 @@
 {
-  "generated_at": "2026-04-22T04:18:11Z",
-  "reviews_source": "/home/runner/work/investor-ops-intelligence-suite/investor-ops-intelligence-suite/data/reviews/2026-04-22.json",
+  "generated_at": "2026-04-25T06:07:45Z",
+  "reviews_source": "/home/runner/work/investor-ops-intelligence-suite/investor-ops-intelligence-suite/data/reviews/2026-04-25.json",
   "raw_reviews_processed": 100,
   "top_themes": [
     {
       "theme": "Feature Requests",
-      "confidence": 0.79,
-      "mention_count": 18,
-      "sentiment_score": -0.141
-    },
-    {
-      "theme": "Support & Service",
-      "confidence": 0.71,
-      "mention_count": 10,
-      "sentiment_score": -0.465
+      "confidence": 0.8,
+      "mention_count": 19,
+      "sentiment_score": -0.166
     },
     {
       "theme": "Fee Transparency",
-      "confidence": 0.67,
-      "mention_count": 6,
-      "sentiment_score": -0.475
+      "confidence": 0.71,
+      "mention_count": 9,
+      "sentiment_score": -0.206
+    },
+    {
+      "theme": "Support & Service",
+      "confidence": 0.68,
+      "mention_count": 7,
+      "sentiment_score": -0.307
     }
   ],
-  "sentiment_score": -0.36,
+  "sentiment_score": -0.226,
   "action_ideas": [
     "Review top requested UX features and schedule at least one quick-win release.",
-    "Strengthen support workflow with faster first-response SLA and clearer escalation.",
-    "Publish a fee transparency panel for brokerage/MTF/charges before order confirm."
+    "Publish a fee transparency panel for brokerage/MTF/charges before order confirm.",
+    "Strengthen support workflow with faster first-response SLA and clearer escalation."
   ],
   "word_count": 60,
-  "summary": "This week\u2019s customer pulse highlights Feature Requests (18 mentions), Support & Service (10 mentions), Fee Transparency (6 mentions). Overall sentiment score is -0.36. Recommended actions: 1) Review top requested UX features and schedule at least one quick-win release. 2) Strengthen support workflow with faster first-response SLA and clearer escalation. 3) Publish a fee transparency panel for brokerage/MTF/charges before order confirm.",
+  "summary": "This week\u2019s customer pulse highlights Feature Requests (19 mentions), Fee Transparency (9 mentions), Support & Service (7 mentions). Overall sentiment score is -0.226. Recommended actions: 1) Review top requested UX features and schedule at least one quick-win release. 2) Publish a fee transparency panel for brokerage/MTF/charges before order confirm. 3) Strengthen support workflow with faster first-response SLA and clearer escalation.",
   "analytics": {
     "theme_distribution": [
       {
         "theme": "Feature Requests",
-        "count": 18,
-        "percentage": 52.94
-      },
-      {
-        "theme": "Support & Service",
-        "count": 10,
-        "percentage": 29.41
+        "count": 19,
+        "percentage": 54.29
       },
       {
         "theme": "Fee Transparency",
-        "count": 6,
-        "percentage": 17.65
+        "count": 9,
+        "percentage": 25.71
+      },
+      {
+        "theme": "Support & Service",
+        "count": 7,
+        "percentage": 20.0
       }
     ],
     "sentiment_trends": [
       {
-        "date": "2026-04-13",
-        "score": 0.405
-      },
-      {
         "date": "2026-04-14",
-        "score": 0.422
+        "score": -0.5
       },
       {
         "date": "2026-04-15",
@@ -83,50 +79,74 @@
       },
       {
         "date": "2026-04-21",
-        "score": 0.5
+        "score": 0.138
+      },
+      {
+        "date": "2026-04-22",
+        "score": 0.125
+      },
+      {
+        "date": "2026-04-23",
+        "score": 0.024
+      },
+      {
+        "date": "2026-04-24",
+        "score": 1.0
       }
     ],
     "mention_volume": [
       {
         "theme": "Feature Requests",
-        "count": 18
-      },
-      {
-        "theme": "Support & Service",
-        "count": 10
+        "count": 19
       },
       {
         "theme": "Fee Transparency",
-        "count": 6
+        "count": 9
+      },
+      {
+        "theme": "Support & Service",
+        "count": 7
       }
     ],
     "keywords": [
       {
         "word": "good",
-        "frequency": 36
+        "frequency": 32
       },
       {
         "word": "very",
-        "frequency": 18
+        "frequency": 17
       },
       {
         "word": "nice",
         "frequency": 16
       },
       {
+        "word": "but",
+        "frequency": 16
+      },
+      {
         "word": "not",
+        "frequency": 14
+      },
+      {
+        "word": "they",
         "frequency": 13
       },
       {
         "word": "like",
+        "frequency": 13
+      },
+      {
+        "word": "was",
         "frequency": 11
       },
       {
-        "word": "but",
-        "frequency": 10
+        "word": "money",
+        "frequency": 9
       },
       {
-        "word": "they",
+        "word": "one",
         "frequency": 9
       },
       {
@@ -134,19 +154,27 @@
         "frequency": 9
       },
       {
-        "word": "money",
-        "frequency": 9
-      },
-      {
-        "word": "use",
+        "word": "account",
         "frequency": 8
       },
       {
-        "word": "was",
+        "word": "there",
         "frequency": 8
       },
       {
-        "word": "when",
+        "word": "are",
+        "frequency": 8
+      },
+      {
+        "word": "can",
+        "frequency": 7
+      },
+      {
+        "word": "other",
+        "frequency": 7
+      },
+      {
+        "word": "option",
         "frequency": 7
       },
       {
@@ -154,31 +182,11 @@
         "frequency": 7
       },
       {
-        "word": "care",
-        "frequency": 6
+        "word": "all",
+        "frequency": 7
       },
       {
-        "word": "from",
-        "frequency": 6
-      },
-      {
-        "word": "there",
-        "frequency": 6
-      },
-      {
-        "word": "option",
-        "frequency": 6
-      },
-      {
-        "word": "best",
-        "frequency": 6
-      },
-      {
-        "word": "are",
-        "frequency": 6
-      },
-      {
-        "word": "other",
+        "word": "any",
         "frequency": 6
       }
     ]
