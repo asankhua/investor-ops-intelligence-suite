@@ -100,7 +100,29 @@
 
 ---
 
-## 10. Documentation Standards
+## 10. Data Sources (Project Data Files)
+
+All fund data is sourced from **INDMoney** with simulated NAV values for testing.
+
+| Fund Name | Source URL |
+|-----------|------------|
+| HDFC Flexi Cap Fund | https://www.indmoney.com/mutual-funds/hdfc-flexi-cap-fund-direct-plan-growth-option-3184 |
+| HDFC Banking & Financial Services Fund | https://www.indmoney.com/mutual-funds/hdfc-banking-financial-services-fund-direct-growth-1006661 |
+| HDFC Small Cap Fund | https://www.indmoney.com/mutual-funds/hdfc-small-cap-fund-direct-growth-option-3580 |
+| HDFC Defence Fund | https://www.indmoney.com/mutual-funds/hdfc-defence-fund-direct-growth-1043873 |
+| HDFC NIFTY Midcap 150 Index Fund | https://www.indmoney.com/mutual-funds/hdfc-nifty-midcap-150-index-fund-direct-growth-1043788 |
+| HDFC Nifty Private Bank ETF | https://www.indmoney.com/mutual-funds/hdfc-nifty-private-bank-etf-1042349 |
+| HDFC Mid Cap Fund | https://www.indmoney.com/mutual-funds/hdfc-mid-cap-fund-direct-plan-growth-option-3097 |
+| HDFC Focused Fund | https://www.indmoney.com/mutual-funds/hdfc-focused-fund-direct-plan-growth-option-2795 |
+
+**Data Location:** `/data/ragData/` (8 JSON files)  
+**Chunks Location:** `/data/chunking/chunks.json`  
+**Last Scraped:** 2026-04-20  
+**Note:** NAV values are simulated based on historical data, not actual market prices.
+
+---
+
+## 11. Documentation Standards
 
 | Resource | URL | Purpose |
 |----------|-----|---------|
