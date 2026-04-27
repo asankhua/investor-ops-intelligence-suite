@@ -4,7 +4,9 @@ emoji: 📊
 colorFrom: blue
 colorTo: indigo
 sdk: docker
+sdk_version: "3.11"
 app_port: 7860
+app_file: phase4_integrationHub/app/main.py
 pinned: false
 ---
 
