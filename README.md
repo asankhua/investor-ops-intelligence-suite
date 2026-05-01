@@ -23,6 +23,8 @@ pinned: false
 
 Unified AI platform for investor support, insights, and advisory scheduling with Self-RAG, weekly pulse analytics, and voice booking.
 
+https://github.com/asankhua/investor-ops-intelligence-suite/issues/2#issue-4335508929
+
 ## Overview
 
 A 5-phase AI platform that transforms how fintech companies handle investor queries, analyze customer sentiment, and schedule advisory appointments. Combines Self-RAG knowledge retrieval, theme-driven weekly pulse generation, and AI-powered voice scheduling with human-in-the-loop (HITL) approval.
