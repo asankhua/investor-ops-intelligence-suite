@@ -9,6 +9,10 @@ app_port: 7860
 pinned: false
 ---
 
+https://github.com/user-attachments/assets/064c912d-7fd7-4706-bda3-ed4a80a966c0
+https://github.com/user-attachments/assets/f582c9a0-fc6d-455c-867d-618befa99ac0
+
+
 # Investor Intelligence Suite
 
 <p align="left">
@@ -23,7 +27,6 @@ pinned: false
 
 Unified AI platform for investor support, insights, and advisory scheduling with Self-RAG, weekly pulse analytics, and voice booking.
 
-https://github.com/asankhua/investor-ops-intelligence-suite/issues/2#issue-4335508929
 
 ## Overview
 
