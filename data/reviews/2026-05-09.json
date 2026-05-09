@@ -1,0 +1,902 @@
+[
+  {
+    "reviewId": "e7219f49-11c0-41ac-a947-1ab8210af035",
+    "rating": 5,
+    "text": "very good \ud83d\udcaf",
+    "date": "2026-05-08T06:26:44",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.6",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "5d8e064d-223e-4bfa-901d-4714d2531997",
+    "rating": 4,
+    "text": "good",
+    "date": "2026-05-08T06:07:59",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "98bb6271-337a-42bc-99a7-cf212e25b33f",
+    "rating": 5,
+    "text": "excellent work n progress",
+    "date": "2026-05-08T05:30:49",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.6",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "6b29c5a3-35ce-424b-acff-58109e9ab244",
+    "rating": 5,
+    "text": "very nice",
+    "date": "2026-05-08T05:14:31",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "442ceace-75e2-44ee-9fb7-bd833a1423df",
+    "rating": 5,
+    "text": "I don't know why but I am unable to open the app it is not opening at all it keep exiting on its own",
+    "date": "2026-05-08T04:34:29",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "ea8b68c3-5d38-4229-91d9-dbcd94159537",
+    "rating": 5,
+    "text": "my favourite broker app, i love it",
+    "date": "2026-05-08T02:43:18",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.6",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "a1775609-4d97-46fa-836f-63c2f367c0eb",
+    "rating": 5,
+    "text": "v good",
+    "date": "2026-05-08T02:01:10",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.6",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "965ffa63-6ab8-4f9c-bd2e-655b7304e163",
+    "rating": 4,
+    "text": "contact my money back my money my wallet",
+    "date": "2026-05-07T18:08:59",
+    "userName": "[REDACTED]",
+    "appVersion": "9.2.9",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e8af6f6d-d670-4ce0-9c91-36423b410ed6",
+    "rating": 2,
+    "text": "The InstaCash feature has helped me a lot in my hard times. But I needed to foreclose my loans and I don't see the option to foreclose anymore. Can you please help me locate it?",
+    "date": "2026-05-07T18:00:12",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "cdbfce18-125b-492b-afb3-22aff453c503",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-05-07T16:41:59",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "0ba1a855-51f1-495b-83dc-4834e3dc4168",
+    "rating": 5,
+    "text": "ok",
+    "date": "2026-05-07T15:38:55",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "466506dd-eb7e-4fce-a39a-6312b8816446",
+    "rating": 2,
+    "text": "Doesn't fetch epf details even after entering correct credentials.",
+    "date": "2026-05-07T14:48:22",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "2a40a09f-cc35-49cb-9192-ff319a0b134e",
+    "rating": 3,
+    "text": "The NASDAQ index disappeared all of a sudden from home page and not able to find it \ud83d\ude41.",
+    "date": "2026-05-07T14:31:34",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "3b0671d0-e6a6-4077-9a80-4c44c8c36b28",
+    "rating": 1,
+    "text": "very good \ud83d\udc4d",
+    "date": "2026-05-07T14:31:08",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.6",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "c27ecf2e-2461-4dca-aec3-3da7ddffc71f",
+    "rating": 4,
+    "text": "i like this app.",
+    "date": "2026-05-07T14:28:04",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.6",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "c2f89254-3b3c-4861-b640-754094d18efe",
+    "rating": 5,
+    "text": "very good",
+    "date": "2026-05-07T14:23:55",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "150f03f8-9c3f-4bd2-81f6-6060ca9226bb",
+    "rating": 4,
+    "text": "I had issue related to opening account and fund transfer. But, after multiple tickets and calls issues were resolved. Now I able to transact smoothly. If some improvement can be done in ticketing system and customer care. I think INDMONEY can be best in india for US investing",
+    "date": "2026-05-07T12:34:31",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.6",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "8b0e3e88-73d2-4365-b297-83acac189bda",
+    "rating": 5,
+    "text": "IND money is a good application for investing and trading because when you add the money to ind money wallet, no charges, is the best facilities. I like too much. I always invented on IND money",
+    "date": "2026-05-07T11:55:10",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.7",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "9e173428-c0ce-4feb-bbd8-6859cf943bc2",
+    "rating": 5,
+    "text": "Best app",
+    "date": "2026-05-07T10:22:30",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "20b1620c-214c-4934-9e8d-667bc469b4a1",
+    "rating": 2,
+    "text": "Hi Team, The new UI is not looking good at all. When I click the Mid Cap, Small Cap option under Top Gainers, the whole section disappears and only the Top Losers section is visible. Some stocks are showing multiple times also. Please fix. The price filters is no longer available to filter stocks based on price range.",
+    "date": "2026-05-07T05:48:03",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.6",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e06a342a-23d3-4027-9dac-e94328826862",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-05-07T04:12:09",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "48e93229-0a31-49cd-b9c7-e7fe3fa0ec69",
+    "rating": 1,
+    "text": "DO NOT USE! Entire US Portfolio WIPED OUT to ZERO! Absolutely terrible experience. I logged in today to find my entire US stock portfolio and my wallet balance completely empty. It is showing a zero balance! How can a financial app that holds people's hard-earned money just have everything disappear? There is zero communication, no immediate customer support, and no explanation for this technical disaster. It is incredibly stressful and panic-inducing to see your investments just vanish.",
+    "date": "2026-05-07T02:08:25",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "d4bf15d0-fc6e-4d52-8019-e2d6c3b71a6b",
+    "rating": 5,
+    "text": "excellent",
+    "date": "2026-05-06T23:50:29",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.6",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e4a8d232-ac3c-4844-ac29-e5c027294b3d",
+    "rating": 4,
+    "text": "This app is excellent. However, please optimize the app for the larger screen on the Samsung Fold 7. Currently, it's not really usable on that large inside display. It will be even better if it could be optimised for it",
+    "date": "2026-05-06T17:29:50",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.6",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b6c44d4e-db82-461e-ae81-ab1c94ead3fc",
+    "rating": 4,
+    "text": "nice",
+    "date": "2026-05-06T16:52:43",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "3574ebf4-c1a3-4503-a8a7-0522f133c84b",
+    "rating": 5,
+    "text": "bohot badiya app he",
+    "date": "2026-05-06T16:03:00",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.6",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b1feadb9-6139-4795-a7f2-60e428b6c8c9",
+    "rating": 5,
+    "text": "awesome performance",
+    "date": "2026-05-06T15:59:13",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "98c056db-f57f-4313-b317-24066fff5662",
+    "rating": 5,
+    "text": "good \ud83d\udc4d",
+    "date": "2026-05-06T13:54:11",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "8879d401-2f27-4469-9f79-61d906d0f780",
+    "rating": 4,
+    "text": "I have been using this app for the last 3 months or so and it is a very user-friendly and convenient app for both indian and international equity investing.good luck to the team,and well done.",
+    "date": "2026-05-06T13:40:31",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "bf0fa60c-16af-4e82-8851-69b4b6127815",
+    "rating": 5,
+    "text": "nice app,,",
+    "date": "2026-05-06T11:55:36",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.6",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e317b6e5-df99-460b-9981-9bf1757a92a3",
+    "rating": 5,
+    "text": "best application for stock market application",
+    "date": "2026-05-06T11:29:31",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "7c535257-2f18-44c1-8014-45e2c6394a40",
+    "rating": 4,
+    "text": "good explain",
+    "date": "2026-05-06T11:04:02",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "fbf28472-6deb-44c3-b1c8-2b57e9516e65",
+    "rating": 5,
+    "text": "good \ud83d\udc4d",
+    "date": "2026-05-06T04:00:43",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "3f7bd9e9-680a-47e8-b6ea-6a41dc29a918",
+    "rating": 4,
+    "text": "One day changes not showing. Requesting you to bring Indicators like Jenson's Alpha, Sortino Ratio etc. to evaluate the portfolio.",
+    "date": "2026-05-06T02:17:50",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.6",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "1861113c-49bf-4054-b423-4d5bfba513b1",
+    "rating": 3,
+    "text": "I feel the UI for the chart is not good as groww. need to improve chart UI taking last day Price as center line. without it confusing",
+    "date": "2026-05-05T17:22:19",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "f5992051-430c-4e53-bf0b-d9b1adba83dc",
+    "rating": 1,
+    "text": "no response on mail.. third class customer support... I stopped investing through indmoney due to bad support..",
+    "date": "2026-05-05T16:57:15",
+    "userName": "[REDACTED]",
+    "appVersion": "9.0.2",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "18bb0d32-2eea-4a4e-8d21-5b3608621b34",
+    "rating": 1,
+    "text": "very poor aap for US Stock so many hidden charges charged by app or a partner Bank in US Stock transaction I earn 2 dollar profit from us stock and current exchange rate is 96.5 ( bank ) but after clicking INR option profit amount show only 102 rupees. 91 rupees deducted as charges approx half amount of profit so, it is not useful for us stock please don't try it ...",
+    "date": "2026-05-05T16:43:56",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b7222127-aa4c-4a9f-a77b-fcfa773082ba",
+    "rating": 5,
+    "text": "Good lapp",
+    "date": "2026-05-05T13:20:12",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "2db30b4f-2304-4e4c-9e82-2b66ff1dcba2",
+    "rating": 1,
+    "text": "This is fraud app never use this they withdrawal rs from my account through upi I'd I contact their staff no response from their side this is fraud app",
+    "date": "2026-05-05T10:46:30",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e9a86cfa-7834-4c8f-beb0-fb9d9d4029e3",
+    "rating": 1,
+    "text": "worst app ever ..dont invest in this app..I lost my money and didn't even get a CUSTOMER SUPPORT..WORST APP EVER",
+    "date": "2026-05-05T10:39:56",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "17f1adf0-944c-4124-ad61-3b5f16c8103b",
+    "rating": 4,
+    "text": "Everything is good now. But I face a problem when I try to put a limit order. I can't put a limit order -buying or selling. The app behaves abnormally and order is not done",
+    "date": "2026-05-05T08:05:35",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "6e3d6539-93cf-4205-873a-c18b3b4c5777",
+    "rating": 2,
+    "text": "bank tracking has stopped working since 7th March, no option to refresh consent.",
+    "date": "2026-05-05T06:56:40",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "41ddc640-5ada-4527-84dd-3a9e49ea411f",
+    "rating": 4,
+    "text": "the app is great as trader/investor i have to place orders asap but the new UI of ur app is literally so confusing a investor just need a simple UI which can be easy and fast and u guys in current update make it more confusing specially in US market section so a humble request to get back the old version in it or make and make it simple in next update.",
+    "date": "2026-05-05T03:18:27",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "1c53a70c-bc7e-431c-a283-d520c75016b1",
+    "rating": 1,
+    "text": "Mostly paid reviews. Downloaded this app expecting to get stocks and demats from Kotak neo here and manage them at low prices and mutual funds through SOA option but it forces account creation so I contacted their support number but no response, call disconnects several times several days. Useless.",
+    "date": "2026-05-04T17:31:17",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "75e261a1-de83-4162-9e4a-f16e18a5a750",
+    "rating": 1,
+    "text": "Their service is so bad... idk why but recently I am getting too many problems from their side and customer support does nothing.",
+    "date": "2026-05-04T15:53:55",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "521134f5-9a9c-4cc6-bb24-c6b5f49bd47b",
+    "rating": 4,
+    "text": "Great app but the new design is not that great. Old design gave a lot more information just at a glance.",
+    "date": "2026-05-04T13:35:32",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "9d404bd6-bf4c-42e6-977c-6f74f072853e",
+    "rating": 4,
+    "text": "good customer support",
+    "date": "2026-05-04T09:16:39",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b5963777-3116-4231-9444-82bd1fee7d3e",
+    "rating": 1,
+    "text": "I am using this app for long time. The old version is better than the new version because in the old version they shown each and every details clearly i.e.STT charges, transaction history but In the the new version they only show transactions made and not the the charges after 30 days and charges especially STT(mandatory) was not shown even in contract Note. As a user I liked the old version. If you don't take action and I think I have to transfer all my investments to another brokerage app.",
+    "date": "2026-05-03T17:03:46",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "174c1e4f-b4db-435a-a777-7459841a6ddc",
+    "rating": 5,
+    "text": "good app to ind money tq",
+    "date": "2026-05-03T16:36:06",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.7",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "af3c8af4-1c71-45e0-9874-9bde71cb09c6",
+    "rating": 1,
+    "text": "Don't make a mistake of opening an account with this platform. They very conveniently ipened account with SBM bank of Mauritius and now they say they are not associated with SBM bank. But joke is they still show money from SBM bank. Tou cannot close SBM bank account which INDmoney has opened on you behalf. Stay away, stay safe",
+    "date": "2026-05-03T16:03:53",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "5994246d-67aa-43ac-8a3e-434f537ddc53",
+    "rating": 5,
+    "text": "when i am clicking on the activate us account, it is not progressing further. Edit: Issue has been resolved now \ud83d\ude42",
+    "date": "2026-05-03T15:09:00",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "6e40c8a0-801f-43e2-b49c-1079d4187230",
+    "rating": 4,
+    "text": "avarege experience with IND MONEY.",
+    "date": "2026-05-03T15:02:11",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "77abf899-3e42-4eb1-928f-8d3689567342",
+    "rating": 1,
+    "text": "I will give 1 star because this app very first time give more cashback but now cashback rate is very low. Give atleast 1 rupees cashback for a day.",
+    "date": "2026-05-03T14:32:30",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "f2445668-842b-4305-aeed-98c89847a71c",
+    "rating": 5,
+    "text": "App is working fine nice app with cool features and graphics",
+    "date": "2026-05-02T11:50:38",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "9cb5e390-b007-4502-917b-e15a48f864d6",
+    "rating": 3,
+    "text": "I used to like this app but it has removed the features of tracking goals which made it different from other apps and provided sense of accomplishment. so it's just like other app nothing different.",
+    "date": "2026-05-02T05:44:46",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "2727e852-aa7e-45bd-ba01-074bba19dbee",
+    "rating": 2,
+    "text": "My upi scanner is not able to scan. I've been trying for 3 days now still no result. Please fix this..",
+    "date": "2026-05-01T20:19:22",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "a8aa9183-c788-48fc-9fd3-8a484b1cc778",
+    "rating": 2,
+    "text": "stocks tracking with another broker is not working",
+    "date": "2026-05-01T18:44:35",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "7e5c0ee6-068e-4961-92a0-d46da07ae74b",
+    "rating": 5,
+    "text": "very good\ud83d\udc4c",
+    "date": "2026-05-01T17:02:46",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "97176c9d-bed9-4272-ab8c-1097762e79cf",
+    "rating": 5,
+    "text": "good stocks marking",
+    "date": "2026-05-01T16:55:58",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "5903a8b1-5580-4511-abee-588b7eaf3c82",
+    "rating": 5,
+    "text": "this app is very safe and secure. we can easily trust and. invest money in this app .l loved it .",
+    "date": "2026-05-01T14:35:14",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "fc7fb171-6675-4a03-a614-42640aa77faa",
+    "rating": 1,
+    "text": "I am getting charged 29 $ per transaction. You are looting me.",
+    "date": "2026-05-01T14:29:05",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "cf41f7b2-8cd8-414a-932d-88e8f7d8ebc5",
+    "rating": 1,
+    "text": "Candle start forming at 9:00 am. After refreshing the chart candle continue to form. This glitch continue till 9:20 am. Wrong Candle is formed till 9:20 am. After multiple refresh Candle continue to form wrong way. This glitch happens on the PC.",
+    "date": "2026-05-01T14:18:12",
+    "userName": "[REDACTED]",
+    "appVersion": "9.2.9",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "61572d99-39c9-4307-b4b8-40943181de46",
+    "rating": 1,
+    "text": "Showing error in nominee selfie Pic. Incomplete the process because of that.",
+    "date": "2026-05-01T06:33:50",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b69ed2b7-994f-4951-8764-163b92c01e37",
+    "rating": 2,
+    "text": "upi lite is must for upi adoption",
+    "date": "2026-04-30T17:36:25",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "5a0ee300-9252-44cb-a81b-38ce242fdd93",
+    "rating": 5,
+    "text": "Nice app experience",
+    "date": "2026-04-30T14:36:14",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "dc66c584-0f4f-4772-a50b-81a0ab938e43",
+    "rating": 1,
+    "text": "Earlier the app used to be nice and responsive while trading in options. Now app is full of glitches and not showing premium properly. even stop loss and TP is not triggered. Very poor update from the team.",
+    "date": "2026-04-30T05:33:51",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "8b5bd967-4365-4815-84b0-082caa0249ac",
+    "rating": 5,
+    "text": "nice",
+    "date": "2026-04-30T01:06:18",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "a942da1a-0418-45ba-87a3-0c9f62535bd7",
+    "rating": 1,
+    "text": "one of the worst apps I ever used",
+    "date": "2026-04-29T15:10:47",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "d69ee925-4306-4f16-a16a-d52cbb8af195",
+    "rating": 4,
+    "text": "good",
+    "date": "2026-04-29T13:40:15",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.7",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "7d3122fb-79c3-48bd-aec4-8227ca2e6aa7",
+    "rating": 1,
+    "text": "bekar ghatiya app isme transitions karne ke liye bad me charge leta hei",
+    "date": "2026-04-29T11:10:56",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "3ae631ce-afa1-437e-936f-597ab25f3000",
+    "rating": 1,
+    "text": "fake offer don't given cashback",
+    "date": "2026-04-29T11:03:28",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "cc3805a5-1041-4bc5-a854-22011148f52a",
+    "rating": 1,
+    "text": "not ever use this app it so cheap app always server down",
+    "date": "2026-04-29T10:25:11",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "82eccd14-9500-4e49-bdf9-04ff1a7e802c",
+    "rating": 1,
+    "text": "Serious Concern Regarding Incorrect Auto-Linked Bank Account I recently noticed that my INDmoney account is showing a bank account number and IFSC code that are completely unknown to me. I have never added, authorized, or linked this account at any point. This appears to have been auto-linked by the system, which raises serious concerns about account security, data accuracy, and fund safety. I hope the support team resolves this matter urgently and transparently.",
+    "date": "2026-04-29T10:00:03",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "6e515868-55de-42ff-b778-541c045bedcf",
+    "rating": 4,
+    "text": "Recently with the last update I can't see goals section in the app? is it removed? --------------------------------- update: shared the details on mentioned email id.",
+    "date": "2026-04-29T06:40:43",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b4ee2736-725f-48cd-97f1-10e27b57d80e",
+    "rating": 5,
+    "text": "great App's excellent work",
+    "date": "2026-04-28T19:54:47",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "6643010c-5e28-4d80-8c92-39dad09ea95e",
+    "rating": 4,
+    "text": "Everything in the app is pretty good and smooth in terms of performance, but the recent UI update is not very appealing. The previous UI felt better and more intuitive. Earlier, it was easier to view the portfolio in formats like K, L, and Cr, which made it more user-friendly. Also, the goal-based investment view was clearer and more accessible before.",
+    "date": "2026-04-28T17:12:19",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "935ed743-bc96-4331-99be-c7658d122f04",
+    "rating": 5,
+    "text": "Best app for investment of indian stocks, ETF'S, Mutual funds and Top US stocks, ETF'S.",
+    "date": "2026-04-28T16:53:47",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e89e0b26-99e7-467f-9104-ce8c92ff2eb8",
+    "rating": 2,
+    "text": "I would give this a 2 star ,cuz I downloaded the app today itself, went to do the KYC completed the entire process,still it showed an error!",
+    "date": "2026-04-28T12:49:13",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "42dd7e67-cd9d-4a74-9cf4-4dcabdf44ed5",
+    "rating": 1,
+    "text": "service is not good",
+    "date": "2026-04-28T07:46:12",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e6fcfc0f-cf9d-40f1-a835-6f8b1b41c719",
+    "rating": 1,
+    "text": "They have almost non existent human customer care support. All they have is AI chatbot which is good for nothing and keeps you repeating same thing till you get exhausted..",
+    "date": "2026-04-28T04:39:36",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "354e2006-9319-4eb6-be60-0bdbefd52639",
+    "rating": 1,
+    "text": "These guys are not bothered about their customers. Don't recommend this app to anyone",
+    "date": "2026-04-28T04:11:49",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "baae2a6b-120a-4f32-a548-ce005e968bf2",
+    "rating": 2,
+    "text": "ftwo issues with indmoney, late order execution, no premarket order execution, the worst part is deletion of stocks in watchlist (4steps required to delete each stock in watchlist), no tagging available",
+    "date": "2026-04-28T03:57:17",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "31eca1e8-82bb-48b1-a656-6c524511959d",
+    "rating": 1,
+    "text": "new Dashboard cheap and not helpful",
+    "date": "2026-04-27T20:50:54",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "addbcc5d-8bfd-4cac-bc12-97d9fa4106c1",
+    "rating": 1,
+    "text": "please add refer and earn upi payment",
+    "date": "2026-04-27T17:14:52",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "fd018fbb-f1d6-4d13-9d0b-f51d68c29b9e",
+    "rating": 2,
+    "text": "Smooth and fast UI. One suggestion: Can't see XIRR against mutual funds, it only shows the total returns. I can see XIRR against mutual funds but not against the US STOCKS. Kindly add the xirr details against US STOCKS.",
+    "date": "2026-04-27T15:20:30",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "333f0d0a-33b1-41a0-bba1-623edfa7886d",
+    "rating": 4,
+    "text": "Great app, please add live P&L home screen widget like Groww",
+    "date": "2026-04-27T14:40:10",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "19fb0ace-ca41-443f-a7e6-7b444731b084",
+    "rating": 1,
+    "text": "rupees 10 brokerage? my foot. traders beware this app scams you to trade more with this lie. because in reality it is far from the truth. every trade charges you 20 per order. that means Rs40 per executed trade. doesn't seem like much but compund that on top of garbage govt taxes. that's a lot of taxes and brokerage charged for per trade. and the brokerage fee increases as you trade more.",
+    "date": "2026-04-27T06:09:00",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "4167a947-90fd-4e5f-9949-6475de93a7d2",
+    "rating": 5,
+    "text": "good app for investing",
+    "date": "2026-04-27T02:42:50",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "7ce9ef24-863a-4277-8c39-7b09b520efe3",
+    "rating": 4,
+    "text": "Add option to login from email / PAN",
+    "date": "2026-04-26T15:01:33",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "61782b67-0975-48bc-81f9-175031921000",
+    "rating": 5,
+    "text": "Edit - These guys are awesome! I got a call from INDMoney and my issue was resolved the same day within a few hours! This is great! Old Issue (now resolved) - The goals are completely removed from the apl without informing! I have lost all my different allocations in different goals! Very very bad experience!",
+    "date": "2026-04-26T10:46:03",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "f5445fe3-6557-429a-bd3d-b47af646e667",
+    "rating": 5,
+    "text": "to know about the Cash condition.",
+    "date": "2026-04-26T10:41:41",
+    "userName": "[REDACTED]",
+    "appVersion": "9.3.7",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "3cf99b88-5599-40c7-85c1-18d5a379f562",
+    "rating": 1,
+    "text": "poor",
+    "date": "2026-04-25T15:14:49",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "5acf0aa8-3cc2-4dc9-9854-eda44ba13233",
+    "rating": 5,
+    "text": "best",
+    "date": "2026-04-25T09:30:14",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "717a5a38-c202-4891-b14a-eeba4f1de19c",
+    "rating": 1,
+    "text": "Worst experience. Very high transaction fees. Uninstalling right now.",
+    "date": "2026-04-25T06:55:35",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "ceae5c71-9ba8-430a-a310-1700a7b7cd40",
+    "rating": 1,
+    "text": "if you are using this to trade us stocks please don't. very bad ticket resolution times. i transferred money from etrade to ind money but gets stuck for 3-4 weeks without any proper resolution.",
+    "date": "2026-04-25T02:11:59",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "a7204c54-a86a-4a7a-af74-37d5ded1252c",
+    "rating": 2,
+    "text": "some bugs are showing in the app. in the Bank account every transaction shows double double and also counting the double entry.",
+    "date": "2026-04-24T18:06:12",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "12e19dc3-2118-48aa-b47b-54e90395d132",
+    "rating": 5,
+    "text": "good experience",
+    "date": "2026-04-24T17:52:48",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "f0853361-c02d-48f6-a379-f7c3aff39dd6",
+    "rating": 4,
+    "text": "why auto pay is not working",
+    "date": "2026-04-24T16:53:30",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "251340f7-252b-49d1-be96-83d2fb007414",
+    "rating": 1,
+    "text": "Interface is complex and not good. you cannot increase font size. Even if you increase phone font or zoom setting, it will not reflect here. Even after complaining, it is not implemented.",
+    "date": "2026-04-24T16:34:20",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "1476b187-5f37-4307-8e32-eceb89403104",
+    "rating": 5,
+    "text": "super app",
+    "date": "2026-04-24T13:41:05",
+    "userName": "[REDACTED]",
+    "appVersion": "9.4.4",
+    "appId": "in.indwealth"
+  }
+]
