@@ -1,94 +1,94 @@
 {
-  "generated_at": "2026-05-16T06:40:08Z",
-  "reviews_source": "/home/runner/work/investor-ops-intelligence-suite/investor-ops-intelligence-suite/data/reviews/2026-05-16.json",
+  "generated_at": "2026-05-23T07:16:00Z",
+  "reviews_source": "/home/runner/work/investor-ops-intelligence-suite/investor-ops-intelligence-suite/data/reviews/2026-05-23.json",
   "raw_reviews_processed": 100,
   "top_themes": [
     {
-      "theme": "Feature Requests",
-      "confidence": 0.8,
-      "mention_count": 12,
-      "sentiment_score": 0.029
+      "theme": "Support & Service",
+      "confidence": 0.79,
+      "mention_count": 9,
+      "sentiment_score": 0.249
     },
     {
-      "theme": "Support & Service",
-      "confidence": 0.74,
+      "theme": "Feature Requests",
+      "confidence": 0.77,
       "mention_count": 8,
-      "sentiment_score": -0.254
+      "sentiment_score": -0.22
     },
     {
       "theme": "Performance & Stability",
-      "confidence": 0.65,
+      "confidence": 0.67,
       "mention_count": 3,
-      "sentiment_score": 0.323
+      "sentiment_score": -0.833
     }
   ],
-  "sentiment_score": 0.033,
+  "sentiment_score": -0.268,
   "action_ideas": [
-    "Review top requested UX features and schedule at least one quick-win release.",
     "Strengthen support workflow with faster first-response SLA and clearer escalation.",
+    "Review top requested UX features and schedule at least one quick-win release.",
     "Ship performance hotfixes and monitor crash/latency regressions daily."
   ],
   "word_count": 59,
-  "summary": "This week\u2019s customer pulse highlights Feature Requests (12 mentions), Support & Service (8 mentions), Performance & Stability (3 mentions). Overall sentiment score is 0.033. Recommended actions: 1) Review top requested UX features and schedule at least one quick-win release. 2) Strengthen support workflow with faster first-response SLA and clearer escalation. 3) Ship performance hotfixes and monitor crash/latency regressions daily.",
+  "summary": "This week\u2019s customer pulse highlights Support & Service (9 mentions), Feature Requests (8 mentions), Performance & Stability (3 mentions). Overall sentiment score is -0.268. Recommended actions: 1) Strengthen support workflow with faster first-response SLA and clearer escalation. 2) Review top requested UX features and schedule at least one quick-win release. 3) Ship performance hotfixes and monitor crash/latency regressions daily.",
   "analytics": {
     "theme_distribution": [
       {
-        "theme": "Feature Requests",
-        "count": 12,
-        "percentage": 52.17
+        "theme": "Support & Service",
+        "count": 9,
+        "percentage": 45.0
       },
       {
-        "theme": "Support & Service",
+        "theme": "Feature Requests",
         "count": 8,
-        "percentage": 34.78
+        "percentage": 40.0
       },
       {
         "theme": "Performance & Stability",
         "count": 3,
-        "percentage": 13.04
+        "percentage": 15.0
       }
     ],
     "sentiment_trends": [
       {
-        "date": "2026-05-08",
-        "score": 0.45
-      },
-      {
-        "date": "2026-05-09",
-        "score": 0.26
-      },
-      {
-        "date": "2026-05-10",
-        "score": 0.0
-      },
-      {
-        "date": "2026-05-11",
-        "score": 0.373
-      },
-      {
-        "date": "2026-05-12",
-        "score": 0.202
-      },
-      {
-        "date": "2026-05-13",
-        "score": 0.447
-      },
-      {
-        "date": "2026-05-14",
-        "score": 0.515
-      },
-      {
         "date": "2026-05-15",
-        "score": 0.353
+        "score": 0.231
+      },
+      {
+        "date": "2026-05-16",
+        "score": 0.712
+      },
+      {
+        "date": "2026-05-17",
+        "score": 0.474
+      },
+      {
+        "date": "2026-05-18",
+        "score": 0.554
+      },
+      {
+        "date": "2026-05-19",
+        "score": 0.562
+      },
+      {
+        "date": "2026-05-20",
+        "score": 0.549
+      },
+      {
+        "date": "2026-05-21",
+        "score": 0.592
+      },
+      {
+        "date": "2026-05-22",
+        "score": 0.513
       }
     ],
     "mention_volume": [
       {
-        "theme": "Feature Requests",
-        "count": 12
+        "theme": "Support & Service",
+        "count": 9
       },
       {
-        "theme": "Support & Service",
+        "theme": "Feature Requests",
         "count": 8
       },
       {
@@ -99,83 +99,83 @@
     "keywords": [
       {
         "word": "good",
-        "frequency": 26
-      },
-      {
-        "word": "very",
-        "frequency": 14
+        "frequency": 28
       },
       {
         "word": "not",
-        "frequency": 11
+        "frequency": 14
       },
       {
-        "word": "nice",
-        "frequency": 9
+        "word": "stock",
+        "frequency": 13
+      },
+      {
+        "word": "very",
+        "frequency": 13
+      },
+      {
+        "word": "but",
+        "frequency": 10
+      },
+      {
+        "word": "from",
+        "frequency": 10
       },
       {
         "word": "account",
         "frequency": 9
       },
       {
-        "word": "are",
-        "frequency": 8
-      },
-      {
-        "word": "best",
-        "frequency": 8
-      },
-      {
         "word": "please",
+        "frequency": 8
+      },
+      {
+        "word": "stocks",
         "frequency": 7
       },
       {
-        "word": "hai",
+        "word": "may",
         "frequency": 7
       },
       {
-        "word": "experience",
+        "word": "excellent",
         "frequency": 7
       },
       {
-        "word": "but",
-        "frequency": 7
+        "word": "time",
+        "frequency": 6
       },
       {
-        "word": "like",
-        "frequency": 7
+        "word": "are",
+        "frequency": 6
       },
       {
         "word": "money",
         "frequency": 6
       },
       {
-        "word": "only",
+        "word": "issue",
         "frequency": 6
       },
       {
-        "word": "update",
+        "word": "was",
         "frequency": 6
       },
       {
-        "word": "added",
+        "word": "nice",
         "frequency": 6
       },
       {
-        "word": "stocks",
+        "word": "like",
         "frequency": 6
       },
       {
-        "word": "support",
+        "word": "don",
         "frequency": 6
       },
       {
-        "word": "trading",
-        "frequency": 5
-      },
-      {
-        "word": "use",
-        "frequency": 5
+        "word": "user",
+        "frequency": 6
       }
     ]
   }
