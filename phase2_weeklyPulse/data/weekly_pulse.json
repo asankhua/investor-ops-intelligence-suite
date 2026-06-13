@@ -1,91 +1,91 @@
 {
-  "generated_at": "2026-06-06T07:33:01Z",
-  "reviews_source": "/home/runner/work/investor-ops-intelligence-suite/investor-ops-intelligence-suite/data/reviews/2026-06-06.json",
+  "generated_at": "2026-06-13T08:01:54Z",
+  "reviews_source": "/home/runner/work/investor-ops-intelligence-suite/investor-ops-intelligence-suite/data/reviews/2026-06-13.json",
   "raw_reviews_processed": 100,
   "top_themes": [
     {
       "theme": "Feature Requests",
-      "confidence": 0.76,
-      "mention_count": 10,
-      "sentiment_score": 0.05
+      "confidence": 0.78,
+      "mention_count": 11,
+      "sentiment_score": 0.19
     },
     {
       "theme": "Performance & Stability",
-      "confidence": 0.75,
-      "mention_count": 9,
-      "sentiment_score": 0.33
+      "confidence": 0.72,
+      "mention_count": 7,
+      "sentiment_score": 0.286
     },
     {
       "theme": "Support & Service",
       "confidence": 0.72,
       "mention_count": 7,
-      "sentiment_score": 0.0
+      "sentiment_score": 0.281
     }
   ],
-  "sentiment_score": 0.127,
+  "sentiment_score": 0.252,
   "action_ideas": [
     "Review top requested UX features and schedule at least one quick-win release.",
     "Ship performance hotfixes and monitor crash/latency regressions daily.",
     "Strengthen support workflow with faster first-response SLA and clearer escalation."
   ],
   "word_count": 59,
-  "summary": "This week\u2019s customer pulse highlights Feature Requests (10 mentions), Performance & Stability (9 mentions), Support & Service (7 mentions). Overall sentiment score is 0.127. Recommended actions: 1) Review top requested UX features and schedule at least one quick-win release. 2) Ship performance hotfixes and monitor crash/latency regressions daily. 3) Strengthen support workflow with faster first-response SLA and clearer escalation.",
+  "summary": "This week\u2019s customer pulse highlights Feature Requests (11 mentions), Performance & Stability (7 mentions), Support & Service (7 mentions). Overall sentiment score is 0.252. Recommended actions: 1) Review top requested UX features and schedule at least one quick-win release. 2) Ship performance hotfixes and monitor crash/latency regressions daily. 3) Strengthen support workflow with faster first-response SLA and clearer escalation.",
   "analytics": {
     "theme_distribution": [
       {
         "theme": "Feature Requests",
-        "count": 10,
-        "percentage": 38.46
+        "count": 11,
+        "percentage": 44.0
       },
       {
         "theme": "Performance & Stability",
-        "count": 9,
-        "percentage": 34.62
+        "count": 7,
+        "percentage": 28.0
       },
       {
         "theme": "Support & Service",
         "count": 7,
-        "percentage": 26.92
+        "percentage": 28.0
       }
     ],
     "sentiment_trends": [
       {
-        "date": "2026-05-30",
-        "score": -0.19
+        "date": "2026-06-06",
+        "score": 0.9
       },
       {
-        "date": "2026-05-31",
-        "score": 0.749
+        "date": "2026-06-07",
+        "score": 0.328
       },
       {
-        "date": "2026-06-01",
-        "score": 0.464
+        "date": "2026-06-08",
+        "score": 0.206
       },
       {
-        "date": "2026-06-02",
-        "score": 0.132
+        "date": "2026-06-09",
+        "score": 0.583
       },
       {
-        "date": "2026-06-03",
-        "score": 0.329
+        "date": "2026-06-10",
+        "score": 0.646
       },
       {
-        "date": "2026-06-04",
-        "score": 0.307
+        "date": "2026-06-11",
+        "score": 0.634
       },
       {
-        "date": "2026-06-05",
-        "score": 0.35
+        "date": "2026-06-12",
+        "score": -0.333
       }
     ],
     "mention_volume": [
       {
         "theme": "Feature Requests",
-        "count": 10
+        "count": 11
       },
       {
         "theme": "Performance & Stability",
-        "count": 9
+        "count": 7
       },
       {
         "theme": "Support & Service",
@@ -95,83 +95,83 @@
     "keywords": [
       {
         "word": "good",
-        "frequency": 36
+        "frequency": 28
       },
       {
         "word": "not",
-        "frequency": 16
+        "frequency": 14
       },
       {
-        "word": "are",
+        "word": "account",
+        "frequency": 14
+      },
+      {
+        "word": "very",
+        "frequency": 13
+      },
+      {
+        "word": "bank",
         "frequency": 12
+      },
+      {
+        "word": "stop",
+        "frequency": 12
+      },
+      {
+        "word": "stocks",
+        "frequency": 11
+      },
+      {
+        "word": "stock",
+        "frequency": 11
+      },
+      {
+        "word": "much",
+        "frequency": 11
+      },
+      {
+        "word": "entry",
+        "frequency": 11
+      },
+      {
+        "word": "use",
+        "frequency": 10
       },
       {
         "word": "but",
         "frequency": 10
       },
       {
-        "word": "use",
+        "word": "nice",
+        "frequency": 10
+      },
+      {
+        "word": "application",
         "frequency": 9
       },
       {
-        "word": "much",
-        "frequency": 9
-      },
-      {
-        "word": "hai",
-        "frequency": 9
-      },
-      {
-        "word": "your",
+        "word": "open",
         "frequency": 8
-      },
-      {
-        "word": "stop",
-        "frequency": 8
-      },
-      {
-        "word": "very",
-        "frequency": 8
-      },
-      {
-        "word": "can",
-        "frequency": 7
-      },
-      {
-        "word": "available",
-        "frequency": 7
       },
       {
         "word": "don",
         "frequency": 7
       },
       {
-        "word": "bank",
+        "word": "after",
         "frequency": 7
       },
       {
-        "word": "download",
+        "word": "investing",
         "frequency": 7
       },
       {
-        "word": "syncing",
+        "word": "can",
         "frequency": 7
       },
       {
-        "word": "time",
+        "word": "faster",
         "frequency": 7
-      },
-      {
-        "word": "entry",
-        "frequency": 7
-      },
-      {
-        "word": "was",
-        "frequency": 6
-      },
-      {
-        "word": "now",
-        "frequency": 6
       }
     ]
   }
