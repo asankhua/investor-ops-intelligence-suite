@@ -1,8 +1,8 @@
 {
-  "last_run_at": "2026-06-13T08:01:54Z",
+  "last_run_at": "2026-06-20T08:02:38Z",
   "last_status": "success",
   "last_error": null,
-  "last_reviews_source": "/home/runner/work/investor-ops-intelligence-suite/investor-ops-intelligence-suite/data/reviews/2026-06-13.json",
+  "last_reviews_source": "/home/runner/work/investor-ops-intelligence-suite/investor-ops-intelligence-suite/data/reviews/2026-06-20.json",
   "last_reviews_processed": 100,
-  "updated_at": "2026-06-13T08:01:54Z"
+  "updated_at": "2026-06-20T08:02:38Z"
 }
