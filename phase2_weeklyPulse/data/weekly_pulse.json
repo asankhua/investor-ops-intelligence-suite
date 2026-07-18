@@ -1,112 +1,120 @@
 {
-  "generated_at": "2026-07-11T06:36:30Z",
-  "reviews_source": "/home/runner/work/investor-ops-intelligence-suite/investor-ops-intelligence-suite/data/reviews/2026-07-11.json",
+  "generated_at": "2026-07-18T06:28:41Z",
+  "reviews_source": "/home/runner/work/investor-ops-intelligence-suite/investor-ops-intelligence-suite/data/reviews/2026-07-18.json",
   "raw_reviews_processed": 100,
   "top_themes": [
     {
-      "theme": "Feature Requests",
-      "confidence": 0.81,
-      "mention_count": 23,
-      "sentiment_score": 0.162
+      "theme": "Support & Service",
+      "confidence": 0.74,
+      "mention_count": 16,
+      "sentiment_score": 0.186
     },
     {
-      "theme": "Support & Service",
-      "confidence": 0.71,
-      "mention_count": 11,
-      "sentiment_score": -0.307
+      "theme": "Feature Requests",
+      "confidence": 0.74,
+      "mention_count": 16,
+      "sentiment_score": 0.459
     },
     {
       "theme": "Performance & Stability",
-      "confidence": 0.7,
-      "mention_count": 10,
-      "sentiment_score": 0.95
+      "confidence": 0.73,
+      "mention_count": 15,
+      "sentiment_score": 0.523
     }
   ],
-  "sentiment_score": 0.268,
+  "sentiment_score": 0.389,
   "action_ideas": [
-    "Review top requested UX features and schedule at least one quick-win release.",
     "Strengthen support workflow with faster first-response SLA and clearer escalation.",
+    "Review top requested UX features and schedule at least one quick-win release.",
     "Ship performance hotfixes and monitor crash/latency regressions daily."
   ],
   "word_count": 59,
-  "summary": "This week\u2019s customer pulse highlights Feature Requests (23 mentions), Support & Service (11 mentions), Performance & Stability (10 mentions). Overall sentiment score is 0.268. Recommended actions: 1) Review top requested UX features and schedule at least one quick-win release. 2) Strengthen support workflow with faster first-response SLA and clearer escalation. 3) Ship performance hotfixes and monitor crash/latency regressions daily.",
+  "summary": "This week\u2019s customer pulse highlights Support & Service (16 mentions), Feature Requests (16 mentions), Performance & Stability (15 mentions). Overall sentiment score is 0.389. Recommended actions: 1) Strengthen support workflow with faster first-response SLA and clearer escalation. 2) Review top requested UX features and schedule at least one quick-win release. 3) Ship performance hotfixes and monitor crash/latency regressions daily.",
   "analytics": {
     "theme_distribution": [
       {
-        "theme": "Feature Requests",
-        "count": 23,
-        "percentage": 52.27
+        "theme": "Support & Service",
+        "count": 16,
+        "percentage": 34.04
       },
       {
-        "theme": "Support & Service",
-        "count": 11,
-        "percentage": 25.0
+        "theme": "Feature Requests",
+        "count": 16,
+        "percentage": 34.04
       },
       {
         "theme": "Performance & Stability",
-        "count": 10,
-        "percentage": 22.73
+        "count": 15,
+        "percentage": 31.91
       }
     ],
     "sentiment_trends": [
       {
-        "date": "2026-07-05",
-        "score": 0.5
+        "date": "2026-07-11",
+        "score": 1.0
       },
       {
-        "date": "2026-07-06",
-        "score": 0.287
+        "date": "2026-07-12",
+        "score": 0.624
       },
       {
-        "date": "2026-07-07",
-        "score": 0.38
+        "date": "2026-07-13",
+        "score": 0.539
       },
       {
-        "date": "2026-07-08",
-        "score": 0.255
+        "date": "2026-07-14",
+        "score": 0.265
       },
       {
-        "date": "2026-07-09",
-        "score": 0.213
+        "date": "2026-07-15",
+        "score": 0.63
       },
       {
-        "date": "2026-07-10",
-        "score": 0.724
+        "date": "2026-07-16",
+        "score": 0.257
+      },
+      {
+        "date": "2026-07-17",
+        "score": 0.405
       }
     ],
     "mention_volume": [
       {
-        "theme": "Feature Requests",
-        "count": 23
+        "theme": "Support & Service",
+        "count": 16
       },
       {
-        "theme": "Support & Service",
-        "count": 11
+        "theme": "Feature Requests",
+        "count": 16
       },
       {
         "theme": "Performance & Stability",
-        "count": 10
+        "count": 15
       }
     ],
     "keywords": [
       {
         "word": "good",
-        "frequency": 29
-      },
-      {
-        "word": "not",
-        "frequency": 18
-      },
-      {
-        "word": "much",
-        "frequency": 18
+        "frequency": 25
       },
       {
         "word": "entry",
-        "frequency": 18
+        "frequency": 22
       },
       {
-        "word": "was",
+        "word": "syncing",
+        "frequency": 21
+      },
+      {
+        "word": "faster",
+        "frequency": 17
+      },
+      {
+        "word": "much",
+        "frequency": 17
+      },
+      {
+        "word": "seconds",
         "frequency": 16
       },
       {
@@ -114,60 +122,56 @@
         "frequency": 16
       },
       {
-        "word": "use",
+        "word": "but",
         "frequency": 15
       },
       {
-        "word": "but",
-        "frequency": 14
-      },
-      {
-        "word": "syncing",
-        "frequency": 13
-      },
-      {
-        "word": "money",
-        "frequency": 12
+        "word": "not",
+        "frequency": 15
       },
       {
         "word": "now",
-        "frequency": 12
+        "frequency": 14
+      },
+      {
+        "word": "time",
+        "frequency": 14
+      },
+      {
+        "word": "use",
+        "frequency": 14
+      },
+      {
+        "word": "added",
+        "frequency": 13
       },
       {
         "word": "very",
-        "frequency": 11
+        "frequency": 12
       },
       {
-        "word": "seconds",
-        "frequency": 11
+        "word": "love",
+        "frequency": 12
       },
       {
-        "word": "when",
-        "frequency": 11
+        "word": "download",
+        "frequency": 12
       },
       {
-        "word": "faster",
-        "frequency": 10
+        "word": "every",
+        "frequency": 11
       },
       {
         "word": "are",
         "frequency": 10
       },
       {
-        "word": "download",
-        "frequency": 9
+        "word": "more",
+        "frequency": 10
       },
       {
-        "word": "every",
-        "frequency": 9
-      },
-      {
-        "word": "option",
-        "frequency": 9
-      },
-      {
-        "word": "excellent",
-        "frequency": 9
+        "word": "was",
+        "frequency": 10
       }
     ]
   }
