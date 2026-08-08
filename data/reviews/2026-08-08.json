@@ -1,0 +1,902 @@
+[
+  {
+    "reviewId": "2e0ef207-aa29-443e-8464-6bb32649a3cb",
+    "rating": 5,
+    "text": "excellent",
+    "date": "2026-08-07T04:54:42",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.2",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "2c4da5e5-12e5-4d52-a62e-8df9d8047601",
+    "rating": 5,
+    "text": "good app",
+    "date": "2026-08-07T04:35:08",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "96939c02-e370-4ca6-abde-918b24157703",
+    "rating": 5,
+    "text": "ecxelent",
+    "date": "2026-08-07T03:57:13",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "2bcbcd48-248b-4ce3-9b2c-a7c3007404dd",
+    "rating": 5,
+    "text": "A great app for investors",
+    "date": "2026-08-07T01:17:05",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "aac7a0f7-3ba9-476e-ada8-4f2a43bca7a5",
+    "rating": 5,
+    "text": "good \ud83d\udc4d",
+    "date": "2026-08-06T18:06:25",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.2",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "d76fd4f8-1bfc-4367-85d1-c74aad9392fa",
+    "rating": 5,
+    "text": "\ud83d\ude0a\ud83d\udc4d",
+    "date": "2026-08-06T17:27:33",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "314fae56-16af-4741-ad07-af22017cb757",
+    "rating": 1,
+    "text": "Asi App ka kya fayda jab Bitcoin Etf mei invest he nahi kar sakte , Bhen cho logo ko invest bhi nahi karne dete apni marzi se kaisi government hai yar ye are Indian stocks mei tu invest ke liye kitne apps hai koi ginti nahi hai , stock market ko bhi in logo ne.... @INDmoneyApp",
+    "date": "2026-08-06T16:25:08",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "9486d321-8c2a-4700-baf6-0dc5f87cc72a",
+    "rating": 5,
+    "text": "Excellent",
+    "date": "2026-08-06T15:50:57",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "eeb3dd1e-5be5-4334-b3c1-0211e272ba79",
+    "rating": 2,
+    "text": "please add double chart in trading",
+    "date": "2026-08-06T15:45:06",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.2",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "53ab4e10-09c2-43a3-a1dd-acc4ba4e259a",
+    "rating": 5,
+    "text": "very easy and smooth , best experience even for a novice.",
+    "date": "2026-08-06T15:44:30",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.2",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "2b3086c6-b253-4d5e-b5fb-2d04f6604873",
+    "rating": 5,
+    "text": "Good App.",
+    "date": "2026-08-06T15:09:19",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b841df46-3df4-4bb6-8edc-21c4cee46a1c",
+    "rating": 1,
+    "text": "confusing.ihave uninstalled it. thankyou indmoney for all the confusion",
+    "date": "2026-08-06T15:00:57",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "add54cfc-12bb-404f-9c87-27651461f6ca",
+    "rating": 5,
+    "text": "very good \ud83d\udc4d",
+    "date": "2026-08-06T13:45:18",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "9c39adf9-404f-4079-ba43-2a3949c248b9",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-08-06T12:51:51",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "55642ea7-9404-44c6-ad60-a682697e990c",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-08-06T12:32:42",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "38660477-b4b4-4398-a180-283fa2f570be",
+    "rating": 4,
+    "text": "plz add sbi bank account for us Market, everyone waiting for that ,thank you, nice application , plz add stoploss option in premarket trading aslo , it very helpful to new & many people, so as soon as possible add it ,thank you",
+    "date": "2026-08-06T09:41:55",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "131e02cc-618b-4d27-83b8-d7cda64b1c4c",
+    "rating": 3,
+    "text": "nice \ud83d\udc4d\ud83d\ude42",
+    "date": "2026-08-06T09:06:23",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.2",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "63b5f8bf-3221-4348-8ab5-7c842e7dd319",
+    "rating": 3,
+    "text": "superb",
+    "date": "2026-08-06T07:23:41",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b8b7a9f7-a7d4-48f6-8523-2dbf1192f12b",
+    "rating": 2,
+    "text": "good \ud83d\udc4d",
+    "date": "2026-08-06T06:43:07",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "0a25bf08-b0af-49a7-9b81-f5d4b25b8c62",
+    "rating": 5,
+    "text": "very rarely I put any comments here, I have used the indmoney app and the desktop version is of the next level. I am very much impressed with the service and app UI they have provided. A 5 star is also less for me. 10 on 10 application and services. Thank you Indmoney team. thanks",
+    "date": "2026-08-06T04:24:31",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "a57092ba-49ea-43ea-9bf9-51ba8ce4f031",
+    "rating": 5,
+    "text": "very good",
+    "date": "2026-08-06T03:34:56",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "3d5b50f4-c68a-4e69-95ba-0a4cd0a2aec2",
+    "rating": 5,
+    "text": "nic",
+    "date": "2026-08-06T03:17:27",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "6e1cb282-649e-4265-95f3-5c878f63e617",
+    "rating": 5,
+    "text": "pls add Bonds buying option",
+    "date": "2026-08-06T01:45:17",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "0a932e77-21a5-4182-a725-9980192f82e9",
+    "rating": 5,
+    "text": "good \ud83d\udc4d",
+    "date": "2026-08-06T00:53:15",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "261df5bb-c0e2-47c3-a447-fbe07638ad0d",
+    "rating": 5,
+    "text": "it's really very nice and useful i suggest to all",
+    "date": "2026-08-06T00:16:28",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.2",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "0eb51a85-cad4-46a3-8bd8-590104c10af3",
+    "rating": 4,
+    "text": "nice",
+    "date": "2026-08-05T20:23:04",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "3dfa8ccf-afa8-47a1-a3df-f4f3502101d3",
+    "rating": 2,
+    "text": "my account is not linked in indmoney from some technical issue please resolve them",
+    "date": "2026-08-05T19:15:45",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "93658db6-da71-416b-a88e-1d888b3e5603",
+    "rating": 4,
+    "text": "good",
+    "date": "2026-08-05T18:02:51",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "942c0d80-7118-404b-8d31-23f7ef93f78d",
+    "rating": 1,
+    "text": "too much hidden charges and mis guide on the app so be safe also app will not work while selling I have video to upload",
+    "date": "2026-08-05T17:29:10",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b9196baa-5717-42b3-aa08-4e5633565e57",
+    "rating": 1,
+    "text": "Not able to add external file for tracking. Tried several times on clicking Save, it is showing \"Something went wrong.\"",
+    "date": "2026-08-05T15:34:13",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "31af7ed6-9b9b-421c-95cd-b70dd13b7155",
+    "rating": 4,
+    "text": "ok it's fine",
+    "date": "2026-08-05T15:05:36",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.2",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "c92832ad-8c2c-49a7-a7fc-05fa6542fba9",
+    "rating": 5,
+    "text": "Good",
+    "date": "2026-08-05T14:19:27",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "4f97d3e9-941d-470b-8bfa-b6ed7d462c52",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-08-05T14:11:46",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "eec2df7d-cd27-484f-8f84-26e03944b27d",
+    "rating": 4,
+    "text": "I am Facing issue with Minor account creation",
+    "date": "2026-08-05T12:19:46",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "9b6c096a-88de-4ef6-98fe-8c73be34030a",
+    "rating": 1,
+    "text": "Poor experience. They lent me money on pledged mutual funds. I linked my account for auto emi pay but they never deduct any amount in Autopay and charging penalty and interests every month. also no option for pre payment of my dues. It's a trap to lose money. I am taking this to the consumer forum or maybe SEBI to address these fraudsters.",
+    "date": "2026-08-05T11:54:53",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "58ead2e7-b183-4286-992b-7b1763f5c2fa",
+    "rating": 5,
+    "text": "\ud83d\ude36\ud83d\ude45plz don't use for trading my trade amount 84rs after sell trade full amount puls 3rs charges 0 charges told my overall add 155rs for trading but end of the day 37rs only withdrew",
+    "date": "2026-08-05T11:32:21",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "5acd2f71-8b66-4687-8309-2fdf71f4b314",
+    "rating": 1,
+    "text": "fraud application he ye payment ziyada payment show karke sare payment khatam kardeti he login ke sath lone scam",
+    "date": "2026-08-05T11:13:06",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "7a93532d-8166-4b28-a5cc-be5eb799979d",
+    "rating": 1,
+    "text": "very very unhappy..sms validation problem still faced..",
+    "date": "2026-08-05T08:10:32",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "8a3a0cc3-b450-440a-ace4-d0afa0f17cb5",
+    "rating": 5,
+    "text": "I love the recent changes that you guys brought in. 1. I hold multiple accounts and the family dashboard is very helpful. Kudos to the analyst who designed it. 2. Showing tax calculation before selling now makes me not to rush into booking profits. 3. Portfolio stats are now good. Needs: 1. Easier way to login and buy/sell from multiple accounts. In Kite, I use password and mpin/fingerprint to authenticate into my family account. OTP is not friendly. 2. Portfolio, buy/sell advisors.",
+    "date": "2026-08-05T06:01:24",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "87451c20-ed66-404e-a736-dcabc2654476",
+    "rating": 1,
+    "text": "Cheater company you cannot Utilise your Cashback reward for payment of your Bills or Recharge",
+    "date": "2026-08-05T05:06:51",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "73a94d06-f7da-4c0a-be5d-5fea20f46e92",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-08-05T01:31:13",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "a5cfd151-0099-4356-b26e-0f2ba7769781",
+    "rating": 4,
+    "text": "User Friendly, many options. I liked the net worth calculator feature.",
+    "date": "2026-08-04T18:47:34",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "16f982fb-40bf-47e8-98b0-922f07074c0d",
+    "rating": 5,
+    "text": "the best aap",
+    "date": "2026-08-04T17:50:28",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "d4321902-1208-4d4d-a26e-0ab00690befa",
+    "rating": 4,
+    "text": "best app. \u2764\ufe0f love you.",
+    "date": "2026-08-04T17:30:20",
+    "userName": "[REDACTED]",
+    "appVersion": "9.6.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "eb425cf4-8c5e-49da-bbaf-f6d116837e18",
+    "rating": 5,
+    "text": "good \ud83d\udc4d",
+    "date": "2026-08-04T16:25:27",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "6273b59a-1dda-4260-97ca-01371ac0721a",
+    "rating": 4,
+    "text": "good",
+    "date": "2026-08-04T15:44:01",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "a21ab67e-0158-4d12-8ea7-ac31a590f621",
+    "rating": 5,
+    "text": "good app",
+    "date": "2026-08-04T14:30:43",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "14afeeee-5f9d-42e5-8b93-87e40a2ec1ed",
+    "rating": 5,
+    "text": "best app for invest in us stock",
+    "date": "2026-08-04T13:58:50",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "fd018fbb-f1d6-4d13-9d0b-f51d68c29b9e",
+    "rating": 2,
+    "text": "Smooth and fast UI. One suggestion: Can't see XIRR against individual US STOCKS, it only shows the XIRR against total stock value but not against each US STOCK. Kindly add the xirr details against INDIVIDUAL US STOCKS too.",
+    "date": "2026-08-04T13:48:10",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "43d67c24-fa03-40b5-8454-2acf7bdc7744",
+    "rating": 5,
+    "text": "Even with the issues, I love\ud83c\udf3b the app overall! But now download faster and more stable. Not to mention being \ud83d\udcabunable to use the app when it's syncing. The app is soo much faster download and feels improved now. This syncing happens pretty much every time you open the app, start, stop, or edit an entry, so it was a real pain earlier. You'd stop an entry and it'd be several seconds before it'd actually stop, adding extra seconds. Thank you so much to everyone algorithms!!",
+    "date": "2026-08-04T13:24:00",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "7e0dfa44-a931-4227-ae06-7d17d5965b61",
+    "rating": 5,
+    "text": "I love\ud83c\udf41the app! But now download faster and more stable. Not to mention being unable to use the app when it's syncing because it literally stops responding until it's done. The app is soo much\ud83c\udff5\ufe0f faster download. You'd stop\ud83d\udcc0 an entry and it'd be several seconds before it'd actually stop and those extra seconds are added too the entry. This is syncing happens pretty much every time you open the app, start, stop, or edit an entry, so it was a real pain. Thank you so much to everyone algorithms!",
+    "date": "2026-08-04T13:19:35",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b663d06b-44c3-4021-8853-71fdfa5b3a2c",
+    "rating": 5,
+    "text": "Honestly didn\u2019t expect this level of improvement! The app is soo\u2728 much faster now and feels way more stable and consistent. I actually enjoy using it again \ud83c\udfaf Before, syncing would constantly interrupt and lock the app, making simple actions feel slow and annoying. It was frustrating how stopping an entry would add extra seconds. Now it responds instantly, flows naturally, and feels far more refined, making daily use smooth and stress-free \ud83d\udc4d",
+    "date": "2026-08-04T13:10:26",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "289545fa-e9ba-48b9-a306-f32ba12a538a",
+    "rating": 5,
+    "text": "good \ud83d\udc4d\ud83d\ude0a",
+    "date": "2026-08-04T09:26:16",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "3cc77200-1e86-4498-940e-85019a84b613",
+    "rating": 4,
+    "text": "This app tracks the expenses, assets and liabilities to the full extent. However, it would be better to track the insurances via policy numbers.",
+    "date": "2026-08-04T09:19:53",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "2ad9199d-afeb-4d65-b38b-9baf02c437df",
+    "rating": 5,
+    "text": "it was an excellent platform for mutual fund and stock markets \u263a\ufe0f",
+    "date": "2026-08-04T08:15:30",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "6598ea0b-8b55-4acd-8611-cf385c3c4e5c",
+    "rating": 5,
+    "text": "nice",
+    "date": "2026-08-04T08:02:51",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "5dea39f3-e2d4-4515-8fc4-b8e7fb8fcb1f",
+    "rating": 4,
+    "text": "I love \u2611\ufe0fthe app! The app is soo much faster download. But now download faster and more \ud83d\udcbfstable, which changes the experience a lot.There used to be a constant sense of hesitation, as if every interaction needed approval from syncing first. This is syncing happens often, which made it frustrating earlier. Even so, thanks to everyone algorithms. Before, you'd stop an entry and still wait while extra seconds quietly added up. Not to mention the complete freeze while syncing worked silently!?",
+    "date": "2026-08-04T07:23:17",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "847f68d5-f6c1-476a-81fb-cb77e171931f",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-08-04T06:56:56",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "d66326aa-bf6c-4a24-8afd-36259c792579",
+    "rating": 2,
+    "text": "thanks for my last suggestion done. my next suggestion is jab bhi kici index se share ki detail dekho or back karo to directly bahar ho jate hai phir se index kholna padta hai.and last pls don't size bold and big kar digiye",
+    "date": "2026-08-04T06:23:22",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "15564888-92b9-4d72-bcb7-3a8d65c99604",
+    "rating": 5,
+    "text": "nice \ud83d\udc4d\ud83d\udc4d\ud83d\udc4d",
+    "date": "2026-08-04T06:22:48",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "3f77469d-cabd-4a88-949a-bc2412e4e479",
+    "rating": 5,
+    "text": "very good platform all better clearly mentioned for your wishes sir",
+    "date": "2026-08-04T05:29:37",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "a31aa8a2-fd44-4da1-a37a-437c5b13aa39",
+    "rating": 3,
+    "text": "recently, a scroll is given at the top of the page which is very disturbing and annoying, unable to concentrate on page as the scrolling moves fastly and disturbing. please remove that scrolling patch on the top which moves like train.",
+    "date": "2026-08-04T05:26:22",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "766996d7-34b9-4e99-b610-71c56f4d4957",
+    "rating": 5,
+    "text": "nice",
+    "date": "2026-08-04T05:02:22",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "715da2ef-ab47-4f81-a8e2-ecb2eca0c8b1",
+    "rating": 5,
+    "text": "ok",
+    "date": "2026-08-04T04:52:51",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "5e3faa19-85aa-4258-b24a-f4481e0c0ce1",
+    "rating": 5,
+    "text": "nice",
+    "date": "2026-08-04T03:21:20",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "22b85fe0-51da-41fa-9935-94c0b802fcd7",
+    "rating": 2,
+    "text": "useless...no granular analysis...it shows only urF list, invested amount and current value..which I already know",
+    "date": "2026-08-04T03:19:12",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "0bf78d51-f287-4a7c-a00c-b7b98d9955a9",
+    "rating": 4,
+    "text": "Latest update spoile the fun, now can't see the profit and loss calender as it was visible earlier for each category...pls bring that option again",
+    "date": "2026-08-04T03:07:53",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e22ee376-e33f-4ef1-836f-fd101894090d",
+    "rating": 5,
+    "text": "I have been using this app and in intraday order in fno sl tl not work while in delivery this option work precisely and also 5 rupees per order rule this is awesome looking forward to trade with you guys keep this up and today while the market has big gap up it suddenly no syncing price correctly please optimize",
+    "date": "2026-08-03T18:17:36",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "6419adde-f7f9-426b-9082-6f026d464396",
+    "rating": 5,
+    "text": "so good stocks application",
+    "date": "2026-08-03T16:58:21",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "89d2e6c8-76cf-43cf-8b15-f79ee167b715",
+    "rating": 5,
+    "text": "Excellent",
+    "date": "2026-08-03T16:45:36",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "3348d635-dfb8-4f08-921f-0538dca0c116",
+    "rating": 5,
+    "text": "best app in the Playstore for the shear market and trading sip UPI payment... etc i really love this app\ud83e\udd29\ud83e\udd29",
+    "date": "2026-08-03T16:43:15",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "215103bc-bdfa-48fb-a80e-98c40c283581",
+    "rating": 5,
+    "text": "very friendly and informative",
+    "date": "2026-08-03T15:59:20",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e65e15e1-3424-4ac3-9aed-a63269e7e66f",
+    "rating": 5,
+    "text": "nice",
+    "date": "2026-08-03T15:51:09",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e2f4cfb4-c29d-4ae1-bd70-0f998aa55711",
+    "rating": 3,
+    "text": "its expense tracker is inaccurate, i can see same transaction in multiple categories resulting in bloated expense numbers",
+    "date": "2026-08-03T15:41:27",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b531680f-9f85-4431-84c8-555565067979",
+    "rating": 5,
+    "text": "stock market",
+    "date": "2026-08-03T14:53:16",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "85463a37-357e-4781-b37c-40a08ddd4cbe",
+    "rating": 1,
+    "text": "they changed their reward redemption immediately, ylearlier you could pay cc bills but all of a sudden you can only invest them in us stocks, lost 2000 rs because of this, shame on them.",
+    "date": "2026-08-03T10:26:28",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "2f50337c-05e2-478c-87e7-f905d01b48b0",
+    "rating": 5,
+    "text": "great app",
+    "date": "2026-08-03T09:08:28",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "adca88c7-123c-43d5-8e1d-31b42d7c42f2",
+    "rating": 5,
+    "text": "super app",
+    "date": "2026-08-03T08:20:34",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "28de5a9d-d204-474b-9d9d-cc33efea7d9f",
+    "rating": 5,
+    "text": "I love\ud83d\udd5b the app! The app is now much faster when downloading, and overall stability has improved significantly. Before, syncing would happen almost every time you opened the app, started, stopped, or edited an entry, which made it frustrating. The app became completely unresponsive during syncing, making it unusable until finished. Also, stopping an entry took several seconds to actually stop, and those extra seconds were still added. Thanks to everyone behind the algorithms.",
+    "date": "2026-08-03T07:33:31",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "dcd68211-111b-4167-a303-3803d1e0be16",
+    "rating": 5,
+    "text": "excellent app work smoothly",
+    "date": "2026-08-03T07:17:53",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "73c7e149-8d0e-4450-b0e4-7bae4a253103",
+    "rating": 4,
+    "text": "A really good app. I have been using this app for 2 years and it's really easy for people who are just greener in the Stock market. I think the app is really underrated.",
+    "date": "2026-08-03T06:47:12",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b5ce56e4-bb01-45e1-883b-884f51eee363",
+    "rating": 1,
+    "text": "This app communicated about the mobile recharge streak on WhatsApp and I followed the instructions and completed the recharge streak for 10 months. at the end of 10 months they gave cashback somewhere on the app without any communication on WhatsApp, gmail, mobile notification, etc. in the end, they are explaining why the customer is wrong and how it's customers mistake that they couldn't claim the reward. thank you for the pathetic customer experience.",
+    "date": "2026-08-03T05:40:36",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b78c8e08-7a49-46cb-a6ee-860064cb6363",
+    "rating": 1,
+    "text": "my money is stuck since 3 days after redeem which is 5600 rs why we trust this scam app if I invest 1 lakh rs then what will happen that time",
+    "date": "2026-08-03T05:36:47",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "83e89abe-0f8d-46eb-8a93-a953b67256b2",
+    "rating": 1,
+    "text": "Every time I refresh the Chart, Candles disappear why? all past candles completely Missing from the chart.",
+    "date": "2026-08-03T04:35:58",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "0d9448cb-2c33-46c8-adde-d6d84fdb25e8",
+    "rating": 5,
+    "text": "good app mf investment show aum wise feature available. smooth interface no lag, mf investment Great. carry on indmoney.",
+    "date": "2026-08-03T03:16:36",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "3006fee9-6fe3-47df-8a35-c83d8281a531",
+    "rating": 5,
+    "text": "very good \ud83d\udcaf",
+    "date": "2026-08-02T18:47:16",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "1b90c753-172b-4bdd-9ef8-6bccbac968c0",
+    "rating": 5,
+    "text": "fantastic and lightening fast transaction",
+    "date": "2026-08-02T17:04:45",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.1",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b585d723-3a3d-4d2e-92d9-b02e7cc388df",
+    "rating": 5,
+    "text": "okay",
+    "date": "2026-08-02T15:56:38",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "5a9d2a6b-ac4e-4a56-96d7-8adb36a12362",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-08-02T13:59:35",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "ea56e4e3-28a8-4cb6-a797-ca15b586d310",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-08-02T13:17:21",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "edab549c-467b-45ed-9077-1464660fac43",
+    "rating": 5,
+    "text": "okey",
+    "date": "2026-08-02T12:44:28",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "40ec72e3-b304-4d43-9f27-9066b6b81a42",
+    "rating": 4,
+    "text": "gratitude to indmoney",
+    "date": "2026-08-02T12:01:48",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "7e49d1d6-abc4-4c54-8791-b6dbbee23edd",
+    "rating": 5,
+    "text": "One of best Platform for trading, SIP, investment in US stocks",
+    "date": "2026-08-02T09:15:18",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "d461ab58-9eb1-460e-9164-a6d8a32353ed",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-08-02T07:09:09",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "1f2e02b4-9d22-45f2-864b-f8accc870a74",
+    "rating": 3,
+    "text": "Should have font in bold. very difficult to see on small mobile. Should include FDs in investment portfolio For mutual fund should provide sortino ratio, upside & downside capture ratios & Rolling returns vs benchmark",
+    "date": "2026-08-02T04:34:07",
+    "userName": "[REDACTED]",
+    "appVersion": "9.8.0",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "f815d796-fe6e-4a18-b50f-d48452cee14e",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-08-02T03:25:44",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "7a8bc460-8012-4dc0-bdbb-432b4b22a7e1",
+    "rating": 5,
+    "text": "excellent",
+    "date": "2026-08-02T02:23:15",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "9a03ac99-00c2-45b5-8c9b-92bf22f89dbb",
+    "rating": 4,
+    "text": "Gut \ud83d\ude0a\ud83e\udd8b",
+    "date": "2026-08-01T22:13:17",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "eb38227f-2c6e-4206-9f74-94a0132e4915",
+    "rating": 5,
+    "text": "very good app \ud83d\ude03\ud83d\ude03",
+    "date": "2026-08-01T16:49:13",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "896a417a-542f-475c-9db6-348b098527b4",
+    "rating": 5,
+    "text": "good \ud83d\udcaf",
+    "date": "2026-08-01T15:16:54",
+    "userName": "[REDACTED]",
+    "appVersion": "9.7.8",
+    "appId": "in.indwealth"
+  }
+]
