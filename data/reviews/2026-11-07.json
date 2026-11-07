@@ -1,0 +1,902 @@
+[
+  {
+    "reviewId": "0b092ff9-9927-431c-8419-bfa552161a63",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-11-06T09:36:17",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "cce4a1e7-5794-4f93-a008-b22c6ef71d87",
+    "rating": 5,
+    "text": "excellent",
+    "date": "2026-11-06T09:11:31",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "0b8f05cc-888b-4bd5-b1f9-edbaad549559",
+    "rating": 5,
+    "text": "Good",
+    "date": "2026-11-06T07:38:26",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b40beb9e-495e-40ed-8722-bd28af541310",
+    "rating": 5,
+    "text": "excellent",
+    "date": "2026-11-06T06:26:14",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "53a4e346-486a-4536-9d2a-1c925cde30fc",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-11-06T05:37:31",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "aed23c5a-9e91-4c7a-bcfd-0f4e79608723",
+    "rating": 2,
+    "text": "Trustable App but the design is very old and not easy to navigate. There is no basket investment. Watchlist is not easy to navigate.",
+    "date": "2026-11-06T04:14:59",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e25d3d34-53c7-450b-967a-949d226ae7d5",
+    "rating": 5,
+    "text": "shiva",
+    "date": "2026-11-06T02:46:28",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "5155fb7d-27a5-46e3-bdd3-d9abda21da66",
+    "rating": 5,
+    "text": "good app \ud83d\udc4d",
+    "date": "2026-11-06T02:36:28",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e7d918d4-7848-44cf-a1e1-8b50cb59801e",
+    "rating": 2,
+    "text": "EPF balance doesn't auto refresh. It is not accepting the passbook pdf upload as well",
+    "date": "2026-11-06T02:29:34",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "94c7b5a8-5a85-4428-a1c9-9c81ee8d279b",
+    "rating": 5,
+    "text": "Smooth overall experience with nice visuals.",
+    "date": "2026-11-06T01:16:22",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e262f2c1-d287-4ec2-a150-f35480768d6d",
+    "rating": 5,
+    "text": "good \ud83d\udc4d application \ud83d\udcaf",
+    "date": "2026-11-05T19:37:23",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "7c49a752-5e51-4200-8f1d-8408e4762cc3",
+    "rating": 5,
+    "text": "work is \ud83d\ude4f \u0c13\u0c02 \u0c28\u0c2e\u0c36\u0c4d\u0c36\u0c3f\u0c35\u0c3e\u0c2f \u0c39\u0c30 \u0c39\u0c30 \u0c2e\u0c39\u0c3e\u0c26\u0c47\u0c35 \u0c36\u0c02\u0c2d\u0c4b \u0c36\u0c02\u0c15\u0c30",
+    "date": "2026-11-05T16:42:42",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "4339602f-f905-4a50-8722-7f1a8d7139e9",
+    "rating": 5,
+    "text": "Excellent platform for all round performance. Trustable platform. Sometimes hang issues (Rarely).",
+    "date": "2026-11-05T10:16:45",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "7ad0ed07-c0d1-4321-a0c4-f6cf684df930",
+    "rating": 5,
+    "text": "very nice",
+    "date": "2026-11-05T06:55:32",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "67db47b0-d3f8-4f87-879f-f70266faf8c9",
+    "rating": 5,
+    "text": "super",
+    "date": "2026-11-05T06:52:14",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "fd44b411-fb85-487f-8318-23c9efb18a96",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-11-05T05:29:29",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e9fa8adb-223e-44de-ac6a-930deaa2ac94",
+    "rating": 5,
+    "text": "excellent",
+    "date": "2026-11-05T01:25:17",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "0d2fb92b-cfe1-4b9e-930f-9fc19cc4baa5",
+    "rating": 5,
+    "text": "ok",
+    "date": "2026-11-04T16:50:51",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "963ffe54-94d0-42ea-b9c5-09cfefa26beb",
+    "rating": 4,
+    "text": "\ud83d\udc4d",
+    "date": "2026-11-04T16:40:47",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.88",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "431843eb-b454-411d-9dec-5e62ee1c501e",
+    "rating": 5,
+    "text": "Easy to use",
+    "date": "2026-11-04T16:27:20",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.88",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "4259cf46-687e-48ac-ae76-01677f2d3970",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-11-04T14:47:08",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "23947bc7-2681-4d46-8af8-bd4db1df9989",
+    "rating": 2,
+    "text": "No option for Multi or Manual Time frames for US stocks, available with web trading platform for Indian stocks. Just a same free version poor Trading View chart for US Stocks",
+    "date": "2026-11-04T11:59:47",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "d8bd806f-a34f-4ac2-8d1b-ecc971bf3014",
+    "rating": 5,
+    "text": "Overall, There are great features in the app, Can you add one more feature to show the percentage allocation for each shares in portfolio .",
+    "date": "2026-11-04T11:54:59",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "1ba8f192-4858-4423-8733-c2170c80fbdb",
+    "rating": 2,
+    "text": "To much glitch because application to late oppen",
+    "date": "2026-11-04T06:56:24",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "c82aef7f-fde8-4e3e-aebd-29b9ee621bf7",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-11-04T06:53:42",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "f836c323-4121-4c66-b19d-7daff3866524",
+    "rating": 5,
+    "text": "good",
+    "date": "2026-11-04T06:44:47",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "290ce6cb-c1d0-47a4-9dcd-d6cbad5634ad",
+    "rating": 4,
+    "text": "good",
+    "date": "2026-11-04T05:54:09",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "54d573ae-f459-4eb8-8a06-3a4569b60dfd",
+    "rating": 1,
+    "text": "The customer support is broken, everything is fine as long as it works, but once there's any slightest issue, you're doomed. I am blocked out of my account because I am supposed to do a re-KYC, which is still fine. But none of the Re-KYC links they send are working. It's been more than 2 weeks and I can't trade my existing stocks in the app. They have assigned an AI in place of customer support and all you get is scripted replies. Made a horrible mistake investing here. Ticket id - #3552397",
+    "date": "2026-11-04T04:56:52",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "1efcaf33-9aff-43fb-a77b-3d361ebf0c3f",
+    "rating": 5,
+    "text": "excellent",
+    "date": "2026-11-04T03:58:32",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "cf576cd6-59bf-4d4f-85f6-b2e6de1648d6",
+    "rating": 5,
+    "text": "it's good for investment for future secure \ud83d\udd10",
+    "date": "2026-11-03T19:06:06",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.6",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "8c4dee53-1ee0-42ba-8223-60e85c72032c",
+    "rating": 5,
+    "text": "this is good.",
+    "date": "2026-11-03T18:17:33",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b7140139-f185-4693-9b75-06ae459db31c",
+    "rating": 5,
+    "text": "best for scalper",
+    "date": "2026-11-03T17:35:49",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "8a4c26b9-48f4-47bf-9be4-633af331a3b4",
+    "rating": 5,
+    "text": "The app had an error but it was resolved within an hour. Even CEO mailed me addressing the situation. That's some good work ethics and customers satisfaction. Great work in resolving the issue.",
+    "date": "2026-11-03T15:47:53",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "975756a7-519b-43cd-8660-d3065babf71d",
+    "rating": 1,
+    "text": "pura hang wala system hay ... aaj hi muze 9000 ka loss hua .... koe responsibility nahi ke raha hay...",
+    "date": "2026-11-03T14:46:58",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "56289e70-bc15-4f4a-9fab-644308c101e3",
+    "rating": 1,
+    "text": "unable to use cashback and open us stock demate Account.......... Disappointed",
+    "date": "2026-11-03T12:41:04",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "a450a9a3-ad0b-4125-a148-6ae80208c594",
+    "rating": 4,
+    "text": "good experience",
+    "date": "2026-11-03T09:13:34",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "97bfd937-898f-4822-9c47-daad9ec900e9",
+    "rating": 5,
+    "text": "good guided for learning stage traders... its very good platform to learn and earn.....",
+    "date": "2026-11-03T08:56:56",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.88",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "eb2a7909-006b-4683-92fd-0d949106ffb6",
+    "rating": 5,
+    "text": "Good One",
+    "date": "2026-11-03T07:12:43",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "360ff98c-dca6-4810-86ba-6b11bc424bab",
+    "rating": 1,
+    "text": "Data not loading",
+    "date": "2026-11-03T05:51:31",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "fc03523e-d269-4e18-9864-619a547a9e28",
+    "rating": 1,
+    "text": "fk 5he app ....thw wros5 app eve4r made .......guys if yo want to save mone6 then not installing 5his appcis also a one type of saving your money",
+    "date": "2026-11-03T04:24:36",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "7c71ae23-75e5-4f0b-a252-204e28f2f59f",
+    "rating": 1,
+    "text": "hanged site. never install . at the time when market up site always go hang.",
+    "date": "2026-11-03T04:22:33",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "11eb8ae2-e944-40bc-875d-3efd9453a71b",
+    "rating": 1,
+    "text": "app giving issue n is not loading",
+    "date": "2026-11-03T04:15:32",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "14e71c42-0f97-485c-a115-131528acff83",
+    "rating": 1,
+    "text": "app is not working kindly look into this",
+    "date": "2026-11-03T04:13:12",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "99f8141e-fd65-4d4b-9a0b-6d648600995b",
+    "rating": 4,
+    "text": "The app is crashing. kindly check",
+    "date": "2026-11-03T04:11:49",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "9acec69d-faac-4c35-ba5f-297b1c7c4a3e",
+    "rating": 5,
+    "text": "please help me my app is not working and crashing frequently",
+    "date": "2026-11-03T04:09:56",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "98b80cf0-5658-4896-bd56-6d2c2ae11ffd",
+    "rating": 3,
+    "text": "App not Working. The Application has crashed. Please rectify.",
+    "date": "2026-11-03T04:08:37",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "0b3f82c8-4dde-4ef0-80b1-a75d703f53a6",
+    "rating": 1,
+    "text": "not working, no data showing, even after update also no data and cant trade",
+    "date": "2026-11-03T04:08:10",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "d5d66a34-3679-41f5-a8de-aadebd0da575",
+    "rating": 1,
+    "text": "always not available, glitches galore",
+    "date": "2026-11-03T04:07:35",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "1cf571ce-5f5f-4268-9ed5-cbf08274ba90",
+    "rating": 1,
+    "text": "continue hang when i get profit and I take exit form call that time hang nifty50",
+    "date": "2026-11-03T04:07:34",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "7c3176f1-1a34-4ca3-90d0-e4371e8e2ef1",
+    "rating": 1,
+    "text": "App glitch. app not opening trade sl not working correctly",
+    "date": "2026-11-03T04:07:30",
+    "userName": "[REDACTED]",
+    "appVersion": "8.5.3",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "97df39fd-b8a1-4037-b0ac-1c482f1fc927",
+    "rating": 1,
+    "text": "Risky, App doesn't work like normal , you can't use this app normally , if you open settings it shows error, do anything and it shows error , app is not usable",
+    "date": "2026-11-03T04:06:36",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "6e52f756-7b2c-4475-bb1f-104766c09aa1",
+    "rating": 2,
+    "text": "App not working today at 9:16am",
+    "date": "2026-11-03T04:06:08",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "8b6a8bf9-ec0d-46aa-b193-ddc026382238",
+    "rating": 1,
+    "text": "don't use it when market is properly one side at that important time unable to trade",
+    "date": "2026-11-03T04:05:42",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "c3a967cf-351b-4c0d-b049-1d807ab98e00",
+    "rating": 1,
+    "text": "holding a position . The next day , app got bugged and says error . Couldn't use it at all . worst experience",
+    "date": "2026-11-03T04:05:40",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "2e8fdef9-bf25-484b-8f8e-58cbb2184888",
+    "rating": 1,
+    "text": "app is hanging not working",
+    "date": "2026-11-03T04:05:21",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "9b9811fc-b09a-402e-b002-245af1d90a68",
+    "rating": 1,
+    "text": "wow! expiry day and app isn't even responding! if can't make a stable app, then better to close.. don't waste our time!",
+    "date": "2026-11-03T04:04:28",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "42740842-9305-4780-b1ad-e7432ca39fa4",
+    "rating": 2,
+    "text": "Today Unbell Process And Try Later Show many Time",
+    "date": "2026-11-03T04:04:23",
+    "userName": "[REDACTED]",
+    "appVersion": "8.1.6",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b23d3b1b-fa10-4bbf-bcea-78fded210eb5",
+    "rating": 5,
+    "text": "one of the best apps for investing (not trading). it makes it soo easy. love it",
+    "date": "2026-11-03T04:03:32",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "83af36a5-1daf-488f-8fbe-026c9443ea7e",
+    "rating": 2,
+    "text": "after adding the money and started to invest intraday trade placed an order but the option are not working properly it only show that error something went wrong I can't exit my trade and page is completely not working",
+    "date": "2026-11-03T04:03:15",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "45346b35-adc8-4721-9e94-a8051f48d925",
+    "rating": 1,
+    "text": "changing review from 5 star to 1 star. due to reasons i encounterd:- in market hours this app got stuck, to do trading , when I choose indian stock it shows unable to process request please try after some time, even after the update of the app to latest, still through same errors, to do but and sell.",
+    "date": "2026-11-03T04:02:46",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "697e2876-0117-46e3-9540-847ad055fc41",
+    "rating": 1,
+    "text": "app is not opening i have open positions",
+    "date": "2026-11-03T04:02:46",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "ad2abc60-3b46-4fb5-b25c-edadd4721a2a",
+    "rating": 1,
+    "text": "it is a very disgusting not proper working",
+    "date": "2026-11-03T04:02:39",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "bae7ebb3-c7d4-4b82-8c97-912a674dc5ef",
+    "rating": 1,
+    "text": "not working today",
+    "date": "2026-11-03T04:02:07",
+    "userName": "[REDACTED]",
+    "appVersion": "8.6.4",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "1d8d80f5-86db-4d1b-a8b6-e168efdf1a6b",
+    "rating": 1,
+    "text": "bekar application hai time pr server kam nhi karta",
+    "date": "2026-11-03T04:02:04",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "2d218917-eda8-4188-a643-8c193e4fe82b",
+    "rating": 1,
+    "text": "what's happening why is app not working suddenly",
+    "date": "2026-11-03T04:01:58",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "883de7b4-ed04-4d1d-a67a-bef99c9355e5",
+    "rating": 2,
+    "text": "app is crashing today and I'm loosing my trade opportunity I tried reinstalled and my money is alos stuck there. fix it immediately",
+    "date": "2026-11-03T04:01:57",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "c738ce84-7801-4acc-80dc-6de670cc6e65",
+    "rating": 2,
+    "text": "it stopped working on 3 november 2026",
+    "date": "2026-11-03T04:01:33",
+    "userName": "[REDACTED]",
+    "appVersion": "4.5.8",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "fbbb6c93-2798-424c-86ed-250df8abdacf",
+    "rating": 1,
+    "text": "worst experience not working on expiry",
+    "date": "2026-11-03T04:00:41",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e0adba51-d213-474b-9824-d0a1617f7227",
+    "rating": 1,
+    "text": "very poor app dont use this app the app is not working properly your time and money weast",
+    "date": "2026-11-03T04:00:39",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "a0372564-3935-4ffb-8922-5a21b5616352",
+    "rating": 1,
+    "text": "very very vest app",
+    "date": "2026-11-03T04:00:22",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "0ca0ebe9-d5ef-48e0-b384-4215dff40f06",
+    "rating": 1,
+    "text": "not good aap bar bar error aa jata hai",
+    "date": "2026-11-03T03:59:20",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "57ee66f1-7be1-40ad-9df3-acda72a79061",
+    "rating": 1,
+    "text": "after update the app is not working properly due to that I have lost money and second execution is too poor one of the shittyest brokerage app",
+    "date": "2026-11-03T03:59:19",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b97ddea8-6cf3-49a9-9136-d15ad64928a9",
+    "rating": 1,
+    "text": "lost money due to app crash",
+    "date": "2026-11-03T03:58:56",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "a3317881-fa5f-47aa-ab38-2919badec305",
+    "rating": 1,
+    "text": "Is IND Money app pr Error aate hai or bahut jyada Leg karti hai . ye app sabse ghatiya app hai, jab dekh jab lag karto rehti hai, ghanto tak app par error aata hai\u0964 order lga, profit-loss ka kuchh pata nhi chalta.",
+    "date": "2026-11-03T03:58:47",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "088bf6b6-814a-44dc-b88b-dcdae99e80be",
+    "rating": 1,
+    "text": "app doesn't work every time say unable try again later",
+    "date": "2026-11-03T03:58:29",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "1a3f0306-61fd-4d98-ad51-b9799a6fa4ff",
+    "rating": 1,
+    "text": "Why the heck am I getting errors this morning? im trying to touch any section, and it's throwing errors on my face, \"unable to process my request.\" You guys really need to do better optimizing your app.",
+    "date": "2026-11-03T03:57:45",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "a5d1082a-6eae-4270-98d8-c97c9da8e289",
+    "rating": 1,
+    "text": "it got stuck too many glitches",
+    "date": "2026-11-03T03:56:13",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "83dc1a10-102d-484c-ad65-1636081b7f57",
+    "rating": 3,
+    "text": "03.nov 26 09.25 app not working",
+    "date": "2026-11-03T03:56:04",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.86",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e04f5ee2-4356-4ddd-8c8d-2f76ca4fcce8",
+    "rating": 1,
+    "text": "not working properly market open app not open waste",
+    "date": "2026-11-03T03:55:49",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "70130223-1362-4b30-96af-12b76849e5b3",
+    "rating": 1,
+    "text": "Aaj to app open nhi ho raha totally blank,,, we can't trade.... since market opened morning at 9.15 am till see when it will starts the app.... very third class apppppppppppppppp",
+    "date": "2026-11-03T03:55:42",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.92",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "86c78bd6-5c19-4356-b2f7-5c743697371c",
+    "rating": 1,
+    "text": "Application not working",
+    "date": "2026-11-03T03:55:34",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "fab12fee-1d31-4516-a6b1-4749fdb0cc5a",
+    "rating": 1,
+    "text": "app not responding",
+    "date": "2026-11-03T03:55:27",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "ab286c1f-03cd-473b-ae29-d87ada15f28c",
+    "rating": 1,
+    "text": "doesn't work..!",
+    "date": "2026-11-03T03:55:00",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "33c1bb04-7230-4eb5-9547-79aa662ff7e7",
+    "rating": 1,
+    "text": "worst experience... not work properly",
+    "date": "2026-11-03T03:54:48",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e5eef6e0-9efc-49e9-8c4f-f204dec3d2cd",
+    "rating": 5,
+    "text": "The app is unable to open this morning. Repeated message that open after sometime.",
+    "date": "2026-11-03T03:54:36",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "c7334c4c-2bff-42cf-8813-873f93ec5f9a",
+    "rating": 1,
+    "text": "when I'm investing it suddenly crashes out what a bad experience.",
+    "date": "2026-11-03T03:54:07",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "df91f44e-1c1c-4620-8b3a-52e223aef0a0",
+    "rating": 1,
+    "text": "never let me book profits",
+    "date": "2026-11-03T03:52:47",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "dbd93298-f76c-4df1-8f42-2b942576154e",
+    "rating": 1,
+    "text": "the app is not working properly",
+    "date": "2026-11-03T03:50:16",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e8908ce7-0188-4c85-8c7a-d22aaa9ed7b7",
+    "rating": 4,
+    "text": "gud",
+    "date": "2026-11-02T16:22:22",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "4f2b16cc-b36f-4ca9-bec3-16a27b58ce69",
+    "rating": 5,
+    "text": "It is very easy and user friendly app to handle US stock market. Very much informative on every step.",
+    "date": "2026-11-02T16:08:50",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.88",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "61dc5810-173f-4255-9947-67a8cb7b597d",
+    "rating": 1,
+    "text": "too much charges",
+    "date": "2026-11-02T16:05:55",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "623be91f-8e51-4d37-a83c-979418797590",
+    "rating": 3,
+    "text": "Overall UI and UX is good. But the brokerage and conversion rates which causes thousands in loss is a waste. Rival IBKR etc are giving better conversion and fixed brokerage.",
+    "date": "2026-11-02T15:38:13",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "70d369dd-057a-48b6-b53b-1f06dee1710c",
+    "rating": 5,
+    "text": "excellent",
+    "date": "2026-11-02T12:43:02",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "07128ae8-1fcb-4e26-8a1b-0d0c015687eb",
+    "rating": 1,
+    "text": "the customer support is pathetic at solving issues. ever since the flow journey was changed to allow only a few listed banks I've been having issues with the federal bank mpin. support ticket has been open for more than 3 weeks and I keep getting the same reply - pls try uninstalling and reinstalling, which I've tried multiple times. not being provided with any escalation matrix from product team with whom I can discuss. is anyone even looking into it seriously? ticket 3508980.",
+    "date": "2026-11-02T09:56:25",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "e4c3fda0-b810-49c8-ad6c-56c7194ae304",
+    "rating": 5,
+    "text": "great exp",
+    "date": "2026-11-02T08:04:26",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "929914fa-4fbf-4c58-a848-c6829837d61b",
+    "rating": 1,
+    "text": "worst app of all time, there is no option to update your networth even doing all refresh and kyc this app don't have any sense to update correct number, same issue from last 3 years , looks like no bothered",
+    "date": "2026-11-02T07:19:23",
+    "userName": "[REDACTED]",
+    "appVersion": null,
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "b96e9659-20ba-416a-bd63-3851b3d750ca",
+    "rating": 1,
+    "text": "bahut hi Ghatiya Service hai Bonds sell ka option hi nhi hai",
+    "date": "2026-11-02T05:57:18",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.88",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "a4942322-235b-4707-88f1-e0022764ef2c",
+    "rating": 5,
+    "text": "nice app",
+    "date": "2026-11-02T04:01:03",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "2fd84678-3efb-4f5f-946b-1fb3d429ac27",
+    "rating": 1,
+    "text": "worse, the app is a big scam. The sole purpose of the app is to make people but US Stocks .",
+    "date": "2026-11-01T11:56:56",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  },
+  {
+    "reviewId": "024af4ae-2a42-476c-8b6a-e4d20c25a3e4",
+    "rating": 5,
+    "text": "Great service",
+    "date": "2026-11-01T11:06:49",
+    "userName": "[REDACTED]",
+    "appVersion": "9.9.90",
+    "appId": "in.indwealth"
+  }
+]
